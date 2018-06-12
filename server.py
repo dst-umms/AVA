@@ -8,7 +8,7 @@
 #---------------------------
 
 from flask import Flask, request
-
+from werkzeug import secure_filename
 import requests
 import json
 import os
@@ -27,9 +27,20 @@ app = Flask(__name__)
 def hello():
   return "Hello World!"
 
-@app.route("/RunPipeline", methods = ['POST'])
-def run_pipeline():
-  data = request.get_json(force = True)
+@app.route("/UploadVariantFile", methods = ['PUT', 'POST'])
+def upload_file():
+  data_file = request.files["VariantFile"]
+  proj_name = request.form["ProjectName"]
+  file_name = secure_filename(proj_name + '.txt')
+  dir_path = "/usr/local/bin/analysis/input"
+  os.makedirs(dir_path)
+  data_file.save(dir_path + '/' + file_name)
+  cmd = """snakemake -s /usr/local/bin/AVA/AVA.snakefile \
+            --config proj_name={proj_name} >& {log_file} &""".format(
+          proj_name = proj_name,
+          log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
+        )
+  os.system(cmd)
   return json.dumps({
     "message": "success", 
     "error": None
