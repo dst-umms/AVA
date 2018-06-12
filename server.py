@@ -12,6 +12,7 @@ from werkzeug import secure_filename
 import requests
 import json
 import os
+import subprocess
 from datetime import datetime
 
 #------  GLOBALS  --------#
@@ -33,14 +34,14 @@ def upload_file():
   proj_name = request.form["ProjectName"]
   file_name = secure_filename(proj_name + '.txt')
   dir_path = "/usr/local/bin/analysis/input"
-  os.makedirs(dir_path)
+  os.makedirs(dir_path, exist_ok = True)
   data_file.save(dir_path + '/' + file_name)
   cmd = """snakemake -s /usr/local/bin/AVA/AVA.snakefile \
-            --config proj_name={proj_name} >& {log_file} &""".format(
+            --config proj_name={proj_name} >{log_file} 2>&1""".format(
           proj_name = proj_name,
           log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
         )
-  os.system(cmd)
+  subprocess.Popen([cmd], shell = True) 
   return json.dumps({
     "message": "success", 
     "error": None

@@ -12,4 +12,4 @@ rule copy_text:
   output:
     "/usr/local/bin/analysis/{proj_name}/{proj_name}.txt".format(proj_name = config["proj_name"])
   shell:
-    "cat {input} 1>{output}"
+    "sleep 20 && cat {input} 1>{output}"
