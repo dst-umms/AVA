@@ -14,8 +14,8 @@ rule run_intervar:
   params:
     intervar_out = lambda wildcards : "/usr/local/bin/analysis/{proj_name}/{proj_name}".format(proj_name = wildcards.proj_name)
   shell:
-    "source activate INTERVAR "
-    "/usr/local/bin/Intervar/Intervar.py -b hg19 -i {input} --input-type AVinput -o {params.intervar_out} "
+    "source activate INTERVAR && "
+    "/usr/local/bin/Intervar/Intervar.py -b hg19 -i {input} --input_type AVinput -o {params.intervar_out} "
     "-t /usr/local/bin/Intervar/intervardb --table_annovar=/usr/local/bin/annovar/table_annovar.pl "
     "--convert2annovar=/usr/local/bin/annovar/convert2annovar.pl --annotate_variation=/usr/local/bin/annovar/annotate_variation.pl "
     "-d /usr/local/bin/annovar/humandb "
