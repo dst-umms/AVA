@@ -36,7 +36,7 @@ def upload_file():
   dir_path = "/usr/local/bin/analysis/input"
   os.makedirs(dir_path, exist_ok = True)
   data_file.save(dir_path + '/' + file_name)
-  cmd = """snakemake -s /usr/local/bin/AVA/AVA.snakefile \
+  cmd = """snakemake -p --latency-wait 60 -s /usr/local/bin/AVA/AVA.snakefile \
             --config proj_name={proj_name} >{log_file} 2>&1""".format(
           proj_name = proj_name,
           log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
