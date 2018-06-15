@@ -41,7 +41,7 @@ def upload_file():
           proj_name = proj_name,
           log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
         )
-  subprocess.Popen([cmd], shell = True, executable='/bin/bash') 
+  subprocess.Popen([cmd], shell = True, executable = '/bin/bash') 
   return json.dumps({
     "message": "success", 
     "error": None
