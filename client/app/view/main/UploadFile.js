@@ -1,5 +1,6 @@
-//var varStore = Ext.create('AVA.view.main.VariantStore', {});
-var data = '[{"name": "Lisa", "email": "lisa@simpsons.com", "phone":"555-111-1224"}, {"name": "Bart", "email":"bart@simpsons.com", "phone":"555-222-1234"}, {"name": "Homer", "email":"home@simpsons.com", "phone":"555-222-1244"}, {"name": "Marge", "email":"marge@simpsons.com", "phone":"555-222-1254"}]';
+var varStore = Ext.create('AVA.view.main.VariantStore', {});
+//var data = '[{"name": "Lisa", "email": "lisa@simpsons.com", "phone":"555-111-1224"}, {"name": "Bart", "email":"bart@simpsons.com", "phone":"555-222-1234"}, {"name": "Homer", "email":"home@simpsons.com", "phone":"555-222-1244"}, {"name": "Marge", "email":"marge@simpsons.com", "phone":"555-222-1254"}]';
+var varGrid = Ext.create('AVA.view.main.VariantGrid', {store: varStore});
 
 Ext.define('AVA.view.main.UploadFile', {
   extend: 'Ext.form.Panel',
@@ -27,10 +28,9 @@ Ext.define('AVA.view.main.UploadFile', {
           waitMsg: 'Uploading Variant File ...',
           failure: function(fp, o) {
             Ext.Msg.alert('Success', 'Variant File "' + o.result.file + '" has been uploaded.');
-            var grid = Ext.getCmp("VarGrid");
-            var store = grid.getStore();
-            store.loadData(data);
-            grid.refresh();
+            var centerPanel = Ext.getCmp("center-panel");
+            centerPanel.add(varGrid);
+            centerPanel.doLayout();
           }
         });
       }
