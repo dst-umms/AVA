@@ -31,7 +31,8 @@ def hello():
 @app.route("/UploadVariantFile", methods = ['PUT', 'POST'])
 def upload_file():
   data_file = request.files["VariantFile"]
-  proj_name = request.form["ProjectName"]
+  proj_name = data_file.filename.replace(' ', '_')
+  proj_name = proj_name.replace('.txt', '') if proj_name[-4:] == '.txt' else proj_name
   file_name = secure_filename(proj_name + '.txt')
   dir_path = "/usr/local/bin/analysis/input"
   os.makedirs(dir_path, exist_ok = True)
@@ -44,6 +45,7 @@ def upload_file():
   subprocess.Popen([cmd], shell = True, executable = '/bin/bash') 
   return json.dumps({
     "message": "success", 
+    "file": proj_name,
     "error": None
   }), 200
     
