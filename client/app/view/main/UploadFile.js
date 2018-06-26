@@ -1,9 +1,6 @@
-var varStore = Ext.create('AVA.view.main.VariantStore', {});
-//var data = '[{"name": "Lisa", "email": "lisa@simpsons.com", "phone":"555-111-1224"}, {"name": "Bart", "email":"bart@simpsons.com", "phone":"555-222-1234"}, {"name": "Homer", "email":"home@simpsons.com", "phone":"555-222-1244"}, {"name": "Marge", "email":"marge@simpsons.com", "phone":"555-222-1254"}]';
-var varGrid = Ext.create('AVA.view.main.VariantGrid', {store: varStore});
-
 Ext.define('AVA.view.main.UploadFile', {
   extend: 'Ext.form.Panel',
+  region: 'north',
   title: 'Upload variant file',
   //width: 800,
   bodyPadding: 10,
@@ -24,13 +21,13 @@ Ext.define('AVA.view.main.UploadFile', {
       var form = this.up('form').getForm();
       if(form.isValid()) {
         form.submit({
-          url: 'photo-upload.php',
+          url: 'http://localhost:8080/UploadVariantFile',
           waitMsg: 'Uploading Variant File ...',
-          failure: function(fp, o) {
-            Ext.Msg.alert('Success', 'Variant File "' + o.result.file + '" has been uploaded.');
-            var centerPanel = Ext.getCmp("center-panel");
-            centerPanel.add(varGrid);
-            centerPanel.doLayout();
+          success: function(fp, o) {
+            Ext.Msg.alert('Success', 'Variant File "' + o.file + '" has been uploaded.');
+            var store = Ext.get('var-store');
+            store.load();
+            store.doLayout();
           }
         });
       }
