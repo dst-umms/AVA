@@ -42,11 +42,13 @@ def upload_file():
           proj_name = proj_name,
           log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
         )
-  subprocess.Popen([cmd], shell = True, executable = '/bin/bash') 
+  #subprocess.Popen([cmd], shell = True, executable = '/bin/bash') 
   return json.dumps({
     "message": "success", 
     "file": proj_name,
     "error": None
   }), 200
     
-
+@app.route("/GetJson", methods = ['POST'])
+def get_json():
+  return json.dumps({"data": [{"name": "mahesh", "email": "mahesh", "phone": "mahesh"}, {"name": "mahesh", "email": "mahesh", "phone": "mahesh"}]}), 200
