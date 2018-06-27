@@ -1,16 +1,16 @@
 Ext.define('AVA.view.main.VariantStore', {
   extend: 'Ext.data.JsonStore',
   storeId: 'var-store',
-  proxy: new Ext.data.HttpProxy({
-    method: 'POST',
-    url: 'http://localhost:8080/GetJson',
+  proxy: {
+    type: 'ajax',
+    url: 'http://localhost/server/GetJson',
     reader: {
       type: 'json',
       rootProperty: 'data'
     }
-  }),
+  },
   fields: ['name', 'email', 'phone'],
-  autoLoad: false
+  autoLoad: false,
 /*
   data: [{ 
     'name': 'Lisa',  
@@ -30,4 +30,9 @@ Ext.define('AVA.view.main.VariantStore', {
     "phone":"555-222-1254"  
   }]
 */
+  listeners: {
+    load: function(){
+      console.log('data loaded');
+    }
+  }
 })

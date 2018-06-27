@@ -1,3 +1,4 @@
+
 Ext.define('AVA.view.main.UploadFile', {
   extend: 'Ext.form.Panel',
   region: 'north',
@@ -21,16 +22,18 @@ Ext.define('AVA.view.main.UploadFile', {
       var form = this.up('form').getForm();
       if(form.isValid()) {
         form.submit({
-          url: 'http://localhost:8080/UploadVariantFile',
-          waitMsg: 'Uploading Variant File ...',
-          success: function(fp, o) {
-            Ext.Msg.alert('Success', 'Variant File "' + o.file + '" has been uploaded.');
-            var store = Ext.get('var-store');
-            store.load();
-            store.doLayout();
+          url: 'http://localhost/server/UploadVariantFile',
+          success: function(action, response) {
+            console.log("success");
+            var grid = Ext.get('var-grid');
+            grid.store.load();
+            grid.show();
+          },
+          failure: function(action, response) {
+            console.log(response);
           }
         });
       }
-    }
+    } 
   }]
 })

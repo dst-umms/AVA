@@ -1,11 +1,11 @@
 var varStore = Ext.create('AVA.view.main.VariantStore', {});
 
 Ext.define('AVA.view.main.VariantGrid', {
-  extend: 'Ext.grid.Panel',
-  store: varStore,
-  renderTo: Ext.get('center-panel'),
+  extend: 'Ext.grid.GridPanel',
   id: 'var-grid',
   title: 'Variant-Info',
+  store: varStore,
+  region: 'center',
   columns: [{ 
     text: 'Name',  
     dataIndex: 'name', 

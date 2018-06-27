@@ -5,11 +5,9 @@ Ext.define('AVA.view.main.Main', {
   extend: 'Ext.container.Viewport',
   layout: 'border',
   items: [
-    uploadFile, {
-      id: 'center-panel',
-      region: 'center',
-      layout: 'fit',
-      items: [varGrid]
-    }
+    uploadFile,
+    varGrid 
   ]
 })
+
+varGrid.hide();
