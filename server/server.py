@@ -24,11 +24,11 @@ from datetime import datetime
 #------------------------#
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/server")
 def hello():
   return "Hello World!"
 
-@app.route("/UploadVariantFile", methods = ['PUT', 'POST'])
+@app.route("/server/UploadVariantFile", methods = ['PUT', 'POST'])
 def upload_file():
   data_file = request.files["VariantFile"]
   proj_name = data_file.filename.replace(' ', '_')
@@ -49,6 +49,6 @@ def upload_file():
     "error": None
   }), 200
     
-@app.route("/GetJson", methods = ['POST'])
+@app.route("/server/GetJson", methods = ['POST'])
 def get_json():
   return json.dumps({"data": [{"name": "mahesh", "email": "mahesh", "phone": "mahesh"}, {"name": "mahesh", "email": "mahesh", "phone": "mahesh"}]}), 200
