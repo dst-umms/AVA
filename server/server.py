@@ -12,6 +12,7 @@ from werkzeug import secure_filename
 import requests
 import json
 import os
+import time
 import subprocess
 from datetime import datetime
 
@@ -44,11 +45,11 @@ def upload_file():
         )
   #subprocess.Popen([cmd], shell = True, executable = '/bin/bash') 
   return json.dumps({
-    "message": "success", 
+    "success": "true", 
     "file": proj_name,
     "error": None
   }), 200
     
-@app.route("/server/GetJson", methods = ['POST'])
+@app.route("/server/GetJson", methods = ['GET', 'POST'])
 def get_json():
-  return json.dumps({"data": [{"name": "mahesh", "email": "mahesh", "phone": "mahesh"}, {"name": "mahesh", "email": "mahesh", "phone": "mahesh"}]}), 200
+    return json.dumps([{"id": 1, "name": "mahesh"}, {"id": 2, "name": "neo"}]), 200

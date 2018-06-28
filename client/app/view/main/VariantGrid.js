@@ -6,20 +6,16 @@ Ext.define('AVA.view.main.VariantGrid', {
   title: 'Variant-Info',
   store: varStore,
   region: 'center',
-  columns: [{ 
+  columns: [{
+      text: 'id',
+      dataIndex: 'id',
+      width: 200
+    }, { 
     text: 'Name',  
     dataIndex: 'name', 
     width: 200 
-  }, { 
-    text: 'Email', 
-    dataIndex: 'email', 
-    width: 250 
-  }, { 
-    text: 'Phone', 
-    dataIndex: 'phone', 
-    width: 120 
-  }],
-  height: 200,
-  layout: 'fit',
-  fullscreen: true
+  }]//,
+  //height: 200,
+  //layout: 'fit',
+  //fullscreen: true
 })
