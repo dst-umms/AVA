@@ -23,7 +23,7 @@ Ext.define('AVA.view.main.UploadFile', {
       var form = this.up('form').getForm();
       if(form.isValid()) {
         Ext.MessageBox.show({
-          msg : 'Running Variant Annotation Pipeline.',
+          msg : 'Uploading file.',
           progressText : 'Please wait ...',
           width : 300,
           wait : true,
@@ -41,11 +41,18 @@ Ext.define('AVA.view.main.UploadFile', {
           url: 'http://localhost/server/UploadVariantFile',
           success: function(action, response) {
             Ext.MessageBox.close();
-            console.log(response.result.file);
-            var grid = Ext.getCmp('var-grid');
-            grid.store.load();
-            grid.updateLayout();
-            grid.show();
+            var projName = response.result.file;
+            var runner = Ext.create('AVA.view.main.PipelineProgress', {
+              projName: projName
+            });
+            var task = runner.start({
+              scope: runner,
+              run: runner.updateStatus,
+              interval: 10000
+            });
+            Ext.MessageBox.show({msg: "Launching pipeline", wait: true});
+            //task.start();
+            //console.log(task);
           },
           failure: function(action, response) {
             Ext.MessageBox.close();

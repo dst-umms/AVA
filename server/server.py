@@ -14,6 +14,8 @@ import json
 import os
 import time
 import subprocess
+import re
+import pandas as pd
 from datetime import datetime
 
 #------  GLOBALS  --------#
@@ -45,11 +47,41 @@ def upload_file():
         )
   #subprocess.Popen([cmd], shell = True, executable = '/bin/bash') 
   return json.dumps({
-    "success": "true", 
-    "file": proj_name,
-    "error": None
+    "success": "true",
+    "error": None,
+    "file": proj_name
   }), 200
     
 @app.route("/server/GetJson", methods = ['GET', 'POST'])
 def get_json():
-    return json.dumps([{"id": 1, "name": "mahesh"}, {"id": 2, "name": "neo"}]), 200
+  out_file = "/usr/local/bin/analysis/test_one/test_one.hg19_multianno.txt.intervar"
+  final_array = []
+  with open(out_file, 'r') as fh:
+    keys = fh.readline()
+    keys = keys.strip()
+    keys = keys.split("\t")
+    keys.append("id")
+    index = 1
+    for values in fh:
+      values = values.strip()
+      values = values.split("\t")
+      values.append(index)
+      index += 1
+      values[0], values[1], values[2] = int(values[0]), int(values[1]), int(values[2])
+      final_array.append(dict(zip(keys, values)))
+  return json.dumps(final_array), 200
+      
+
+@app.route('/server/PipelineStatus', methods = ['POST'])
+def get_status():
+  proj_name = request.form["proj_name"]
+  log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
+  pipe_status = [re.findall(r'\((\d+)%\)', line) for line in open(log_file, 'r')][-1] or 1 
+  return json.dumps({
+    "status": pipe_status
+  }), 200
+  
+
+
+
+
