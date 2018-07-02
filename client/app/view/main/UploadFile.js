@@ -45,14 +45,13 @@ Ext.define('AVA.view.main.UploadFile', {
             var runner = Ext.create('AVA.view.main.PipelineProgress', {
               projName: projName
             });
+            Ext.MessageBox.show({msg: "Launching pipeline", wait: true});
             var task = runner.start({
               scope: runner,
               run: runner.updateStatus,
               interval: 10000
             });
-            Ext.MessageBox.show({msg: "Launching pipeline", wait: true});
-            //task.start();
-            //console.log(task);
+            runner.task = task;
           },
           failure: function(action, response) {
             Ext.MessageBox.close();

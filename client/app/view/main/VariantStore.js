@@ -1,4 +1,4 @@
-Ext.define('User', {
+Ext.define('AVA.view.main.LoadVariants', {
   extend: 'Ext.data.Model',
   fields: [{
     name: '#Chr', 
@@ -27,7 +27,7 @@ Ext.define('User', {
 Ext.define('AVA.view.main.VariantStore', {
   extend: 'Ext.data.JsonStore',
   storeId: 'var-store',
-  model: 'User',
+  model: 'AVA.view.main.LoadVariants',
   
   proxy: {
     type: 'ajax',

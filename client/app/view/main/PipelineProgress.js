@@ -1,6 +1,8 @@
 
 Ext.define('AVA.view.main.PipelineProgress', {
   extend: 'Ext.util.TaskRunner',
+  fileIdleEvent: false,
+  clearPrototypeOnDestroy: true,
   updateStatus: function() {
     Ext.MessageBox.close();
     Ext.MessageBox.show({
@@ -13,29 +15,33 @@ Ext.define('AVA.view.main.PipelineProgress', {
       url: 'http://localhost/server/PipelineStatus',
       method: 'POST',
       params: {
-        proj_name: this.projName
+        proj_name: this.projName,
+        task: this.task
       },
       success: function(response, opts) {
         var obj = Ext.decode(response.responseText);
-        this.progress = obj.status;
-        Ext.MessageBox.updateProgress(this.progress, this.progress + " % done ...");
-        if (this.progress == 100) {
-          Ext.util.TaskManager.destroy();
+        var progress = obj.status;
+        Ext.MessageBox.updateProgress(progress, progress + " % done ...");
+        if (progress == 100) {
+          Ext.util.TaskManager.stop(opts.params.task);
           Ext.MessageBox.close();
           var grid = Ext.getCmp('var-grid');
-          grid.store.load();
+          grid.store.load({
+            params: {
+              proj_name: opts.params.proj_name
+            }
+          });
           grid.updateLayout();
           grid.show();
         }
       },
       failure: function(response, opts) {
-        this.task.stop();
+        Ext.util.TaskManager.stop(opts.params.task);
         Ext.MessageBox.close();
         console.log('server-side failure with status code ' + response.status);
       }
     });
   },
-  progress: 0,
   projName: undefined,
   task: undefined
 })

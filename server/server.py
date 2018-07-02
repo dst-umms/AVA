@@ -45,16 +45,30 @@ def upload_file():
           proj_name = proj_name,
           log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
         )
-  #subprocess.Popen([cmd], shell = True, executable = '/bin/bash') 
-  return json.dumps({
-    "success": "true",
-    "error": None,
-    "file": proj_name
-  }), 200
+  subprocess.Popen([cmd], shell = True, executable = '/bin/bash')
+  retries = 2
+  for retry in range(retries):
+    if not os.path.isfile(dir_path + '/' + proj_name + '.log'):    
+      time.sleep(2)
+  if os.path.isfile(dir_path + '/' + proj_name + '.log'):
+    return json.dumps({
+      "success": "true",
+      "error": None,
+      "file": proj_name
+    }), 200
+  else:
+    return json.dumps({
+      "success": "false",
+      "error": "pipeline launch failed",
+      "file": proj_name
+    }), 200
     
-@app.route("/server/GetJson", methods = ['GET', 'POST'])
+@app.route("/server/GetJson", methods = ['GET'])
 def get_json():
-  out_file = "/usr/local/bin/analysis/test_one/test_one.hg19_multianno.txt.intervar"
+  proj_name = request.args["proj_name"]
+  out_file = "/usr/local/bin/analysis/{proj_name}/{proj_name}.hg19_multianno.txt.intervar".format(
+    proj_name = proj_name
+  )
   final_array = []
   with open(out_file, 'r') as fh:
     keys = fh.readline()
@@ -78,7 +92,8 @@ def get_status():
   log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
   pipe_status = [re.findall(r'\((\d+)%\)', line) for line in open(log_file, 'r')][-1] or 1 
   return json.dumps({
-    "status": pipe_status
+    "status": pipe_status,
+    "proj_name": proj_name
   }), 200
   
 
