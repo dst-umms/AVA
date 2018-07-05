@@ -46,6 +46,10 @@ Ext.define('AVA.view.main.UploadFile', {
               projName: projName
             });
             Ext.MessageBox.show({msg: "Launching pipeline", wait: true});
+            var grid = Ext.getCmp('var-grid');
+            if (grid.isHidden() === false) {
+              grid.hide();
+            }
             var task = runner.start({
               scope: runner,
               run: runner.updateStatus,

@@ -22,6 +22,11 @@ Ext.define('AVA.view.main.PipelineProgress', {
         var obj = Ext.decode(response.responseText);
         var progress = obj.status;
         Ext.MessageBox.updateProgress(progress, progress + " % done ...");
+        if (progress == 0) {
+          Ext.util.TaskManager.stop(opts.params.task);
+          Ext.MessageBox.close();
+          Ext.Msg.alert('INFO', obj.error);
+        }
         if (progress == 100) {
           Ext.util.TaskManager.stop(opts.params.task);
           Ext.MessageBox.close();
