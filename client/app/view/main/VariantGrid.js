@@ -5,6 +5,7 @@ Ext.define('AVA.view.main.VariantGrid', {
   id: 'var-grid',
   title: 'Variant-Info',
   store: varStore,
+  selModel: 'rowmodel',
   region: 'center',
   columns: [{
       text: '#Chr',
@@ -41,7 +42,8 @@ Ext.define('AVA.view.main.VariantGrid', {
   },{
     text: 'Gene.ensGene',
     dataIndex: 'Gene.ensGene',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'avsnp147',
     dataIndex: 'avsnp147',
@@ -49,19 +51,23 @@ Ext.define('AVA.view.main.VariantGrid', {
   },{
     text: 'AAChange.ensGene',
     dataIndex: 'AAChange.ensGene',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'AAChange.refGene',
     dataIndex: 'AAChange.refGene',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'clinvar: Clinvar',
     dataIndex: 'clinvar: Clinvar ',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'InterVar: InterVar and Evidence',
     dataIndex: ' InterVar: InterVar and Evidence ',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'Freq_ExAC_ALL',
     dataIndex: 'Freq_ExAC_ALL',
@@ -105,15 +111,18 @@ Ext.define('AVA.view.main.VariantGrid', {
   },{
     text: 'Interpro_domain',
     dataIndex: 'Interpro_domain',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'AAChange.knownGene',
     dataIndex: 'AAChange.knownGene',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'rmsk',
     dataIndex: 'rmsk',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'MetaSVM_score',
     dataIndex: 'MetaSVM_score',
@@ -121,7 +130,8 @@ Ext.define('AVA.view.main.VariantGrid', {
   },{
     text: 'Freq_ExAC_POPs',
     dataIndex: 'Freq_ExAC_POPs',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'OMIM',
     dataIndex: 'OMIM',
@@ -129,7 +139,8 @@ Ext.define('AVA.view.main.VariantGrid', {
   },{
     text: 'Phenotype_MIM',
     dataIndex: 'Phenotype_MIM',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'OrphaNumber',
     dataIndex: 'OrphaNumber',
@@ -137,18 +148,30 @@ Ext.define('AVA.view.main.VariantGrid', {
   },{
     text: 'Orpha',
     dataIndex: 'Orpha',
-    width: 200
+    width: 200,
+    cellWrap: true
   },{
     text: 'Otherinfo',
     dataIndex: 'Otherinfo',
-    width: 200
+    width: 200,
+    cellWrap: true
   }, {
     text: 'id',
     dataIndex: 'id',
     hidden: true
-  }]//,
-  //height: 200,
-  //layout: 'fit',
-  //fullscreen: true
-})
-
+  }],
+  listeners: {
+    'rowclick': function(grid, record, elem, rowIndex) {
+      console.log(record.data);
+      var myPanel = Ext.create('AVA.view.main.VariantForm', {});
+      var myWindow = Ext.create('Ext.window.Window', {
+        id: 'recordWindow',
+        title: 'New Particle',
+        layout: 'fit',
+        plain:true,
+        items: myPanel
+      });
+      myWindow.show(); 
+    }
+  }
+});
