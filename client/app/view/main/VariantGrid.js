@@ -162,7 +162,6 @@ Ext.define('AVA.view.main.VariantGrid', {
   }],
   listeners: {
     'rowclick': function(grid, record, elem, rowIndex) {
-      console.log(record.data);
       var varPanel = Ext.create('AVA.view.main.VariantForm', {});
       var varWindow = Ext.create('Ext.window.Window', {
         id: 'variant-win',

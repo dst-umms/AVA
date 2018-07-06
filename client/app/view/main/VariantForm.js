@@ -1,7 +1,6 @@
 Ext.define('AVA.view.main.VariantForm', {
   extend: 'Ext.form.Panel',
   bodyPadding: 5,
-  url: 'save-form.php',
   scrollable: true,
   layout: 'anchor',
   defaults: {
@@ -116,6 +115,9 @@ Ext.define('AVA.view.main.VariantForm', {
   }, {
     name: 'Otherinfo',
     fieldLabel: 'Otherinfo'
+  }, {
+    name: 'id',
+    hidden: true
   }],
   buttons: [{
     text: 'Cancel',
@@ -129,14 +131,10 @@ Ext.define('AVA.view.main.VariantForm', {
     handler: function() {
       var form = this.up('form').getForm();
       if (form.isValid()) {
-        form.submit({
-          success: function(form, action) {
-            Ext.Msg.alert('Success', action.result.msg);
-          },
-          failure: function(form, action) {
-            Ext.Msg.alert('Failed', action.result.msg);
-          }
-        });
+        var record = form.getRecord();
+        record.set(form.getValues());
+        Ext.getCmp('var-grid').store.sync();
+        Ext.getCmp('variant-win').destroy();
       }
     }
   }]

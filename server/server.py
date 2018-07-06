@@ -70,8 +70,10 @@ def upload_file():
       "file": proj_name
     }), 200
     
-@app.route("/server/GetVariantInfo", methods = ['GET'])
+@app.route("/server/GetVariantInfo", methods = ['GET', 'POST'])
 def get_json():
+  if request.method == 'POST':
+    return json.dumps({"success": "true"}), 200
   proj_name = request.args["proj_name"]
   out_file = "/usr/local/bin/analysis/{proj_name}/{proj_name}.hg19_multianno.txt.intervar".format(
     proj_name = proj_name
@@ -114,7 +116,5 @@ def get_status():
       "proj_name": proj_name
     }), 200
   
-
-
 
 
