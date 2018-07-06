@@ -163,15 +163,19 @@ Ext.define('AVA.view.main.VariantGrid', {
   listeners: {
     'rowclick': function(grid, record, elem, rowIndex) {
       console.log(record.data);
-      var myPanel = Ext.create('AVA.view.main.VariantForm', {});
-      var myWindow = Ext.create('Ext.window.Window', {
-        id: 'recordWindow',
-        title: 'New Particle',
-        layout: 'fit',
+      var varPanel = Ext.create('AVA.view.main.VariantForm', {});
+      var varWindow = Ext.create('Ext.window.Window', {
+        id: 'variant-win',
+        title: 'Variant-Form:',
+        scrollable: true,
         plain:true,
-        items: myPanel
+        layout: 'fit',
+        items: varPanel,
+        height: '100%',
+        width: '100%'
       });
-      myWindow.show(); 
+      varPanel.getForm().loadRecord(record);
+      varWindow.show(); 
     }
   }
 });
