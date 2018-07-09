@@ -67,8 +67,9 @@ class NenbssToAnnovar():
         (chrom, start, end) = self.idua_chr_info.split(':')
       (var_info, base_info) = df[["Variant ID", "Base Position"]][df.index == index].values[0]
       (ref, alt_iupac) = [this_base.upper() for this_base in var_info[-3:].split('>')]
-      alt = alt_iupac if (alt_iupac in ['A', 'G', 'C', 'T']) else self.__get_iupac_base(alt_iupac, ref) 
-      annovar_info.append([str(chrom), str(int(start) + int(base_info) - 1), str(int(start) + int(base_info) - 1), ref, alt, 'comments: ' + 
+      alt = alt_iupac if (alt_iupac in ['A', 'G', 'C', 'T']) else self.__get_iupac_base(alt_iupac, ref)
+      base_pos = int(start) + int(base_info) - 2 # 1 because the string is 0 based and 1 more to make the current base inclusive  
+      annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, 'comments: ' + 
         ';'.join([str(val) for val in df[df.index == index].values[0]])])
     return annovar_info
 
