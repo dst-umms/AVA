@@ -1,9 +1,6 @@
 Ext.define('AVA.model.LoadVariants', {
   extend: 'Ext.data.Model',
-  fields: [{
-    name: '#Chr',
-    type: 'int'
-  }, {
+  fields: ['#Chr', {
     name: 'Start',
     type: 'int'
   }, {

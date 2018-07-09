@@ -95,7 +95,7 @@ def get_json():
       values = values.split("\t")
       values.append(index)
       index += 1
-      values[0], values[1], values[2] = int(values[0]), int(values[1]), int(values[2])
+      values[0], values[1], values[2] = str(values[0]), int(values[1]), int(values[2])
       final_array.append(dict(zip(keys, values)))
   return json.dumps(final_array), 200
       
