@@ -1,16 +1,43 @@
+var fileTypes = Ext.create('Ext.data.Store', {
+  fields: ['abbr', 'name'],
+  data : [{
+    "format": "txt",
+    "name": "Annovar (.txt)"
+  }, {
+    "format": "vcf", 
+    "name": "VCF (.vcf)"
+  }, {
+    "format": "csv", 
+    "name": "NENBSS (.csv)"
+  }]
+});
+
 Ext.define('AVA.view.main.UploadFile', {
   extend: 'Ext.form.Panel',
   id: 'north-panel',
+  collapsible: true,
   region: 'north',
   title: 'Upload variant file',
   //width: 800,
   bodyPadding: 10,
   frame: true,
   items: [{
+    xtype: 'combobox',
+    fieldLabel: 'file-format',
+    name: 'file-format',
+    store: fileTypes,
+    value: "vcf",
+    queryMode: 'local',
+    displayField: 'name',
+    valueField: 'format',
+    labelWidth: 100,
+    anchor: '50%',
+    allowBlank: false
+  }, {
     xtype: 'filefield',
     name: 'VariantFile',
     fieldLabel: 'variant-file',
-    labelWidth: 50,
+    labelWidth: 100,
     msgTarget: 'side',
     waitTitle:"test upload message",
     allowBlank: false,

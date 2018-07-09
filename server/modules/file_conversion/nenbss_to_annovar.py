@@ -12,9 +12,9 @@ import sys
 
 class NenbssToAnnovar():
   
-  gaa_file = "../../utils/seqs/GAA.fa"
-  idua_file = "../../utils/seqs/IDUA.fa"
-  abcd1_file = "../../utils/seqs/ABCD1.fa"
+  gaa_file = "/usr/local/bin/AVA/server/utils/seqs/GAA.fa"
+  idua_file = "/usr/local/bin/AVA/server/utils/seqs/IDUA.fa"
+  abcd1_file = "/usr/local/bin/AVA/server/utils/seqs/ABCD1.fa"
 
   iupac = {
     'R': ['A', 'G'],
@@ -65,6 +65,14 @@ class NenbssToAnnovar():
       if gene_name.upper() == 'MPS1':
         gene_info = self.idua_gene_info
         (chrom, start, end) = self.idua_chr_info.split(':')
+      elif gene_name.upper() == 'ALD18':
+        gene_info = self.abcd1_gene_info
+        (chrom, start, end) = self.abcd1_chr_info.split(':')
+      elif gene_name.upper() == 'POMPE18':
+        gene_info = self.gaa_gene_info
+        (chrom, start, end) = self.gaa_chr_info.split(':')
+      else:
+        raise "Only POMPE (GAA), ALD (ABCD1) and MPS1 (IDUA) are supported. " + gene_name + " is not valid."
       (var_info, base_info) = df[["Variant ID", "Base Position"]][df.index == index].values[0]
       (ref, alt_iupac) = [this_base.upper() for this_base in var_info[-3:].split('>')]
       alt = alt_iupac if (alt_iupac in ['A', 'G', 'C', 'T']) else self.__get_iupac_base(alt_iupac, ref)

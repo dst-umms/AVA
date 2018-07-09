@@ -34,16 +34,21 @@ def hello():
 @app.route("/server/UploadVariantFile", methods = ['PUT', 'POST'])
 def upload_file():
   data_file = request.files["VariantFile"]
+  file_format = request.form['file-format']
   proj_name = data_file.filename.replace(' ', '_')
-  proj_name = proj_name.replace('.txt', '') if proj_name[-4:] == '.txt' else proj_name
-  file_name = secure_filename(proj_name + '.txt')
-  dir_path = "/usr/local/bin/analysis/input"
-  os.makedirs(dir_path, exist_ok = True)
-  data_file.save(dir_path + '/' + file_name)
-  log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
+  proj_name = proj_name.replace('.' + file_format, '')
+  file_name = secure_filename(proj_name + '.' + file_format)
+  dir_path = "/usr/local/bin/analysis/" + proj_name
+  os.makedirs(dir_path + "/input", exist_ok = True)
+  data_file.save(dir_path + '/input/' + file_name)
+  log_file = dir_path + "/" + proj_name + ".log"
   cmd = """snakemake -p --latency-wait 60 -s /usr/local/bin/AVA/AVA.snakefile \
-            --config proj_name={proj_name} >{log_file} 2>&1""".format(
+            --config proj_name={proj_name} file_format={file_format} --directory {work_dir} \
+            >{log_file} 2>&1
+        """.format(
           proj_name = proj_name,
+          file_format = file_format,
+          work_dir = dir_path,
           log_file = log_file
         )
   if os.path.isfile(log_file) and not re.findall('error', open(log_file, 'r').read(), re.IGNORECASE):
@@ -75,7 +80,7 @@ def get_json():
   if request.method == 'POST':
     return json.dumps({"success": "true"}), 200
   proj_name = request.args["proj_name"]
-  out_file = "/usr/local/bin/analysis/{proj_name}/{proj_name}.hg19_multianno.txt.intervar".format(
+  out_file = "/usr/local/bin/analysis/{proj_name}/output/{proj_name}.hg19_multianno.txt.intervar".format(
     proj_name = proj_name
   )
   final_array = []
@@ -98,7 +103,7 @@ def get_json():
 @app.route('/server/PipelineStatus', methods = ['POST'])
 def get_status():
   proj_name = request.form["proj_name"]
-  log_file = "/usr/local/bin/analysis/" + proj_name + ".log"
+  log_file = "/usr/local/bin/analysis/{proj_name}/{proj_name}.log".format(proj_name = proj_name)
   if os.path.isfile(log_file):
     errors = re.findall('error', open(log_file, 'r').read(), re.IGNORECASE)
     err_msg = "Variant Pipeline resulted in error for project: " + proj_name if errors else None
