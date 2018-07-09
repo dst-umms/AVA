@@ -57,6 +57,20 @@ class NenbssToAnnovar():
     else:
       raise iupac_base + ' not found in iupac table: ' + ','.join(iupac.keys())
 
+  def __get_ref_and_alt_bases(self, var_info):
+    var_info = var_info.upper()
+    var_info = var_info.split(";")[0]
+    ins_info = var_info.split("INS")
+    del_info = var_info.split("DEL")
+    if len(ins_info) > 1: # then it's insertion
+      return ('-', ins_info[1])
+    elif len(del_info) > 1: # then it's deletion
+      return (del_info[1], '-')
+    else:
+      (ref, alt) = var_info[-3:].split('>')
+      alt = alt if alt in ['A', 'G', 'C', 'T'] else self.__get_iupac_base(alt, ref)
+      return (ref, alt)
+
   def nenbss_to_annovar(self, nenbss_file):
     df = pd.read_csv(nenbss_file, header = 0, sep = ",")
     annovar_info = []
@@ -74,8 +88,7 @@ class NenbssToAnnovar():
       else:
         raise "Only POMPE (GAA), ALD (ABCD1) and MPS1 (IDUA) are supported. " + gene_name + " is not valid."
       (var_info, base_info) = df[["Variant ID", "Base Position"]][df.index == index].values[0]
-      (ref, alt_iupac) = [this_base.upper() for this_base in var_info[-3:].split('>')]
-      alt = alt_iupac if (alt_iupac in ['A', 'G', 'C', 'T']) else self.__get_iupac_base(alt_iupac, ref)
+      (ref, alt) = self.__get_ref_and_alt_bases(var_info)
       base_pos = int(start) + int(base_info) - 2 # 1 because the string is 0 based and 1 more to make the current base inclusive  
       annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, 'comments: ' + 
         ';'.join([str(val) for val in df[df.index == index].values[0]])])
