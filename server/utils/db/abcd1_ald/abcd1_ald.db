@@ -1,0 +1,1120 @@
+Chromosome position Variant Consequence Exon  Remark
+152990663 c.-59C>T    5′ UTR  Benign, based on its frequency of 11/150 inviduals (48) and 1978/21253 (X:152990663 C/T) individuals.
+152990698 c.-24_57delinsA p.0?
+(no translation initiation) 5′ UTR  Pathogenic, identified in ALD patient (33).
+152990700 c.-22C>T  p.0?
+upstream ATG (out of frame) 5′ UTR  Pathogenic, identified in ALD patient (32). Affects ALDP stability in patient cells (32).
+152990702 c.-20C>T    5′ UTR  Benign, based on its frequency of 54/7395 South Asian individuals (X:152990702 C/T).
+152990705 c.-17_8del  p.0?
+(no translation initiation) 5′ UTR  Pathogenic, identified in 21 ALD patients (extensive pedigree analysis (45)). No detectable ALDP in patient cells (45).
+152990712 c.-10C>T  p.? 5′ UTR  Status unknown (VUS), identified in ALD newborn screening (191).
+152990718 c.-4_5delins10  p.? 5′ UTR / exon 1 Pathogenic, identified in ALD newborn screening (191). Deleterious mutation.
+152990722 c.1A>G  p.Met1Val
+(no translation initiation) exon 1  Pathogenic, identified in 21 ALD patients (32, 102, 139, 141). No detectable ALDP in patient cells (102, 139, 141).
+152990722 c.1A>T  p.Met1Val
+(no translation initiation) exon 1  Pathogenic, identified in ALD patient (160).
+152990723 c.2T>A  p.Met1Lys
+(no translation initiation) exon 1  Pathogenic, identified in 5 ALD patients (58). No detectable ALDP in patient cells (58).
+152990724 c.3G>A  p.Met1Ile
+(no translation initiation) exon 1  Pathogenic, identified in ALD patient (33).
+152990724 c.3G>C  p.Met1Ile
+(no translation initiation) exon 1  Pathogenic, identified in ALD patient (73).
+152990740 c.19C>T p.Pro7Ser exon 1  VUS (X:152990740 C/T) frequency 1/21371 inviduals.
+152990751 c.30G>A p.Trp10*  exon 1  Pathogenic, identified in 3 ALD patients (7, 58). No detectable ALDP in patient cells (7).
+152990751 c.30G>C p.Trp10Cys  exon 1  VUS (X:152990751 G/C) frequency 1/81065 inviduals.
+152990753 c.32G>C p.Arg11Pro  exon 1  VUS (X:152990753 G/C) frequency 1/21315 inviduals.
+152990757 c.36dupG  p.Asn13Glufs*182  exon 1  Pathogenic, identified in ALD patient (32). Deleterious mutation.
+152990759 c.38A>C p.Asn13Thr  exon 1  Benign variant based on 279/103021 inviduals (X:152990759 A/C), confirmed by biochemical testing (48).
+152990761 c.40A>G p.Thr14Ala  exon 1  VUS (X:152990761 A/G) frequency 6/82276 inviduals.
+152990762 c.41C>G p.Thr14Arg  exon 1  Benign variant based on 39/103760 inviduals (X:152990762 C/G).
+152990767 c.[46A>T; 706C>T] p.[Lys16*; Arg236Cys] exon 1  Pathogenic, identified in 2 ALD patients (33). p.Lys16* is a deleterious mutation. Clinical significance of p.Arg236Cys is unclear.
+152990771 c.50G>A p.Arg17His  exon 1  Benign variant, confirmed by biochemical testing (139).
+152990772 c.51_54dup  p.Ala19Hisfs*177  exon 1  Pathogenic, identified in ALD patient (58). No detectable ALDP in patient cells (58).
+152990776 c.55G>T p.Ala19Ser  exon 1  Benign variant, confirmed by biochemical testing (104).
+152990778 c.57del p.Val20Cysfs*48 exon 1  Pathogenic, identified in ALD patient (16). No detectable ALDP in patient cells (146).
+152990788 c.67_83del  p.Ala23Serfs*166  exon 1  Pathogenic, identified in 2 ALD patients (71, 150). Deleterious mutation.
+152990801 c.80A>C p.Tyr27Ser  exon 1  Probably pathogenic, identified in ALD patient (181). Additional testing pending.
+152990809 c.88dup p.His30Profs*165  exon 1  Pathogenic, identified in 2 ALD patients (189). Deleterious mutation.
+152990811 c.90C>T p.His30His  exon 1  Synonymous (X:152990811 C/T) frequency 5/108570 individuals..
+152990813 c.92A>G p.Lys31Arg  exon 1  VUS (X:152990813 A/G) frequency 9/88297 individuals.
+152990816 c.95T>C p.Val32Ala  exon 1  VUS (X:152990816 T/C) frequency 1/88007 inviduals.
+152990818 c.97_100del p.Tyr33Profs*34 exon 1  Pathogenic, identified in ALD patient (48). Deleterious mutation.
+152990820 c.99C>A p.Tyr33*  exon 1  Pathogenic, identified in ALD patient (105). Deleterious mutation.
+152990820 c.99_102del p.Pro34Trpfs*33 exon 1  Pathogenic, identified in ALD patient (100). Deleterious mutation.
+152990821 c.100C>T  p.Pro34Ser  exon 1  VUS (X:152990821 C/T).
+152990823 c.102delinsAT p.Leu35Phefs*160  exon 1  Pathogenic, identified in ALD patient (24). Deleterious mutation.
+152990823 c.102dup  p.Val36Glyfs*159  exon 1  Pathogenic, identified in ALD patient (120). Deleterious mutation.
+152990829 c.108G>A  p.Val36Val  exon 1  Synonymous (X:152990829 G/A).
+152990830 c.109C>G  p.Arg37Gly  exon 1  Pathogenic, identified in ALD patient (32).
+152990831 c.110_17del p.Arg37Profs*155  exon 1  Pathogenic, identified in 2 ALD patients (33, 72). Deleterious mutation.
+152990833 c.112C>T  p.Gln38*  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152990836 c.115_31delinsGCA p.Cys39Lysfs*151  exon 1  Pathogenic, identified in ALD patient (60). No detectable ALDP in patient cells (60).
+152990840 c.119_47del p.Leu40Argfs*145  exon 1  Pathogenic, identified in ALD patient (52). Deleterious mutation.
+152990846 c.125delC p.Pro42Argfs*26 exon 1  Pathogenic, identified in ALD patient (96). Deleterious mutation.
+152990846 c.125_26insC  p.Ala43Glyfs*152  exon 1  Pathogenic, identified in 3 ALD patients (33, 49). Deleterious mutation.
+152990859 c.138_39insT  p.Gln47Serfs*148  exon 1  Pathogenic, identified in ALD patient (7). Deleterious mutation.
+152990860 c.139C>T  p.Gln47*  exon 1  Pathogenic, identified in 4 ALD patients (33, 58, 105). Deleterious mutation. No detectable ALDP in patient cells (58).
+152990860 c.139del  p.Gln47Argfs*21 exon 1  Pathogenic, identified in ALD newborn screening (191). Deleterious mutation.
+152990864 c.143C>T  p.Ala48Val  exon 1  VUS (X:152990864 C/T) frequency 2/21376 individuals.
+152990866 c.145_46insCGAC p.Ala50Thrfs*146  exon 1  Pathogenic, identified in ALD patient (63). No detectable ALDP in patient cells (63).
+152990868 c.147C>T  p.Pro49Pro  exon 1  Synonymous (X:152990868 C/T).
+152990871 c.150dup  p.Gly51Argfs*144  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP in patient cells (58).
+152990875 c.154G>T  p.Glu52*  exon 1  Pathogenic, identified in ALD patient (38). Deleterious mutation.
+152990875 c.154dup  p.Glu52Glyfs*143  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152990876 c.155_56insG  p.Pro53Alafs*142  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152990884 c.163C>T  p.Gln55*  exon 1  Pathogenic, identified in ALD patient (100). Deleterious mutation.
+152990892 c.171C>G  p.Ala57Ala  exon 1  Synonymous (X:152990892 C/G).
+152990894 c.173C>G  p.Ser58Cys  exon 1  VUS (X:152990894 C/G) frequency 3/103209 individuals.
+152990894 c.173C>T  p.Ser58Phe  exon 1  VUS (X:152990894 C/T) frequency 9/103209 individuals.
+152990902 c.181G>A  p.Ala61Thr  exon 1  VUS (X:152990902 G/A) frequency 18/127289 individuals..
+152990907 c.186G>A  p.Ala62Ala  exon 1  Synonymous (X:152990907 G/A).
+152990927 c.206G>A  p.Arg69Gln  exon 1  VUS (X:152990927 G/A) frequency 1/21537 individuals.
+152990929 c.208G>A  p.Val70Ile  exon 1  VUS (X:152990929 G/A) frequency 2/120391 individuals.
+152990941 c.220C>T  p.Arg74Trp  exon 1  Pathogenic, identified in 9 ALD patients (32, 88, 97, 141). Reduced (7% of control cells) ALDP in patient cells (97).
+152990944 c.223_40dup p.Trp77_Leu82dup  exon 1  Pathogenic, identified in ALD patient (58). No detectable ALDP in patient cells (58).
+152990946 c.225C>T  p.Leu75Leu  exon 1  Synonymous (X:152990946 C/T).
+152990946 c.225_42del p.Trp77_Leu82del  exon 1  Pathogenic, identified in 3 ALD patients (58, 111, 191). No detectable ALDP in patient cells (58).
+152990952 c.231G>T  p.Trp77Cys  exon 1  VUS (X:152990952 G/T).
+152990952 c.231G>A  p.Trp77*  exon 1  Pathogenic, idenitified in 4 ALD patients (201). Deleterious mutation.
+152990953 c.232_40del p.Arg80_Leu82del  exon 1  Pathogenic, identified in 2 ALD patients (38, 58). No detectable ALDP in patient cells (58).
+152990955 c.234_42del p.Arg80_Leu82del  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152990955 c.234_42dupCCTGCGGCT  p.Arg80_Leu82dup  exon 1  Pathogenic, identified in 5 ALD patients (33, 186). Deleterious mutation.
+152990961 c.240_41insTTTGCG p.Arg80_Leu81insPheAla  exon 1  Pathogenic, identified in ALD patient (27). Deleterious mutation.
+152990961 c.240_41insTCCTGCGGC  p.Arg80_Leu81insSerCysGly exon 1  Pathogenic, identified in 2 ALD patients (64, 132). Deleterious mutation.
+152990962 c.241C>G  p.Leu81Val  exon 1  VUS (X:152990962 C/G) frequency 2/109810 individuals.
+152990964 c.244_245insCTGCGGCTC p.Leu81_Leu82insProAlaAla exon 1  Pathogenic, identified in 4 ALD patients (28, 33). Deleterious mutation. (Originally reported as: c.243-44insCCTGCGGCT)
+152990969 c.248del  p.Phe83Serfs*20 exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152990970 c.249C>T  p.Phe83Phe  exon 1  Synonymous (X:152990970 C/T) frequency 49/130671 individuals..
+152990971 c.250C>T  p.Pro84Ser  exon 1  Pathogenic, identified in ALD patient (90).
+152990972 c.251C>T  p.Pro84Leu  exon 1  Pathogenic, identified in 2 ALD patients (33, 191).
+152990974 c.253dup  p.Arg85Profs*110  exon 1  Pathogenic, identified in 16 ALD patients (33, 49, 60, 62, 119, 138, 155). No detectable ALDP in patient cells (60).
+152990974 c.253del  p.Arg85Glyfs*18 exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152990975 c.254G>T  p.Arg85Leu  exon 1  VUS (X:152990975 G/T).
+152990977 c.256G>A  p.Val86Ile  exon 1  VUS (X:152990977 G/A).
+152990977 c.256dup  p.Val86Glyfs*109  exon 1  Pathogenic, identified in ALD newborn screening (191). Deleterious mutation.
+152990979 c.258C>T  p.Val86Val  exon 1  Synonymous (X:152990979 C/T) frequency 113/138493 individuals..
+152990979 c.258C>G  p.Val86Val  exon 1  Synonymous (X:152990979 C/G).
+152990985 c.264C>A  p.Cys88*  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152990985 c.264C>G  p.Cys88Trp  exon 1  Pathogenic, identified in 3 ALD patients (63). No detectable ALDP in patient cells (63).
+152990986 c.265C>T  p.Arg89Trp  exon 1  VUS (X:152990986 C/T).
+152990987 c.266G>A  p.Arg89Gln  exon 1  VUS (X:152990987 G/A) frequency 2/21458 individuals.
+152990989 c.268G>A  p.Glu90Lys  exon 1  Pathogenic, identified in 2 ALD patients (49).
+152990989 c.268G>T  p.Glu90*  exon 1  Pathogenic, identified in ALD patient (141). No detectable ALDP in patient cells (141).
+152990991 c.270_71del p.Glu90Aspfs*104  exon 1  Pathogenic, identified in 2 ALD patients (93). Deleterious mutation.
+152990995 c.274G>A  p.Gly92Arg  exon 1  Benign variant based on its frequency of 17/149988 individuals (X:152990995 G/A).
+152990995 c.274_311del  p.Gly92Hisfs*90 exon 1  Pathogenic, identified in 3 ALD patients (4, 158). Deleterious mutation.
+152990996 c.275G>T  p.Gly92Val  exon 1  VUS (X:152990996 G/T).
+152990998 c.277del  p.Leu93Cysfs*10 exon 1  Pathogenic, identified in ALD patient (16). Deleterious mutation.
+152990998 c.277_96dup p.Ala100Cysfs*10  exon 1  Pathogenic, identified in 2 ALD patients (111, 149). Deleterious mutation.
+152991001 c.280_81insGAGACGGGGCTG p.Leu94delinsArgAspGlyAlaVal  exon 1  Pathogenic, identified in ALD patient (96).
+152991005 c.284C>A  p.Ala95Asp  exon 1  Pathogenic, identified in 6 ALD patients. No detectable ALDP in patient cells (109).
+152991008 c.287_88insCC p.His97Argfs*7  exon 1  Pathogenic, identified in ALD patient (40). Deleterious mutation.
+152991011 c.290A>C  p.His97Pro  exon 1  Pathogenic, identified in 4 ALD patients (33, 142, 170).
+152991011 c.290A>T  p.His97Leu  exon 1  Benign, confirmed by biochemical testing (109).
+152991013 c.292T>C  p.Ser98Pro  exon 1  Pathogenic, identified in ALD patient (58). Reduced ALDP in patient cells (58).
+152991014 c.293C>A  p.Ser98*  exon 1  Pathogenic, identified in 2 ALD patients (32, 105). Deleterious mutation.
+152991014 c.293C>T  p.Ser98Leu  exon 1  Pathogenic, identified in 11 ALD patients (7, 33, 48, 49, 58, 98). Normal ALDP level in patient cells (7), but non-functional.
+152991014 c.293C>G  p.Ser98Trp  exon 1  Pathogenic, identified in 3 ALD patients (41).
+152991015 c.294G>T  p.Ser98Ser  exon 1  Synonymous (X:152991015 G/T).
+152991015 c.294_95insC  p.Ala99Argfs*96 exon 1  Pathogenic, identified in ALD patient (38). Deleterious mutation.
+152991016 c.295_98dup p.Ala100Glyfs*96  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152991017 c.296C>A  p.Ala99Asp  exon 1  Pathogenic, identified in ALD patient (48).
+152991019 c.298del  p.Ala100Profs*3 exon 1  Pathogenic, identified in ALD patient (28). Deleterious mutation.
+152991021 c.300C>G  p.Ala100Ala exon 1  Synonymous (X:152991021 C/G).
+152991022 c.301T>A  p.Lys101Met exon 1  Pathogenic, identified in ALD patient (33).
+152991026 c.305T>A  p.Val102Glu exon 1  Pathogenic, identified in ALD patient (60).
+152991030 c.309C>G  p.Ser103Arg exon 1  Pathogenic, identified in 2 ALD patients (29, 53). Reduced ALDP in patient cells (53).
+152991031 c.310C>T  p.Arg104Cys exon 1  Pathogenic, identified in 14 ALD patients (13, 16, 33, 42, 62, 97, 125, 146, 191). Reduced ALDP (35% of control cells) in patient cells (33, 97, 146).
+152991032 c.311G>A  p.Arg104His exon 1  Pathogenic, identified in 9 ALD patients (4, 32, 33, 47, 49, 132, 137).
+152991032 c.311G>T  p.Arg104Leu exon 1  Pathogenic, identified in ALD patient (33).
+152991032 c.311G>C  p.Arg104Pro exon 1  Pathogenic, identified in ALD patient (114).
+152991034 c.313A>C  p.Thr105Pro exon 1  Pathogenic, identified in 4 ALD patients (33, 38, 158).
+152991035 c.314C>T  p.Thr105Ile exon 1  Pathogenic, identified in ALD patient (7). No detectable ALDP in patient cells (7).
+152991040 c.319del  p.Leu107Cysfs*91  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991041 c.320T>C  p.Leu107Pro exon 1  Pathogenic, identified in 6 ALD patients (15, 178).
+152991041 c.320T>G  p.Leu107Arg exon 1  Pathogenic, identified in ALD patient (88).
+152991042 c.321G>A  p.Leu107Leu exon 1  Synonymous (X:152991042 G/A).
+152991044 c.323C>A  p.Ser108* exon 1  Pathogenic, identified in 4 ALD patients (33, 56, 60, 93). No detectable ALDP in patient cells (60).
+152991044 c.[323C>A; 775C>T]  p.[Ser108*; Arg259Trp]  exon 1  Pathogenic, identified in ALD patient (86). p.Ser108* is deleterious.
+152991044 c.323C>T  p.Ser108Leu exon 1  Pathogenic, identified in 13 ALD patients (33, 34, 53, 62, 90, 137, 156, 191). Normal ALDP level in patient cells (53), but non-functional.
+152991044 c.323C>G  p.Ser108Trp exon 1  Pathogenic, identified in 3 ALD patients (7, 53). Reduced ALDP in patient cells (7).
+152991046 c.325del  p.Val109Cysfs*89  exon 1  Pathogenic, identified in 3 ALD patients (32). Deleterious mutation.
+152991047 c.326T>C  p.Val109Ala exon 1  VUS (X:152991047 T/C).
+152991058 c.337delC p.Arg113Alafs*85  exon 1  Pathogenic, identified in 7 ALD patients (32, 49, 62, 141). No detectable ALDP in patient cells (49, 97, 141).
+152991058 c.337C>T  p.Arg113Cys exon 1  Pathogenic, identified in 6 ALD patients (32, 49). Normal ALDP level in patient cells (32, 49), but non-functional.
+152991059 c.338G>C  p.Arg113Pro exon 1  Pathogenic, identified in 4 ALD patients (33, 49).
+152991062 c.341T>C  p.Leu114Pro exon 1  Pathogenic, identified in 2 ALD patients (33, 53). Reduced ALDP in patient cells (53).
+152991067 c.346G>T  p.Gly116* exon 1  Pathogenic, identified in 2 ALD patients (137). Deleterious mutation.
+152991067 c.346G>A  p.Gly116Arg exon 1  Pathogenic, identified in 10 ALD patients (7, 29, 32, 33, 58, 145). Reduced ALDP in patient cells (7).
+152991067 c.346G>C  p.Gly116Arg exon 1  Pathogenic, identified in ALD patient (33).
+152991068 c.347_48delGAinsAT  p.Gly116Asp exon 1  Pathogenic, identified in ALD patient (120).
+152991068 c.347G>A  p.Gly116Glu exon 1  Pathogenic, identified in 3 ALD patients (57, 87, 88)
+152991073 c.352delCT  p.Leu118Glyfs*76  exon 1  Pathogenic, identified in ALD patient (52). Deleterious mutation.
+152991076 c.355del  p.Ala119Profs*79  exon 1  Pathogenic, identified in 2 ALD patients (178). Deleterious mutation.
+152991076 c.355G>T  p.Ala119Ser exon 1  VUS (X:152991076 G/T).
+152991077 c.356C>A  p.Ala119Asp exon 1  Pathogenic, identified in 2 ALD patients (33).
+152991079 c.358C>G  p.Arg120Gly exon 1  VUS (X:152991079 C/G) frequency 1/165442 individuals.
+152991080 c.359G>A  p.Arg120His exon 1  VUS (X:152991080 G/A).
+152991080 c.359G>C  p.Arg120Pro exon 1  Pathogenic, identified in 5 ALD patients (60). Normal ALDP level in patient cells (60), but non-functional.
+152991089 c.368C>T  p.Ala123Val exon 1  This was a sequence error in original sequence (18)
+152991092 c.371G>C  p.Arg124Pro exon 1  Pathogenic, identified in ALD patient (33).
+152991092 c.371G>A  p.Arg124His exon 1  VUS (X:152991092 G/A) frequency 1/21546 inviduals.
+152991096 c.375_78del p.Lys125Asnfs*72  exon 1  Pathogenic, identified in ALD patient (123). Deleterious mutation.
+152991102 c.381G>A  p.Pro127Pro exon 1  Synonymous (X:152991102 G/A).
+152991102 c.381G>T  p.Pro127Pro exon 1  Synonymous (X:152991102 G/T).
+152991103 c.382C>T  p.Arg128Trp exon 1  VUS (X:152991103 C/T).
+152991104 c.383G>C  p.Arg128Pro exon 1  VUS (X:152991104 G/C) frequency 3/171978 inviduals.
+152991104 c.383G>A  p.Arg128Gln exon 1  VUS (X:152991104 G/A) frequency 3/193580 inviduals.
+152991106 c.385dup  p.Ala129Glyfs*66  exon 1  Pathogenic, identified in 2 ALD patients (59, 64). Deleterious mutation.
+152991108 c.387del  p.Phe130Leufs*68  exon 1  Pathogenic, identified in ALD patient (29). Deleterious mutation.
+152991110 c.389T>G  p.Phe130Cys exon 1  VUS (X:152991110 T/G) frequency 1/21683 inviduals.
+152991112 c.391G>C  p.Gly131Arg exon 1  VUS (X:152991112 G/C) frequency 1/172406 inviduals.
+152991113 c.392G>T  p.Gly131Val exon 1  Benign, based on its frequency of 13/171567 inviduals (X:152991113 G/T).
+152991116 c.395G>A  p.Trp132* exon 1  Pathogenic, identified in 3 ALD patients (71, 94, 150). Deleterious mutation.
+152991117 c.396G>A  p.Trp132* exon 1  Pathogenic, identified in 8 ALD patients (33, 52, 59, 64, 100, 132, 137). Deleterious mutation.
+152991118 c.397C>T  p.Gln133* exon 1  Pathogenic, identified in 8 ALD patient (16, 32, 33, 49, 141). No detectable ALDP in patient cells (49, 141).
+152991122 c.401T>G  p.Leu134Arg exon 1  Pathogenic, identified in ALD patient (95).
+152991122 c.401_05delinsAGCATT  p.Leu134Glnfs*61  exon 1  Pathogenic, identified in ALD patient (19). Deleterious mutation.
+152991127 c.406C>T  p.Gln136* exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991128 c.407A>G  p.Gln136Arg exon 1  VUS (X:152991128 A/G) frequency 1/172655 inviduals
+152991131 c.410G>A  p.Trp137* exon 1  Pathogenic, identified in 3 ALD patients (96, 98). Deleterious mutation.
+152991132 c.411G>A  p.Trp137* exon 1  Pathogenic, identified in 6 ALD patients (16, 33, 49, 58, 62). No detectable ALDP in patient cells (49, 146).
+152991132 c.411G>T  p.Trp137Cys exon 1  Pathogenic, identified in 3 ALD patients (32). No detectable ALDP in patient cells (32).
+152991132 c.411_12insC  p.Leu138Profs*57  exon 1  Pathogenic, identified in ALD patient (100). Deleterious mutation.
+152991133 c.412_23del p.Leu139_Leu142del  exon 1  Pathogenic, identified in ALD patient (15). Deleterious mutation.
+152991133 c.412_14del p.Leu139del exon 1  Pathogenic, identified in 2 ALD patients (52, 96).
+152991135 c.414C>T  p.Leu138Leu exon 1  Synonymous (X:152991135 C/T).
+152991141 c.420C>A  p.Ile140Ile exon 1  Synonymous (X:152991141 C/A).
+152991141 c.420C>T  p.Ile140Ile exon 1  Synonymous (X:152991141 C/T).
+152991142 c.421G>A  p.Ala141Thr exon 1  Pathogenic, identified in 16 ALD patients (13, 59, 64, 88, 93, 111, 137, 174, 178).
+152991143 c.422C>T  p.Ala141Val exon 1  Pathogenic, identified in 2 ALD patients (33).
+152991145 c.424del  p.Leu142Serfs*56  exon 1  Pathogenic, identified in ALD patient (125). Deleterious mutation.
+152991145 c.424C>G  p.Leu142Val exon 1  VUS (X:152991145 C/G) frequency 3/196447 individuals.
+152991147 c.426C>T  p.Leu142Leu exon 1  Synonymous (X:152991147 C/T).
+152991148 c.427C>G  p.Pro143Ala exon 1  Pathogenic, identified in 3 ALD patients (98).
+152991148 c.427C>T  p.Pro143Ser exon 1  Pathogenic, identified in 5 ALD patients (33, 34, 38, 49, 88).
+152991149 c.428C>A  p.Pro143His exon 1  Pathogenic, identified in 2 ALD patients (58, 98). Normal ALDP level in patient cells (58), but non-functional.
+152991149 c.428C>T  p.Pro143Leu exon 1  Pathogenic, identified in ALD patient (33).
+152991153 c.432_46delinsCCC p.Thr145_Ser149delinsPro  exon 1  Pathogenic, identified in ALD patient (58). No detectable ALDP in patient cells (58).
+152991156 c.435C>G  p.Thr145Thr exon 1  Synonymous (X:152991156 C/G).
+152991157 c.436T>A  p.Phe146Ile exon 1  Benign variant based on its frequency 26/197980 inviduals (X:152991157 T/A).
+152991157 c.436T>G  p.Phe146Val exon 1  VUS (X:152991157 T/G) frequency 1/176235 individuals.
+152991160 c.439G>A  p.Val147Ile exon 1  VUS (X:152991160 G/A) frequency 2/176480 inviduals.
+152991160 c.439_41del p.Val147del exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991161 c.440T>G  p.Val147Gly exon 1  Pathogenic, identified in ALD patients (32). Normal ALDP level in patient cells (32), but non-functional.
+152991161 c.442_444delinsTGTTGA p.Asn148_Thr745delinsCys  exon 1  Pathogenic, identified in ALD patient (145). Deleterious mutation.
+152991163 c.441_442dup  p.Val147_Asn148insIle exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152991163 c.442A>G  p.Asn148Asp exon 1  Pathogenic, identified in 2 ALD patients (32, 86).
+152991163 c.442A>T  p.Asn148Tyr exon 1  Pathogenic, identified in ALD patient (60). Normal ALDP level in patient cells (60), but non-functional.
+152991164 c.443A>G  p.Asn148Ser exon 1  Pathogenic, identified in 13 ALD patients (7, 8, 24, 33, 38, 60, 93, 98, 158, 192). Normal ALDP level in patient cells (7), but non-functional.
+152991164 c.443A>T  p.Asn148Ile exon 1  Status unknown (VUS), identified in ALD newborn screening (191).
+152991167 c.446G>A  p.Ser149Asn exon 1  Pathogenic, identified in 25 ALD patients (16, 32, 49, 97, 141, 146). Reduced ALDP expression (77% of control cells) in patient cells (97).
+152991168 c.447T>A  p.Ser149Arg exon 1  Pathogenic, identified in ALD patient (188). Mutation affects targeting of ALDP in cells (188).
+152991175 c.454C>A  p.Arg152Ser exon 1  Pathogenic, identified in 5 ALD patients (29, 33, 49).
+152991175 c.454C>T  p.Arg152Cys exon 1  Pathogenic, identified in 13 ALD patients (7, 13, 32, 33, 49, 52, 63, 88, 168). Normal ALDP level in patient cells (7, 32, 49, 52), but non-functional.
+152991176 c.455G>A  p.Arg152His exon 1  VUS (X:152991176 G/A) frequency 1/177452 inviduals
+152991176 c.455G>C  p.Arg152Pro exon 1  Pathogenic, identified in 2 ALD patients (16, 32). Normal ALDP level in patient cells (32), but non-functional.
+152991176 c.455G>T  p.Arg152Leu exon 1  Pathogenic, identified in 6 ALD patients (32, 33, 49, 52, 58). Reduced ALDP expression in patient cells (32, 49).
+152991182 c.461T>C  p.Leu154Pro exon 1  Pathogenic, identified in 3 ALD patients (33, 88).
+152991183 c.462_81del p.Glu155Valfs*33  exon 1  Pathogenic, identified in ALD patient (44). Deleterious mutation.
+152991190 c.469C>T  p.Gln157* exon 1  Pathogenic, identified in 4 ALD patients (16, 32, 146). Deleterious mutation. No detectable ALDP in patient cells (146).
+152991192 c.471A>G  p.Gln157Gln exon 1  Synonymous (X:152991192 A/G).
+152991193 c.472C>G  p.Leu158Val exon 1  VUS (X:152991193 C/G) frequency 2/177870 individuals.
+152991194 c.473T>C  p.Leu158Pro exon 1  Pathogenic, identified in 2 ALD patients (33, 125).
+152991196 c.475G>A  p.Ala159Thr exon 1  VUS (X:152991196 G/A) frequency 2/199788 individuals.
+152991197 c.476C>G  p.Ala159Gly exon 1  VUS (X:152991197 C/G) frequency 6/177941 individuals.
+152991197 c.476_99del p.Ala159_Leu166del  exon 1  Pathogenic, identified in 2 ALD patients (33, 96).
+152991198 c.477C>T  p.Ala159Ala exon 1  Synonymous (X:152991198 C/T).
+152991200 c.479T>C  p.Leu160Pro exon 1  Pathogenic, identified in 3 ALD patients (70, 111, 158).
+152991202 c.481T>C  p.Ser161Pro exon 1  Pathogenic, identified in ALD patient (49).
+152991203 c.482C>A  p.Ser161* exon 1  Pathogenic, identified in 2 ALD patients (29, 88). Deleterious mutation.
+152991204 c.483G>A  p.Ser161Ser exon 1  Synonymous (X:152991204 G/A).
+152991208 c.487C>G  p.Arg163Gly exon 1  Pathogenic, identified in ALD patient (163).
+152991209 c.488G>A  p.Arg163His exon 1  Pathogenic, identified in 2 ALD patients (16, 191). No detectable ALDP in patient cells (32).
+152991209 c.488G>T  p.Arg163Leu exon 1  Pathogenic, identified in 2 ALD patients (33, 116).
+152991209 c.488G>C  p.Arg163Pro exon 1  Pathogenic, identified in 9 ALD patients (33, 41, 49, 57).
+152991214 c.493C>T  p.Arg165Cys exon 1  VUS (X:152991214 C/T) frequency 3/178141 individuals.
+152991215 c.494del  p.Arg165Leufs*33  exon 1  Pathogenic, identified in ALD patient (52). Deleterious mutation.
+152991216 c.495_514del  p.Leu166Profs*22  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991217 c.496_97insG  p.Leu166Argfs*29  exon 1  Pathogenic, identified in 3 ALD patients (61). Deleterious mutation.
+152991219 c.498G>T  p.Leu166Leu exon 1  Synonymous (X:152991219 G/T).
+152991225 c.504C>G  p.Ala168Ala exon 1  Synonymous (X:152991225 C/G).
+152991227 c.506A>C  p.His169Pro exon 1  Pathogenic, identified in ALD patient (145).
+152991228 c.507C>T  p.His169His exon 1  Synonymous (X:152991228 C/T).
+152991229 c.508G>A  p.Ala170Thr exon 1  VUS (X:152991229 G/A) frequency 1/178118 inviduals.
+152991231 c.510delC p.Tyr171Thrfs*27  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991232 c.511T>C  p.Tyr171His exon 1  VUS (X:152991232 T/C) frequency 1/178233 inviduals.
+152991233 c.512A>C  p.Tyr171Ser exon 1  Pathogenic, identified in ALD patient (32).
+152991235 c.514C>T  p.Arg172Cys exon 1  VUS (X:152991235 C/T) frequency 1/178298 inviduals.
+152991235 c.514delC p.Arg172Alafs*26  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991236 c.515G>A  p.Arg172His exon 1  VUS (X:152991236 G/A) frequency 5/200163 inviduals.
+152991236 c.515_16insC  p.Leu173Profs*23  exon 1  Pathogenic, identified in ALD patient (47, 166). Deleterious mutation. No detectable ALDP in patient cells (166).
+152991239 c.518T>C  p.Leu173Pro exon 1  Pathogenic, identified in ALD patient (52).
+152991241 c.520T>C  p.Tyr174His exon 1  Pathogenic, identified in ALD patient (33).
+152991241 c.520T>G  p.Tyr174Asp exon 1  Pathogenic, identified in 3 ALD patients (8, 15).
+152991242 c.521A>G  p.Tyr174Cys exon 1  Pathogenic, identified in 31 ALD patients (29, 32, 33, 47, 49, 60, 62, 88, 93, 120, 137, 182). No detectable ALDP in patient cells (32, 49, 60).
+152991242 c.521A>C  p.Tyr174Ser exon 1  Pathogenic, identified in 5 ALD patients (33, 60, 88, 145). Normal ALDP level in patient cells (60), but non-functional.
+152991243 c.522_24del p.Phe175del exon 1  Pathogenic, identified in ALD patient (53). Reduced ALDP expression in patient cells (53).
+152991245 c.524_26del p.Phe175del exon 1  Pathogenic, identified in ALD patient (32).
+152991247 c.526T>A  p.Ser176Thr exon 1  VUS (X:152991247 T/A) frequency 1/178394 inviduals
+152991250 c.529C>A  p.Gln177Lys exon 1  Pathogenic, identified in ALD patient (93).
+152991250 c.529C>T  p.Gln177* exon 1  Pathogenic, identified in 14 ALD patients (29, 32, 33, 49, 60, 62, 86, 88, 93, 137, 141). Deleterious mutation. No detectable ALDP expression in patient cells (32, 49, 60, 141).
+152991253 c.532C>G  p.Gln178Glu exon 1  Pathogenicity of the variant p.Gln178Glu is unclear. It was identified in 3 ALD patients (4, 38), but in combination with a true pathogenic mutation, p.Tyr212*.
+152991253 c.[532C>G; 636C>G]  p.[Gln178Glu; p.Tyr212*]  exon 1  Pathogenic, identified in 3 ALD patients (4, 38).
+152991253 c.532C>T  p.Gln178* exon 1  Pathogenic, identified in ALD patient (125). Deleterious mutation.
+152991256 c.535A>T  p.Thr179Ser exon 1  VUS (X:152991256 A/T) frequency 1/178372 inviduals
+152991258 c.537C>T  p.Thr179Thr exon 1  Synonymous (X:152991258 C/T).
+152991259 c.538T>C  p.Tyr180His exon 1  VUS (X:152991259 T/C).
+152991261 c.540_41insT  p.Tyr181Leufs*14  exon 1  Pathogenic, identified in ALD patient (60). Deleterious mutation. No detectable ALDP expression in patient cells (60).
+152991262 c.541_42del p.Tyr181Profs*13  exon 1  Pathogenic, identified in ALD patient (7). Deleterious mutation. No detectable ALDP expression in patient cells (7).
+152991263 c.542A>T  p.Tyr181Phe exon 1  VUS (X:152991263 A/T) frequency 1/178358 inviduals
+152991263 c.542A>G  p.Tyr181Cys exon 1  Pathogenic, identified in ALD 6 patients (7, 32, 49, 52, 63, 88). No detectable ALDP in patient cells (32).
+152991263 c.542dup  p.Tyr181* exon 1  Pathogenic, identified in ALD patient (189). Deleterious mutation.
+152991264 c.543C>A  p.Tyr181* exon 1  Pathogenic, identified in 7 ALD patients (16, 32, 146). Deleterious mutation. No detectable ALDP in patient cells (32, 146).
+152991258 c.544_45insCTACTACC p.Arg182Profs*19  exon 1  Pathogenic, identified in ALD patient (49). Deleterious mutation.
+152991266 c.545G>C  p.Arg182Pro exon 1  Pathogenic, identified in 10 ALD patients (13, 33, 59, 64, 132, 137).
+152991269 c.548T>G  p.Val183Gly exon 1  Pathogenic, identified in ALD patient (33).
+152991276 c.555C>A  p.Asn185Lys exon 1  VUS (X:152991276 C/A) frequency 1/178299 inviduals.
+152991282 c.561C>T  p.Asp187Asp exon 1  Synonymous (X:152991282 C/T).
+152991283 c.562G>A  p.Gly188Arg exon 1  VUS (X:152991283 G/A) frequency 5/178202 inviduals.
+152991284 c.563G>C  p.Gly188Ala exon 1  VUS (X:152991284 G/C) frequency 1/178207 inviduals.
+152991286 c.565C>T  p.Arg189Trp exon 1  Pathogenic, identified in 5 ALD patients (29, 33, 60, 191). Normal ALDP level in patient cells (60), but non-functional.
+152991287 c.566G>A  p.Arg189Gln exon 1  Pathogenic, identified in ALD patient (33).
+152991290 c.569T>C  p.Leu190Pro exon 1  Pathogenic, identified in ALD patient (38).
+152991293 c.572G>A  p.Arg191His exon 1  VUS (X:152991293 G/A) frequency 3/199890 individuals.
+152991298 c.577C>T  p.Pro193Ser exon 1  VUS (X:152991298 C/T) frequency 1/178086 inviduals.
+152991301 c.580G>A  p.Asp194Asn exon 1  Pathogenic, identified in 2 ALD patients (16, 58). Affects ALDP stability in patient cells (58).
+152991301 c.580G>C  p.Asp194His exon 1  Pathogenic, identified in 7 ALD patients (32, 58, 97, 146). Affects ALDP stability (60% of control cells (97)) in patient cells (58, 97, 146).
+152991302 c.581_89del p.Asp194_Leu197delinsVal  exon 1  Pathogenic, identified in ALD patient (51).
+152991303 c.582C>G  p.Asp194Glu exon 1  Pathogenic, identified in ALD patient (32).
+152991304 c.583C>T  p.Gln195* exon 1  Pathogenic, identified in ALD patient (49). Deleterious mutation.
+152991309 c.588_89delCT p.Leu197Aspfs*103 exon 1  Pathogenic, identified in 2 ALD patients (33, 105). Deleterious mutation.
+152991312 c.591_92insT  p.Thr198Tyrfs*103 exon 1  Pathogenic, identified in ALD patient (24). Deleterious mutation.
+152991314 c.593C>A  p.Thr198Lys exon 1  Pathogenic, identified in ALD patient (49).
+152991314 c.593C>G  p.Thr198Arg exon 1  Pathogenic, identified in ALD patient (96).
+152991314 c.593C>T  p.Thr198Met exon 1  Pathogenic, identified in ALD patient (33).
+152991315 c.594G>A  p.Thr198Thr exon 1  Synonymous (X:152991315 G/A).
+152991316 c.595G>A  p.Glu199Lys exon 1  Pathogenic, identified in 2 ALD patients (33, 100).
+152991319 c.598G>A  p.Asp200Asn exon 1  Pathogenic, identified in 2 ALD patients (24, 100).
+152991319 c.598delC p.Asp200Thrfs*16  exon 1  Pathogenic, identified in ALD patient (90). Deleterious mutation.
+152991320 c.599A>T  p.Asp200Val exon 1  Pathogenic, identified in ALD patient (7).
+152991321 c.600C>T  p.Asp200Asp exon 1  Synonymous (X:152991321 C/T).
+152991322 c.601G>A  p.Val201Met exon 1  Benign variant based on 34/199299 inviduals (X:152991322 G/A).
+152991333 c.612del  p.Phe204Leufs*12  exon 1  Pathogenic, identified in ALD patient (145). Deleterious mutation.
+152991335 c.614C>T  p.Ala205Val exon 1  VUS (X:152991335 C/T).
+152991335 c.614C>A  p.Ala205Glu exon 1  Pathogenic, identified in 2 ALD patients (33).
+152991335 c.614_622dup  p.Ala205_Ser207dup  exon 1  Pathogenic, identified in 2 ALD patients (29, 49). (Originally reported as c.622_23insCGGCCTCTG).
+152991336 c.615G>A  p.Ala205Ala exon 1  Synonymous (X:152991336 G/A).
+152991339 c.621_900+384del664 p.Val208Trpfs*35  exon 1  Pathogenic, identified in 5 ALD patient (32, 49, 141). Deleterious mutation. No detectable ALDP expression in patient cells (32, 49, 141).
+152991340 c.619_27del p.Ser207_Ala209del  exon 1  Pathogenic, identified in ALD patient (62). No detectable ALDP expression in patient cells (62).
+152991343 c.622_634del  p.Val208Thrfs*4 exon 1  Pathogenic, identified in ALD patient (15). Deleterious mutation. (Originally reported as c.618_30del).
+152991343 c.622dupG p.Val208Glyfs*93  exon 1  Pathogenic, identified in ALD patient (86). Deleterious mutation.
+152991344 c.623T>A  p.Val208Glu exon 1  Pathogenic, identified in 2 ALD patients (158).
+152991349 c.628C>T  p.His210Tyr exon 1  Status unknown (VUS), identified in ALD newborn screening (2 cases) (191).
+152991353 c.632T>C  p.Leu211Pro exon 1  Pathogenic, identified in 2 ALD patients (15, 177).
+152991354 c.633C>A  p.Leu211Leu exon 1  Synonymous (X:152991354 C/A).
+152991357 c.636C>G  p.Tyr212* exon 1  Pathogenic, identified in 4 ALD patients (4, 38, 38, 158). Deleterious mutation.
+152991359 c.638C>G  p.Ser213Cys exon 1  Pathogenic, identified in 2 ALD patients (27, 158).
+152991359 c.638C>T  p.Ser213Phe exon 1  Pathogenic, identified in ALD patient (32).
+152991361 c.640A>G  p.Asn214Asp exon 1  Pathogenic, identified in 2 ALD patients (24, 90).
+152991364 c.643del  p.Leu215* exon 1  Pathogenic, identified in 5 ALD patients (32, 141). Deleterious mutation. No detectable ALDP expression in patient cells (32, 141).
+152991370 c.649A>G  p.Lys217Glu exon 1  Pathogenic, identified in 6 ALD patients (32, 48, 49, 93, 167). Normal ALDP level in patient cells (49), but non-functional (48).
+152991370 c.649A>T  p.Lys217* exon 1  Pathogenic, identified in ALD patient (88). Deleterious mutation.
+152991373 c.652C>A  p.Pro218Thr exon 1  Pathogenic, identified in 6 ALD patients (29, 32, 49, 145). Normal ALDP level in patient cells (32), but non-functional (32).
+152991373 c.[652C>T; 664G>T]  p.[Pro218Ser; Val222Leu]  exon 1  Pathogenic, identified in 3 ALD patients (98). Unclear which of the variants is pathogenic.
+152991374 c.653C>G  p.Pro218Arg exon 1  Pathogenic, identified in 3 ALD patients (175).
+152991374 c.653C>T  p.Pro218Leu exon 1  Pathogenic, identified in ALD patient (33).
+152991380 c.659T>C  p.Leu220Pro exon 1  Pathogenic, identified in 28 ALD patients (16, 32, 97, 141, 146). Reduced (22% of control cells) ALDP in patient cells (32, 97, 141, 146).
+152991381 c.660G>A  p.Leu220Leu exon 1  Synonymous (X:152991381 G/A).
+152991381 c.660G>T  p.Leu220Leu exon 1  Synonymous (X:152991381 G/T).
+152991383 c.662_702del  p.Asp221Valfs*66  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991383 c.662A>G  p.Asp221Gly exon 1  Pathogenic, identified in 3 ALD patients (7, 33). No detectable ALDP expression in patient cells (7).
+152991385 c.[664G>T;652C>T] p.[Val222Leu;Pro218Ser] exon 1  Pathogenic, identified in 3 ALD patients (98). Unclear which of the variants is pathogenic.
+152991385 c.664G>A  p.Val222Met exon 1  VUS (X:152991385 G/A) frequency 3/176462 inviduals.
+152991385 c.664_70dup p.Val224Glyfs*79  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152991388 c.667G>C  p.Ala223Pro exon 1  VUS (X:152991388 G/C) frequency 2/198242 inviduals.
+152991389 c.668C>T  p.Ala223Val exon 1  VUS (X:152991389 C/T) frequency 2/176342 inviduals.
+152991389 c.668C>A  p.Ala223Asp exon 1  Pathogenic, identified in 2 ALD patients (33, 113).
+152991392 c.671T>G  p.Val224Gly exon 1  Pathogenic, identified in 2 ALD patients (33, 49).
+152991394 c.673A>G  p.Thr225Ala exon 1  VUS (X:152991394 A/G) frequency 1/176356 inviduals
+152991395 c.674C>T  p.Thr225Ile exon 1  VUS (X:152991395 C/T) frequency 1/176348 inviduals.
+152991398 c.677del  p.Tyr227Thrfs*109 exon 1  Pathogenic, identified in 3 ALD patients (29, 33). Deleterious mutation.
+152991400 c.679T>C  p.Tyr227His exon 1  VUS (X:152991400 T/C) frequency 2/176195 inviduals.
+152991402 c.681C>G  p.Tyr227* exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152991402 c.681C>A  p.Tyr227* exon 1  Pathogenic, identified in ALD patient (189). Deleterious mutation and biochemically confirmed.
+152991404 c.683C>A  p.Thr228Asn exon 1  VUS (X:152991404 C/A) frequency 1/176079 inviduals
+152991405 c.684_85insTACAC  p.Leu229Tyrfs*109 exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991407 c.686T>C  p.Leu229Pro exon 1  Pathogenic, identified in 8 ALD patients (29, 33, 47, 49, 145).
+152991412 c.691C>T  p.Arg231Trp exon 1  Benign, based on its frequency of 65/197483 inviduals (X:152991412 C/T).
+152991413 c.692G>A  p.Arg231Gln exon 1  VUS (X:152991413 G/A) frequency 2/175656 inviduals.
+152991413 c.692_94delinsC p.Arg231Profs*69  exon 1  Pathogenic, identified in ALD patient (172). Deleterious mutation.
+152991414 c.693_94del p.Ala232Glyfs*68  exon 1  Pathogenic, identified in 2 ALD patients (3, 33). Deleterious mutation. No detectable ALDP expression in patient cells (33).
+152991416 c.695_696del  p.Ala232Glyfs*68  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP expression in patient cells (58).
+152991416 c.695_96insG  p.Ala233Glyfs*68  exon 1  Pathogenic, identified in ALD patient (96). Deleterious mutation.
+152991417 c.696_706del11  p.Ala233Trpfs*64  exon 1  Pathogenic, identified in ALD patient (100). Deleterious mutation.
+152991417 c.696G>T  p.Ala232Ala exon 1  Synonymous (X:152991417 G/T) frequency 1/175446 inviduals.
+152991417 c.696G>A  p.Ala232Ala exon 1  Synonymous (X:152991417 G/A) frequency 1/175276 inviduals.
+152991418 c.697_900+25del p.Ala233Glyfs*100 exon 1  Pathogenic, identified in ALD patient (48). Deleterious mutation.
+152991421 c.700C>T  p.Arg234Cys exon 1  Status unknown (VUS), identified in ALD newborn screening (191).
+152991422 c.701G>A  p.Arg234His exon 1  VUS (X:152991422 G/A) frequency 5/197276 inviduals.
+152991427 c.706C>T  p.Arg236Cys exon 1  Pathogenicity of the variant p.Arg236Cys is unclear (X:152991427 C/T) frequency 2/175366 inviduals). It was also identified in an ALD patient (33), but in combination with a true pathogenic mutation, p.Lys16*
+152991427 c.706_09del p.Arg236Glufs*99  exon 1  Pathogenic, identified in ALD patient (49). Deleterious mutation.
+152991428 c.707G>A  p.Arg236His exon 1  Benign, based on its frequency of 253/197189 inviduals (X:152991428 G/A).
+152991431 c.710G>T  p.Gly237Val exon 1  VUS (X:152991431 G/T).
+152991433 c.712G>A  p.Ala238Thr exon 1  VUS (X:152991433 G/A).
+152991435 c.714C>T  p.Ala238Ala exon 1  Synonymous (X:152991435 C/T).
+152991436 c.715G>A  p.Gly239Ser exon 1  VUS (X:152991436 G/A) frequency 1/175039 inviduals.
+152991445 c.724_28del p.Trp242Leufs*57  exon 1  Pathogenic, identified in ALD patient (3). Deleterious mutation.
+152991446 c.725G>A  p.Trp242* exon 1  Pathogenic, identified in ALD patient (96). Deleterious mutation.
+152991447 c.726G>A  p.Trp242* exon 1  Pathogenic, identified in 6 ALD patients (15, 33, 49, 59, 64, 132). Deleterious mutation. No detectable ALDP in patient cells (49).
+152991451 c.730delT p.Ser244Argfs*92  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991451 c.730_31delinsGAGA  p.Ser244Glufs*93  exon 1  Pathogenic, identified in 4 ALD patients (37). Deleterious mutation.
+152991452 c.731C>T  p.Ser244Leu exon 1  VUS (X:152991452 C/T) frequency 2/173152 inviduals.
+152991453 c.732G>A  p.Ser244Ser exon 1  Synonymous (X:152991453 G/A).
+152991455 c.734C>A  p.Ala245Asp exon 1  Pathogenic, identified in ALD patient (32, 141). Normal ALDP level in patient cells (32, 141), but non-functional (32, 141).
+152991456 c.735C>T  p.Ala245Ala exon 1  Synonymous (X:152991456 C/T).
+152991460 c.739G>A  p.Ala247Thr exon 1  VUS (X:152991460 G/A).
+152991460 c.739delG p.Ala247Profs*89  exon 1  Pathogenic, identified in ALD patient (52). Deleterious mutation.
+152991460 c.739_40insGCCATCG  p.Ala247Glyfs*56  exon 1  Pathogenic, identified in ALD patient (93). Deleterious mutation.
+152991463 c.742G>A  p.Gly248Ser exon 1  VUS (X:152991463 G/A) frequency 7/194293 inviduals.
+152991463 c.742_45del p.Gly248Serfs*87  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991469 c.748_59del p.Val250_Leu253del  exon 1  Pathogenic, identified in ALD patient (33).
+152991470 c.749_51del p.Val251del exon 1  Pathogenic, identified in ALD patient (33).
+152991471 c.750G>A  p.Val250Val exon 1  Synonymous (X:152991471 G/A).
+152991478 c.757C>G  p.Leu253Val exon 1  Benign, based on its frequency of 151/191124 inviduals (X:152991478 C/G).
+152991478 c.757_65delinsGAGG  p.Leu253Glufs*46  exon 1  Pathogenic, identified in ALD patient (60). Deleterious mutation.
+152991482 c.760A>G  p.Thr254Ala exon 1  Pathogenic, identified in ALD patient (33, 58). Normal ALDP level in patient cells (58), but non-functional (58).
+152991481 c.760A>C  p.Thr254Pro exon 1  Pathogenic, identified in 3 ALD patients (33, 90).
+152991481 c.761delC p.Thr254Argfs*82  exon 1  Pathogenic, identified in 2 ALD patients (81, 104). Deleterious mutation.
+152991482 c.761C>A  p.Thr254Lys exon 1  Pathogenic, identified in 2 ALD patients (33, 52).
+152991482 c.761C>T  p.Thr254Met exon 1  Pathogenic, identified in 6 ALD patients (15, 33, 105).
+152991484 c.763G>A  p.Ala255Thr exon 1  VUS (X:152991484 G/A).
+152991489 c.768C>T  p.Asn256Asn exon 1  Synonymous (X:152991489 C/T).
+152991490 c.769G>A  p.Val257Met exon 1  VUS (X:152991490 G/A) frequency 1/163453 inviduals
+152991494 c.773T>C  p.Leu258Pro exon 1  Pathogenic, identified in ALD patient (33).
+152991496 c.775C>T  p.Arg259Trp exon 1  Pathogenicity of the variant p.Arg259Trp is unclear (X:152991496 C/T) frequency 2/157411 individuals. It was identified in an ALD patient (167), but in combination with a true pathogenic mutation, p.Ser108*.
+152991497 c.776G>A  p.Arg259Gln exon 1  VUS (X:152991497 G/A).
+152991499 c.778G>A  p.Ala260Thr exon 1  VUS (X:152991499 G/A) frequency 1/156948 inviduals
+152991505 c.784_785del  p.Ser262Alafs*38  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991506 c.785_91del p.Ser262Cysfs*72  exon 1  Pathogenic, identified in 4 ALD patients (16). Deleterious mutation.
+152991506 c.785C>A  p.Ser262* exon 1  Pathogenic, identified in ALD patient (120). Deleterious mutation.
+152991506 c.785C>G  p.Ser262Trp exon 1  Pathogenic, identified in ALD patient (32).
+152991508 c.787C>T  p.Pro263Ser exon 1  Pathogenic, identified in ALD patient (33).
+152991509 c.788C>T  p.Pro263Leu exon 1  Pathogenic, identified in ALD patient (7). Affects ALDP stability in patient cells (7).
+152991511 c.790A>T  p.Lys264* exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991511 c.790A>C  p.Lys264Gln exon 1  VUS (X:152991511 A/C) frequency 1/21836 inviduals
+152991517 c.796G>A  p.Gly266Arg exon 1  Pathogenic, identified in 33 ALD patients (8, 16, 24, 33, 49, 52, 53, 59, 62, 64, 67, 72, 88, 90, 93, 96, 105, 132, 137, 162). Normal ALDP level in patient cells (53, 72), but non-functional.
+152991517 c.796G>C  p.Gly266Arg exon 1  Pathogenic, identified in ALD patient (58). Normal ALDP level in patient cells (58), but non-functional.
+152991518 c.797G>A  p.Gly266Glu exon 1  Pathogenic, identified in 3 ALD patients (49, 96).
+152991520 c.799G>A  p.Glu267Lys exon 1  Pathogenic, identified in ALD patient (51).
+152991520 c.799G>T  p.Glu267* exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991520 c.799del  p.Glu267Serfs*69  exon 1  Pathogenic, identified in ALD patient (15). Deleterious mutation.
+152991530 c.809C>T  p.Ala270Val exon 1  VUS (X:152991530 C/T) frequency 5/165970 inviduals.
+152991532 c.811G>A  p.Glu271Lys exon 1  Pathogenic, identified in ALD patient (24).
+152991536 c.815_17del p.Glu272del exon 1  Pathogenic, identified in 3 ALD patients (33, 191).
+152991539 c.818C>A  p.Ala273Glu exon 1  Pathogenic, identified in ALD patient (58). Normal ALDP level in patient cells (58), but non-functional.
+152991540 c.819G>A  p.Ala273Ala exon 1  Synonymous (X:152991540 G/A).
+152991541 c.820C>T  p.Arg274Trp exon 1  VUS (X:152991541 C/T). Identified in 2/31066 inviduals.
+152991541 c.[820C>T; 838C>T]  p.[Arg274Trp; Arg280Cys]  exon 1  Pathogenic, identified in ALD patient (49). p.Arg274Trp is most likely benign and p.Arg280Cys is pathogenic.
+152991542 c.821G>A  p.Arg274Gln exon 1  VUS (X:152991542 G/A) frequency 1/21809 inviduals.
+152991544 c.823C>T  p.Arg275Trp exon 1  Pathogenic, identified in 8 ALD patients (extended family screening) (181).
+152991547 c.826A>G  p.Lys276Glu exon 1  Pathogenic, identified in 2 ALD patients (22, 86). Normal ALDP level in patient cells (22), but non-functional.
+152991549 c.828_29insAAT  p.Gly277_Glu278insAsn exon 1  Pathogenic, identified in 2 ALD patients (15, 158).
+152991550 c.829G>A  p.Gly277Arg exon 1  Pathogenic, identified in 5 ALD patients (15, 33, 60, 88). Normal ALDP level in patient cells (60), but non-functional.
+152991550 c.829G>C  p.Gly277Arg exon 1  Pathogenic, identified in 4 ALD patients (27, 60). Normal ALDP level in patient cells (60), but non-functional.
+152991550 c.829G>T  p.Gly277Trp exon 1  Pathogenic, identified in 2 ALD patients (13, 27).
+152991551 c.830G>A  p.Gly277Glu exon 1  Pathogenic, identified in 2 ALD patients (33, 191).
+152991553 c.832G>A  p.Glu278Lys exon 1  VUS (X:152991553 G/A).
+152991553 c.832G>T  p.Glu278* exon 1  Pathogenic, identified in 3 ALD patients (32, 58). Deleterious mutation. No detectable ALDP expression in patient cells (58).
+152991553 c.832_34delinsAC  p.Glu278Thrfs*58  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152991557 c.836T>C  p.Leu279Pro exon 1  Pathogenic, identified in ALD patient (60). No detectable ALDP expression in patient cells (60).
+152991558 c.837G>A  p.Leu279Leu exon 1  Synonymous (X:152991558 G/A).
+152991559 c.838C>A  p.Arg280Ser exon 1  VUS (X:152991559 C/A).
+152991559 c.838C>T  p.Arg280Cys exon 1  Pathogenic, identified in 11 ALD patients (32, 33, 50, 60, 191, 193). Normal ALDP level in patient cells (60), but non-functional.
+152991560 c.839G>A  p.Arg280His exon 1  Status unknown (VUS), identified in ALD newborn screening (2 siblings) (191).
+152991560 c.839G>T  p.Arg280Leu exon 1  Pathogenic, identified in 2 ALD patients (55, 93).
+152991568 c.847C>T  p.His283Tyr exon 1  Pathogenic, identified in 5 ALD patients (32, 141). Affects ALDP stability in patient cells (32, 141).
+152991568 c.847C>G  p.His283Asp exon 1  Pathogenic, identified in 5 ALD patients (59, 64, 93, 132, 137).
+152991569 c.848A>G  p.His283Arg exon 1  Pathogenic, identified in 7 ALD patients (89, 93, 173).
+152991572 c.851C>A  p.Ser284* exon 1  Pathogenic, identified in ALD patient (32). Deleterious mutation. No detectable ALDP expression in patient cells (32).
+152991572 c.851C>G  p.Ser284Trp exon 1  Status unknown (VUS), identified in ALD newborn screening (191).
+152991573 c.852_53insACTC p.Arg285Thrfs*17  exon 1  Pathogenic, identified in 2 ALD patients (33, 104). Deleterious mutation.
+152991573 c.852dup  p.Arg285Alafs*16  exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991574 c.853C>A  p.Arg285Ser exon 1  Status unknown (VUS), identified in ALD newborn screening (2 siblings) (191).
+152991574 c.853C>G  p.Arg285Gly exon 1  Pathogenic, identified in ALD patient (145).
+152991575 c.854G>C  p.Arg285Pro exon 1  Pathogenic, identified in 2 ALD patients (27, 49).
+152991575 c.854G>A  p.Arg285His exon 1  VUS (X:152991575 G/A) frequency 1/21761 inviduals
+152991580 c.859G>T  p.Val287Leu exon 1  VUS (X:152991580 G/T).
+152991590 c.869del  p.Ser290Trpfs*46  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152991590 c.869C>G  p.Ser290Trp exon 1  Pathogenic, identified in ALD patient (90).
+152991590 c.869C>A  p.Ser290* exon 1  Pathogenic, identified in ALD patient (49). Deleterious mutation. No detectable ALDP expression in patient cells (49).
+152991592 c.871G>A  p.Glu291Lys exon 1  Pathogenic, identified in 7 ALD patients (5, 58, 59, 60, 64, 132, 137). No detectable ALDP expression in patient cells (58, 60).
+152991593 c.872A>G  p.Glu291Gly exon 1  Pathogenic, identified in 3 ALD patients (145).
+152991594 c.873G>C  p.Glu291Asp exon 1  Pathogenic, identified in 2 ALD patients (22, 33). No detectable ALDP expression in patient cells (22, 33).
+152991595 c.874_76delGAG  p.Glu292del exon 1  Pathogenic, identified in 22 ALD patients (15, 22, 24, 31, 32, 33, 49, 178). No detectable ALDP expression in patient cells (22, 32, 33, 49). (Also reported as p.Glu291del).
+152991595 c.874G>A  p.Glu292Lys exon 1  Pathogenic, identified in 2 ALD patients (184).
+152991601 c.880G>A  p.Ala294Thr exon 1  Pathogenic, identified in 3 ALD patients (7, 32, 191).
+152991602 c.881C>T  p.Arg294Val exon 1  Pathogenic, identified in ALD patient (33).
+152991603 c.882_883insGC  p.Phe295Alafs*42  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152991606 c.885delinsTA p.Tyr296Ilefs*5 exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991607 c.886_99del14 p.Tyr296Glyfs*100 exon 1  Pathogenic, identified in ALD patient (27). Deleterious mutation.
+152991607 c.886T>C  p.Tyr296His exon 1  Pathogenic, identified in ALD patient (33).
+152991608 c.887A>G  p.Tyr296Cys exon 1  Pathogenic, identified in 26 ALD patients (24, 33, 49, 52, 59, 62, 64, 88, 100, 115, 125, 132, 137). Normal ALDP level in patient cells (58), but non-functional.
+152991608 c.887A>C  p.Tyr296Ser exon 1  Pathogenic, identified in ALD patient (33).
+152991609 c.888T>G  p.Tyr296* exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP expression in patient cells (58).
+152991613 c.892G>C  p.Gly298Arg exon 1  Pathogenic, identified in ALD patient (125).
+152991613 c.892G>A  p.Gly298Ser exon 1  Pathogenic, identified in 5 ALD patients (32, 33).
+152991613 c.892_96delinsGTCA  p.Gly298Valfs*38  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP expression in patient cells (58).
+152991613 c.892_93insGC p.His299Profs*38  exon 1  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152991614 c.893G>A  p.Gly298Asp exon 1  Pathogenic, identified in ALD patient (29, 38, 58, 125). No detectable ALDP expression in patient cells (58).
+152991614 c.893G>T  p.Gly298Val exon 1  Pathogenic, identified in ALD patient (33).
+152991614 c.893_94delinsT p.Gly298Valfs*38  exon 1  Pathogenic, identified in ALD patient (53, 84). Deleterious mutation. No detectable ALDP expression in patient cells (53).
+152991614 c.893_894insG p.His299Alafs*2 exon 1  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991616 c.895C>T  p.His299Tyr exon 1  Benign, based on frequency (23/112915 inviduals (X:152991616 C/T).
+152991617 c.896A>G  p.His299Arg exon 1  Pathogenic, identified in ALD patient (32).
+152991621 c.900G>A  p.Val301fs*34 exon 1  Pathogenic, identified in 3 ALD patients (33, 53, 152). Reduced (7% of control cells) ALDP in patient cells due to splicing defect (152).
+152991622 c.900+1G>T  p.Val301fs*?  IVS 1 Pathogenic, identified in 4 ALD patients (49, 59, 64, 132). Deleterious mutation.
+152991622 c.900+1G>A  p.Val301fs*?  IVS 1 Pathogenic, identified in 3 ALD patients (33, 100, 117). Deleterious mutation.
+152991623 c.900+2T>C  p.Val301fs*?  IVS 1 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152991633 c.900+12T>A   IVS 1 VUS (X:152991633 T/A) frequency 1/76302 individuals.
+152991648 c.900+27G>A   IVS 1 VUS (X:152991648 G/A) frequency 9/88236 inviduals.
+152991651 c.900+30G>A   IVS 1 VUS (X:152991651 G/A) frequency 10/87692 inviduals.
+152994671 c.901-16C>T   IVS 1 Benign, based on its frequency of 1567/199361 inviduals (X:152994671 C/T).
+152994677 c.901-10C>T   IVS 1 Benign, based on its frequency of 720/199300 inviduals (X:152994677 C/T).
+152994678 c.901-9C>A    IVS 1 VUS (X:152994678 C/A) frequency 1/177868 individuals.
+152994682 c.901-5C>T    IVS 1 Benign, based on its frequency of 46/199618 inviduals (X:152994682 C/T).
+152994683 c.901-4G>A    IVS 1 VUS (X:152994683 G/A) frequency 3/178069 individuals.
+152994684 c.901-3C>G  p.Val301fs*?  IVS 1 Pathogenic, identified in ALD patient (60). No detectable ALDP in patient cells (60).
+152994685 c.901-2A>C  p.Val301fs*?  IVS 1 Pathogenic, identified in ALD patient (68). Deleterious mutation.
+152994686 c.901-1G>A  p.Val301fs*?  IVS 1 Pathogenic, identified in 6 ALD patients (33, 49, 62, 111, 125). Deleterious mutation.
+152994690 c.904G>A  p.Glu302Lys exon 2  Pathogenic, identified in 5 ALD patients (21, 58, 72, 191). Affects ALDP stability in patient cells (58, 72).
+152994690 c.904G>C  p.Glu302Gln exon 2  Pathogenic, identified in ALD patient (32).Affects ALDP stability in patient cells (32).
+152994691 c.905A>T  p.Glu302Val exon 2  Pathogenic, identified in ALD patient (88).
+152994691 c.905A>G  p.Glu302Gly exon 2  Pathogenic, identified in ALD patient (33).
+152994692 c.906G>A  p.Glu302Glu exon 2  Synonymous (X:152994692 G/A).
+152994692 c.906G>C  p.Glu302Asp exon 2  Pathogenic, identified in ALD patient (137).
+152994696 c.910G>A  p.Ala304Thr exon 2  VUS (X:152994696 G/A) frequency 2/178390 individuals.
+152994696 c.910del  p.Ala304Profs*32  exon 2  Pathogenic, identified in ALD patient (84). Deleterious mutation.
+152994699 c.913C>T  p.Leu305Leu exon 2  VUS (X:152994699 C/T) frequency 2/178390 inviduals
+152994705 c.919C>T  p.Gln307* exon 2  Pathogenic, identified in 5 ALD patients (62, 63, 127). Deleterious mutation.
+152994707 c.921G>A  p.Gln307Gln exon 2  Synonymous (X:152994707 G/A).
+152994708 c.922C>T  p.Arg308Cys exon 2  VUS (X:152994708 C/T) frequency 4/200081 inviduals.
+152994709 c.923G>A  p.Arg308His exon 2  VUS (X:152994709 G/A) frequency 5/178473 inviduals.
+152994717 c.931C>T  p.Gln311* exon 2  Pathogenic, identified in 4 ALD patients (2, 60). Deleterious mutation. No detectable ALDP in patient cells (60).
+152994718 c.932dup  p.Asp312Glyfs*89  exon 2  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152994719 c.933_34insA  p.Asp312Argfs*89  exon 2  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP in patient cells (58).
+152994721 c.935del  p.Asp312Alafs*24  exon 2  Pathogenic, identified in 2 ALD patient (35). Deleterious mutation.
+152994722 c.936C>G  p.Asp312Glu exon 2  VUS (X:152994722 C/G).
+152994723 c.937delC p.Leu313Trpfs*23  exon 2  Pathogenic, identified in ALD patient (59, 64). Deleterious mutation.
+152994724 c.938T>C  p.Leu313Pro exon 2  Pathogenic, identified in 3 ALD patients (33, 88, 90).
+152994726 c.940G>C  p.Ala314Pro exon 2  Pathogenic, identified in ALD patient (93).
+152994729 c.943del  p.Ser315Argfs*21  exon 2  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP in patient cells (58).
+152994730 c.944C>T  p.Ser315Leu exon 2  VUS (X:152994730 C/T) frequency 2/178647 inviduals.
+152994730 c.944C>A  p.Ser315* exon 2  Pathogenic, identified in ALD patient (49). Deleterious mutation.
+152994731 c.945G>A  p.Ser315Ser exon 2  Synonymous (X:152994731 G/A).
+152994733 c.947A>C  p.Gln316Pro exon 2  Pathogenic, identified in 2 ALD patients (129).
+152994739 c.953A>G  p.Asn318Ser exon 2  VUS (X:152994739 A/G) frequency 1/178710 inviduals
+152994750 c.964C>A  p.Leu322Met exon 2  VUS (X:152994750 C/A) frequency 1/178734 inviduals.
+152994751 c.965T>C  p.Leu322Pro exon 2  Pathogenic, identified in 4 ALD patients (26, 33, 62, 135).
+152994754 c.968A>T  p.Glu323Val exon 2  VUS (X:152994754 A/T) frequency 1/178740 inviduals.
+152994756 c.970C>T  p.Arg324Cys exon 2  Pathogenic, identified in ALD patient (191, 200).
+152994757 c.971G>A  p.Arg324His exon 2  VUS (X:152994757 G/A).
+152994760 c.974T>C  p.Leu325Pro exon 2  Pathogenic, identified in 3 ALD patients (33, 125).
+152994763 c.977G>A  p.Trp326* exon 2  Pathogenic, identified in 3 ALD patients (2, 60, 154). Deleterious mutation.
+152994764 c.978G>A  p.Trp326* exon 2  Pathogenic, identified in ALD patient (100). Deleterious mutation.
+152994765 c.979_80insT  p.Tyr327Leufs*74  exon 2  Pathogenic, identified in ALD patient (60). Deleterious mutation. No detectable ALDP expression in patient cells (60).
+152994767 c.981T>A  p.Tyr327* exon 2  Pathogenic, identified in ALD patient (38). Deleterious mutation.
+152994768 c.982G>T  p.Val328Phe exon 2  Pathogenic, identified in ALD patient (120).
+152994771 c.985A>C  p.Met329Leu exon 2  VUS (X:152994771 A/C) frequency 1/178746 inviduals
+152994772 c.986T>C  p.Met329Thr exon 2  VUS (X:152994772 T/C) frequency 2/178750 inviduals
+152994772 c.986T>G  p.Met329Arg exon 2  Pathogenic, identified in ALD patient (33).
+152994774 c.988_1005del p.Leu330_Met335del  exon 2  Pathogenic, identified in ALD patient (33).
+152994777 c.991G>A  p.Glu331Lys exon 2  Pathogenic, identified in ALD patient (33).
+152994777 c.991G>T  p.Glu331* exon 2  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+152994780 c.994C>T  p.Gln332* exon 2  Pathogenic, identified in 2 ALD patients (63, 165). Deleterious mutation. No detectable ALDP expression in patient cells (63).
+152994787 c.1001T>C p.Leu334Pro exon 2  Pathogenic, identified in ALD patient (33).
+152994790 c.1004T>G p.Met335Arg exon 2  Pathogenic, identified in ALD patient (33).
+152994793 c.1007A>T p.Lys336Met exon 2  Pathogenic, identified in ALD patient (49).
+152994794 c.1008G>T p.Lys336Asn exon 2  Pathogenic, identified in ALD patient (32).
+152994794 c.1008G>C p.Lys336Asn exon 2  Pathogenic, identified in ALD patient (145).
+152994795 c.1009T>C p.Tyr337His exon 2  Pathogenic, identified in ALD patient (33).
+152994797 c.1011T>A p.Tyr337* exon 2  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152994800 c.1014G>A p.Val338Val exon 2  Synonymous (X:152994800 G/A).
+152994801 c.1015T>C p.Trp339Arg exon 2  Pathogenic, identified in ALD patient (38).
+152994801 c.1015T>G p.Trp339Gly exon 2  Pathogenic, identified in 2 ALD patients (186).
+152994802 c.1016G>C p.Trp339Ser exon 2  Pathogenic, identified in ALD patient (145).
+152994802 c.1016G>A p.Trp339* exon 2  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+152994803 c.1017G>A p.Trp339* exon 2  Pathogenic, identified in 2 ALD patients (33). Deleterious mutation.
+152994803 c.1017G>T p.Trp339Cys exon 2  Pathogenic, identified in ALD patient (125).
+152994806 c.1020C>T p.Ser340Ser exon 2  Synonymous (X:152994806 C/T).
+152994807 c.1021G>A p.Ala341Thr exon 2  VUS (X:152994807 G/A) frequency 1/178613 inviduals.
+152994807 c.1021G>T p.Ala341Ser exon 2  VUS (X:152994807 G/T) frequency 9/178613 inviduals.
+152994808 c.1022C>A p.Ala341Asp exon 2  Pathogenic, identified in ALD patient (104). Confirmed by functional studies (104).
+152994810 c.1024T>C p.Ser342Pro exon 2  Pathogenic, identified in 3 ALD patients (22, 33). Normal ALDP level in patient cells (22, 33), but non-functional (22, 33).
+152994811 c.1025C>T p.Ser342Leu exon 2  Status unknown (VUS), identified in ALD newborn screening (191).
+152994813 c.1027G>A p.Gly343Ser exon 2  Pathogenic, identified in 2 ALD patients (63, 165).
+152994814 c.1028G>A p.Gly343Asp exon 2  Pathogenic, identified in 2 ALD patients (33, 49).
+152994814 c.1028G>T p.Gly343Val exon 2  Pathogenic, identified in 12 ALD patients (59, 64, 93, 108, 132, 137, 145, 174).
+152994817 c.1031T>C p.Leu344Pro exon 2  Pathogenic, identified in ALD patient (33).
+152994822 c.1036A>G p.Met346Val exon 2  Status unknown (VUS), identified in ALD newborn screening (191).
+152994833 c.1047C>A p.Val349Val exon 2  Synonymous (X:152994833 C/A).
+152994836 c.1050del p.Ile351Serfs*15  exon 2  Pathogenic, identified in ALD patient (32). Deleterious mutation.
+152994854 c.1068C>T p.Gly356Gly exon 2  Synonymous (X:152994854 C/T).
+152994855 c.1069_70delTinsGCC p.Tyr357Alafs*10  exon 2  Pathogenic, identified in 2 ALD patients (38). Deleterious mutation.
+152994858 c.1072T>C p.Ser358Pro exon 2  Benign variant (X:152994858 T/C) frequency 3/177946 inviduals, confirmed by biochemical testing (139).
+152994859 c.1073C>G p.Ser358* exon 2  Pathogenic, identified in 4 ALD patients (60, 100, 154, 191). Deleterious mutation. No detectable ALDP expression in patient cells (60).
+152994860 c.1074_75insA p.Glu359Argfs*42  exon 2  Pathogenic, identified in ALD patient (100). Deleterious mutation.
+152994862 c.1076_77delAG  p.Glu359Argfs*41  exon 2  Pathogenic, identified in 2 ALD patients (37, 145). Deleterious mutation.
+152994865 c.1079C>G p.Ser360* exon 2  Pathogenic, identified in 2 ALD patients (33). Deleterious mutation.
+152994868 c.1081+1G>T p.Asp361fs*?  IVS 2 Pathogenic, identified in 2 ALD patients (32). Deleterious mutation.
+152994872 c.1081+5G>T p.Asp361fs*?  IVS 2 Pathogenic, identified in 2 ALD patients (32, 104). Deleterious mutation. No detectable ALDP expression in patient cells (104).
+152994875 c.1081+8C>T   IVS 2 VUS (X:152994875 C/T) frequency 1/177225 individuals.
+153001534 c.1082-32>delC    IVS 2 Benign, based on its frequency of 81/190710 inviduals (X:153001534 GC/G)
+153001535 c.1082-31C>T    IVS 2 VUS (X:153001535 C/T) frequency 3/171145 individuals.
+153001539 c.1082-27G>A    IVS 2 VUS (X:153001539 G/A) frequency 4/172834 individuals.
+153001546 c.1082-20A>G    IVS 2 VUS (X:153001546 A/G)
+153001547 c.1082-19C>G    IVS 2 Benign, based on its frequency of 84/197384 inviduals (X:153001547 C/G)
+153001551 c.1082-15T>C    IVS 2 VUS (X:153001551 T/C).
+153001566 c.1082A>G p.Asp361Gly exon 3  VUS (X:153001566 A/G) frequency 3/177457 inviduals.
+153001567 c.1083T>A p.Asp361Glu exon 3  VUS (X:153001567 T/A) frequency 1/177463 inviduals.
+153001567 c.1083T>C p.Asp361Asp exon 3  Synonymous (X:153001567 T/C).
+153001568 c.1084G>A p.Ala362Thr exon 3  VUS (X:153001568 G/A) frequency 1/177465 inviduals
+153001574 c.1090del p.Ala364Profs*2 exon 3  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001576 c.1092del p.Ala365* exon 3  Pathogenic, identified in ALD patient (48). Deleterious mutation.
+153001576 c.1092_93insA p.Val365Serfs*36  exon 3  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001576 c.1092C>T p.Ala364Ala exon 3  Synonymous (X:153001576 C/T).
+153001577 c.1093G>A p.Val365Met exon 3  VUS (X:153001577 G/A) frequency 5/177817 controle alleles..
+153001577 c.1093G>C p.Val365Leu exon 3  VUS (X:153001577 G/C) frequency 1/177817 inviduals
+153001578 c.1094T>A p.Val365Glu exon 3  VUS (X:153001578 T/A) frequency 1/177881 inviduals
+153001580 c.1096A>T p.Lys366* exon 3  Pathogenic, identified in 3 ALD patients (181). Deleterious mutation.
+153001581 c.1097A>G p.Lys366Arg exon 3  VUS (X:153001581 A/G) frequency 1/178004 inviduals
+153001593 c.1109T>A p.Leu370* exon 3  Pathogenic, identified in 3 ALD patients (120). Deleterious mutation.
+153001597 c.1113A>C p.Glu371Asp exon 3  VUS (X:153001597 A/C) frequency 1/178342 inviduals
+153001598 c.1114A>T p.Lys372* exon 3  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001601 c.1117A>G p.Lys373Glu exon 3  Benign based on frequency 21/200035 individuals (X:153001601 A/G).
+153001601 c.1117_19del  p.Lys373del exon 3  Pathogenic, identified in ALD patient (33).
+153001603 c.1119G>C p.Lys373Asn exon 3  VUS (X:153001603 G/C) frequency 1/178411 inviduals.
+153001604 c.1120G>A p.Glu374Lys exon 3  VUS (X:153001604 G/A) frequency 2/178403 inviduals.
+153001609 c.1125G>A p.Glu375Glu exon 3  Synonymous (X:153001609 G/A).
+153001610 c.1126G>C p.Glu376Gln exon 3  VUS (X:153001610 G/C) frequency 6/200118 inviduals.
+153001618 c.1134G>A p.Val378Val exon 3  Synonymous (X:153001618 G/A).
+153001619 c.1135_36insC p.Ser379Thrfs*22  exon 3  Pathogenic, identified in ALD patient (7). Deleterious mutation. No detectable ALDP expression in patient cells (7).
+153001621 c.1137dup p.Glu380Argfs*21  exon 3  Pathogenic, identified in ALD patient (104). Deleterious mutation.
+153001621 c.1137C>G p.Ser379Arg exon 3  Pathogenic, identified in ALD patient (33).
+153001622 c.1138G>A p.Glu380Lys exon 3  VUS (X:153001622 G/A) frequency 1/178506 inviduals.
+153001625 c.1141C>T p.Arg381Cys exon 3  VUS (X:153001625 C/T) frequency 5/200035 inviduals.
+153001626 c.1142G>A p.Arg381His exon 3  VUS (X:153001626 G/A) frequency 6/200072 inviduals.
+153001628 c.1144A>C p.Thr382Pro exon 3  Pathogenic, identified in 2 ALD patients (195).
+153001634 c.1150G>A p.Ala384Thr exon 3  VUS (X:153001634 G/A) frequency 1/178617 inviduals.
+153001635 c.1151C>G p.Ala384Gly exon 3  VUS (X:153001635 C/G) frequency 2/178634 inviduals.
+153001636 c.1152C>T p.Ala384Ala exon 3  Synonymous (X:153001636 C/T).
+153001640 c.1156A>G p.Thr386Ala exon 3  VUS (X:153001640 A/G) frequency 1/178645 inviduals.
+153001640 c.1156A>T p.Thr386Ser exon 3  VUS (X:153001640 A/T) frequency 1/21583 inviduals.
+153001639 c.1155del p.Phe385Leufs*8 exon 3  Pathogenic, identified in ALD patient (90). Deleterious mutation.
+153001643 c.1159del p.Ile387Leufs*6 exon 3  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001647 c.1163_64insG p.Arg389Profs*12  exon 3  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP in patient cells (58).
+153001649 c.1165C>G p.Arg389Gly exon 3  Pathogenic, identified in 3 ALD patients (15, 60, 100).
+153001649 c.1165C>T p.Arg389Cys exon 3  Pathogenic, identified in 6 ALD patients (58, 98).
+153001649 c.[1165C>T; 1224+1GT>TG]  p.[Arg389Cys; Val409fs*?] IVS 3 + exon 3  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001650 c.1166G>A p.Arg389His exon 3  Pathogenic, identified in 25 ALD patients (13, 16, 22, 32, 60, 97, 111, 139, 141, 146, 178). Reduced (41% of control cells) ALDP in patient cells (139, 141).
+153001655 c.1171_80del  p.Leu391Argfs*16  exon 3  Pathogenic, identified in 2 ALD patients (60). Deleterious mutation.
+153001656 c.1172T>C p.Leu391Pro exon 3  Pathogenic, identified in ALD patient (68).
+153001656 c.1172T>G p.Leu391Arg exon 3  VUS (X:153001656 T/G) frequency 1/178700 inviduals
+153001658 c.1174C>G p.Leu392Val exon 3  Pathogenic, identified in 2 ALD patients (33, 88).
+153001658 c.1174_81delinsAAT  p.Leu392Asnfs*7 exon 3  Pathogenic, identified in ALD patient (130). Deleterious mutation.
+153001663 c.1179A>C p.Thr393Thr exon 3  Synonymous (X:153001663 A/C).
+153001663 c.1179_80del  p.Ala394Glyfs*6 exon 3  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001664 c.1180del p.Ala394Argfs*16  exon 3  Pathogenic, identified in 3 ALD patients (120). Deleterious mutation.
+153001666 c.1182G>A p.Ala394Ala exon 3  Synonymous (X:153001666 G/A).
+153001667 c.1183del p.Ala395Leufs*15  exon 3  Pathogenic, identified in ALD patient (125). Deleterious mutation.
+153001670 c.1186G>A p.Ala396Thr exon 3  Pathogenic, identified in 7 ALD patients (33, 60, 181). No detectable ALDP in patient cells (60).
+153001671 c.1187C>T p.Ala396Val exon 3  Pathogenic, identified in ALD patient (189).
+153001674 c.1190A>G p.Asp397Gly exon 3  VUS (X:153001674 A/G) frequency 1/178725 inviduals.
+153001681 c.1197T>C p.Ile399Ile exon 3  Synonymous (X:153001681 T/C).
+153001685 c.1201C>A p.Arg401Arg exon 3  Synonymous (X:153001685 C/A).
+153001685 c.1201C>T p.Arg401Trp exon 3  Pathogenic, identified in 18 ALD patients (24, 29, 32, 33, 51, 87, 88, 90, 96, 100, 145, 154).
+153001685 c.1201C>G p.Arg401Gly exon 3  Pathogenic, identified in 2 ALD patients (100, 154).
+153001686 c.1202G>A p.Arg401Gln exon 3  Pathogenic, identified in 38 ALD patients (8, 15, 22, 29, 32, 33, 40, 47, 49, 60, 71, 72, 86, 88, 93, 98, 105, 125, 126, 150, 158). Normal ALDP level in patient cells (22, 32, 33, 49, 60, 72), but non-functional.
+153001689 c.1205T>A p.Ile402Asn exon 3  Pathogenic, identified in 2 ALD patients (131). No detectable ALDP in patient cells (131).
+153001694 c.1210T>C p.Ser404Pro exon 3  Pathogenic, identified in 3 ALD patients (59, 64, 132).
+153001695 c.1211C>A p.Ser404* exon 3  Pathogenic, identified in ALD patient (98). Deleterious mutation.
+153001695 c.1211C>T p.Ser404Leu exon 3  VUS (X:153001695 C/T) frequency 1/178707 inviduals.
+153001696 c.1212_14del  p.Ser405del exon 3  Pathogenic, identified in ALD patient (84).
+153001696 c.1212G>A p.Ser404Ser exon 3  Synonymous (X:153001696 G/A).
+153001697 c.1213T>C p.Ser405Pro exon 3  Pathogenic, identified in ALD patient (137).
+153001698 c.1214C>A p.Ser405* exon 3  Pathogenic, identified in ALD patient (145). Deleterious mutation.
+153001699 c.1215G>A p.Ser405Ser exon 3  Synonymous (X:153001699 G/A).
+153001703 c.1219A>T p.Lys407* exon 3  Pathogenic, identified in 2 ALD patients (33, 49). Deleterious mutation.
+153001708 c.1224G>A p.Val409fs*?  exon 3  Pathogenic, identified in 2 ALD patients (13). Deleterious mutation.
+153001709 c.1224+1GT>TG p.Val409fs*?  IVS 3 Pathogenic, identified in ALD patient (58). Deleterious mutation.
+153001710 c.1224+2T>C p.Val409fs*?  IVS 3 Pathogenic, identified in ALD patient (64). Deleterious mutation.
+153001710 c.1224+2T>G p.Val409fs*?  IVS 3 Pathogenic, identified in ALD patient (103). Deleterious mutation.
+153001713 c.1224+5C>T   IVS 3 VUS (X:153001713 C/T) frequency 1/178636 individuals.
+153001773 c.1225-26G>T    IVS 3 VUS (X:153001773 G/T) frequency 9/178416 inviduals.
+153001790 c.1225-9C>T   IVS 3 VUS (X:153001790 C/T) frequency 2/178534 individuals.
+153001791 c.1225-8T>A   IVS 3 VUS (X:153001791 T/A) frequency 1/178537 inviduals.
+153001792 c.1225-7_1239del22  p.Val409fs*?  IVS 3 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001797 c.1225-2A>C p.Val409fs*?  IVS 3 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001797 c.1225-2A>G p.Val409fs*?  IVS 3 Pathogenic, identified in ALD patient (96). Deleterious mutation.
+153001802 c.1228A>T p.Thr410Ser exon 4  VUS (X:153001802 A/T) frequency 4/178585 inviduals.
+153001803 c.1229C>A p.Thr410Lys exon 4  VUS (X:153001803 C/A) frequency 1/178582 inviduals.
+153001803 c.1229C>T p.Thr410Met exon 4  VUS (X:153001803 C/T) frequency 3/178582 inviduals.
+153001804 c.1230G>A p.Thr410Thr exon 4  Synonymous (X:153001804 G/A).
+153001811 c.1237G>A p.Ala413Pro exon 4  Pathogenic, identified in ALD patient (33).
+153001811 c.1237G>C p.Ala413Pro exon 4  Pathogenic, identified in ALD patient (33).
+153001812 c.1238C>G p.Ala413Gly exon 4  VUS (X:153001812 C/G) frequency 1/178591 inviduals.
+153001813 c.1239T>C p.Ala413Ala exon 4  Synonymous (X:153001813 T/C).
+153001818 c.1244A>G p.Tyr415Cys exon 4  Pathogenic, identified in ALD patient (84).
+153001819 c.1245C>T p.Tyr415Tyr exon 4  Synonymous (X:153001819 C/T).
+153001822 c.1248del p.Ala417Profs*24  exon 4  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001824 c.1250del p.Arg418Glyfs*23  exon 4  Pathogenic, identified in ALD patient (7). Deleterious mutation. No detectable ALDP in patient cells (7).
+153001826 c.1252C>T p.Arg418Trp exon 4  Pathogenic, identified in 19 ALD patients (8, 15, 29, 33, 40, 58, 145, 177, 178, 191). Affects ALDP stability in patient cells (33, 58, 165).
+153001827 c.1253G>A p.Arg418Gln exon 4  Status unknown (VUS), identified in ALD newborn screening (191), but also in 1/178560 inviduals (X:153001827 G/A).
+153001829 c.1255G>A p.Val419Met exon 4  VUS (X:153001829 G/A) frequency 4/178589 inviduals.
+153001829 c.1255G>C p.Val419Leu exon 4  VUS (X:153001829 G/C) frequency 1/178589 inviduals.
+153001833 c.1259A>C p.His420Pro exon 4  Pathogenic, identified in ALD patient (104).
+153001834 c.1260C>A p.His420Gln exon 4  VUS (X:153001834 C/A) frequency 7/178596 inviduals.
+153001835 c.1261G>A p.Glu421Lys exon 4  VUS (X:153001835 G/A) frequency 1/178608 inviduals.
+153001837 c.1263delG  p.Met422Cysfs*19  exon 4  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001841 c.1267T>A p.Phe423Ile exon 4  VUS (X:153001841 T/A) frequency 1/178615 inviduals.
+153001842 c.1268T>C p.Phe423Ser exon 4  Pathogenic, identified in ALD patient (145).
+153001844 c.1270C>T p.Gln424* exon 4  Pathogenic, identified in 2 ALD patients (32). Deleterious mutation.
+153001844 c.1270delC  p.Gln424Argfs*17  exon 4  Pathogenic, identified in ALD patient (52). Deleterious mutation.
+153001847 c.1273G>A p.Val425Ile exon 4  VUS (X:153001847 G/A).
+153001853 c.1279_81del  p.Glu427del exon 4  Pathogenic, identified in ALD patient (49).
+153001862 c.1288C>T p.Gln430* exon 4  Pathogenic, identified in ALD patient (49). Deleterious mutation.
+153001862 c.[1288C>T; 1390C>T]  p.[Gln430*; Arg464*]  exon 4 + exon 4 Pathogenic, identified in ALD patient (33). Two deleterious mutations.
+153001865 c.1291C>T p.Arg431Cys exon 4  VUS (X:153001865 C/T) frequency 1/178596 inviduals.
+153001866 c.1292G>A p.Arg431His exon 4  VUS (X:153001866 G/A) frequency 2/178590 inviduals.
+153001869 c.1295G>A p.Cys432Tyr exon 4  VUS (X:153001869 G/A) frequency 1/178586 inviduals.
+153001873 c.1299C>T p.His433His exon 4  Synonymous (X:153001873 C/T).
+153001878 c.1304A>G p.Lys435Arg exon 4  VUS (X:153001878 A/G) frequency 1/178568 inviduals.
+153001889 c.1315G>T p.Glu439* exon 4  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP in patient cells (58).
+153001891 c.1317G>A p.Glu439Glu exon 4  Synonymous (X:153001891 G/A).
+153001896 c.1322dupA  p.Asp442Glyfs*114 exon 4  Pathogenic, identified in 3 ALD patients (32, 141). Deleterious mutation. No detectable ALDP in patient cells (32, 141).
+153001900 c.1326C>G p.Asp442Glu exon 4  VUS (X:153001900 C/G) frequency 1/178469 inviduals.
+153001900 c.1326C>T p.Asp442Asp exon 4  Synonymous (X:153001900 C/T).
+153001901 c.1327G>A p.Ala443Thr exon 4  VUS (X:153001901 G/A) frequency 4/178453 inviduals.
+153001904 c.1330C>T p.Gln444* exon 4  Pathogenic, identified in 3 ALD patients (32, 60). Deleterious mutation.
+153001908 c.1334C>T p.Ala445Val exon 4  VUS (X:153001908 C/T) frequency 2/178358 inviduals
+153001909 c.1335G>A p.Ala445Ala exon 4  Synonymous (X:153001909 G/A).
+153001921 c.1347C>T p.Thr449Thr exon 4  Synonymous (X:153001921 C/T).
+153001924 c.1350A>G p.Ile450Met exon 4  VUS (X:153001924 A/G) frequency 2/178260 inviduals.
+153001928 c.1354C>T p.Arg452Trp exon 4  Benign, based on its frequency of 92/199674 inviduals (X:153001928 C/T).
+153001929 c.1355G>T p.Arg452Leu exon 4  VUS (X:153001929 G/T) frequency 1/178072 inviduals.
+153001929 c.1355G>A p.Arg452Gln exon 4  VUS (X:153001929 G/A) frequency 3/178072 inviduals.
+153001932 c.1358delinsGA  p.Ser453* exon 4  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+153001933 c.1359delT  p.Gly454Valfs*8 exon 4  Pathogenic, identified in ALD patient (60). Deleterious mutation. No detectable ALDP in patient cells (60).
+153001940 c.1366C>T p.Arg456Cys exon 4  VUS (X:153001940 C/T) frequency 2/177723 inviduals.
+153001941 c.1367G>A p.Arg456His exon 4  VUS (X:153001941 G/A) frequency 7/177689 inviduals.
+153001941 c.1367G>T p.Arg456Leu exon 4  VUS (X:153001941 G/T) frequency 1/177689 inviduals.
+153001941 c.1367G>C p.Arg456Pro exon 4  VUS (X:153001941 G/C) frequency 1/177689 inviduals.
+153001943 c.1369G>C p.Val457Leu exon 4  VUS (X:153001943 G/C) frequency 1/177679 inviduals.
+153001946 c.1372G>T p.Glu458* exon 4  Pathogenic, identified in ALD patient (29). Deleterious mutation.
+153001961 c.1387A>T p.Ile463Phe exon 4  VUS (X:153001961 A/T) frequency 1/176350 inviduals.
+153001964 c.1390C>T p.Arg464* exon 4  Pathogenic, identified in 19 ALD patients (6, 32, 33, 47, 49, 59, 62, 64, 96, 105, 132, 141). Deleterious mutation. No detectable ALDP in patient cells (6, 32, 77, 141).
+153001964 c.1390_91insA p.Arg464Glnfs*92  exon 4  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153001965 c.1391G>A p.Arg464Gln exon 4  VUS (X:153001965 G/A) frequency 6/197263 inviduals.
+153001965 c.1391G>C p.Arg464Pro exon 4  VUS (X:153001965 G/C) frequency 3/175733 inviduals.
+153001968 c.1393+1G>A p.Val425fs*92 IVS 4 Pathogenic, identified in ALD patient (135). Activation of cryptic spice site, confirmed by functional studies (135).
+153001969 c.1393+2T>A p.Phe426Argfs*92  IVS 4 Pathogenic, identified in 6 ALD patients (159). Activation of cryptic spice site, confirmed by functional studies (159).
+153002609 c.1394-2A>G p.Gly465fs*?  IVS 4 Pathogenic, identified in 4 ALD patients (32, 71, 75, 150). Activation of cryptic spice site, confirmed by functional studies (75).
+153002613 c.1396C>T p.Gln466* exon 5  Pathogenic, identified in 3 ALD patients (13, 32, 158). Deleterious mutation. No detectable ALDP in patient cells (32).
+153002616 c.1399G>A p.Val467Met exon 5  VUS (X:153002616 G/A) frequency 1/177603 inviduals.
+153002616 c.[1399G>A; 1850G>A]  p.[Val467Met; Arg617His]  exon 5 + exon 8 Pathogenic, identified in ALD patient (33). p.Val467Met is a VUS; p.Arg617His is a true pathogenic mutation.
+153002617 c.1400_05del  p.Val467_Val468del  exon 5  Pathogenic, identified in 2 ALD patients (143).
+153002619 c.1402G>A p.Val468Met exon 5  VUS (X:153002619 G/A) frequency 1/177657 inviduals.
+153002621 c.1404G>A p.Val468Val exon 5  Synonymous (X:153002621 G/A).
+153002628 c.1411_12insA p.Gln472Thrfs*84  exon 5  Pathogenic, identified in 2 ALD patients (13). Deleterious mutation.
+153002629 c.1412_13del  p.Glu471Alafs*84  exon 5  Pathogenic, identified in 2 ALD patients (13). Deleterious mutation.
+153002630 c.1413A>G p.Glu471Glu exon 5  Synonymous (X:153002630 A/G).
+153002631 c.1414dupC  p.Gln472Profs*84  exon 5  Pathogenic, identified in ALD patient (47). Deleterious mutation.
+153002632 c.1415_16delAG  p.Gln472Argfs*83  exon 5  Pathogenic, identified in 139 ALD patients (1, 7, 8, 10, 13, 15, 16, 22, 24, 29, 32, 33, 36, 40, 43, 48,, 49, 53, 58, 59, 60, 62, 63, 64, 85, 86, 88, 90, 93, 100, 105, 108, 110, 119, 120, 125, 132, 145, 146, 158, 164, 169, 174, 178, 191). Deleterious mutation. No detectable ALDP in patient cells (7, 22, 32, 36, 53, 58, 60, 146).
+153002633 c.1416_17del  p.Gly473Aspfs*82  exon 5  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153002637 c.1420del p.Ile474Serfs*84  exon 5  Pathogenic, identified in ALD patient (60). Deleterious mutation. No detectable ALDP in patient cells(60).
+153002639 c.1421T>C p.Ile474Thr exon 5  Pathogenic, identified in 4 ALD patients (33, 88, 125).
+153002638 c.1422_26del  p.Ile474Metfs*80  exon 5  Pathogenic, identified in ALD patient (66). Deleterious mutation.
+153002643 c.1426T>G p.Cys476Gly exon 5  VUS (X:153002643 T/G) frequency 1/177774 inviduals
+153002645 c.1428C>A p.Cys476* exon 5  Pathogenic, identified in ALD patient (125). Deleterious mutation.
+153002645 c.1428C>G p.Cys476Trp exon 5  VUS (X:153002645 C/G) frequency 1/177715 inviduals.
+153002645 c.1428C>T p.Cys476Cys exon 5  Synonymous (X:153002645 C/T).
+153002646 c.1429G>A p.Glu477Lys exon 5  VUS (X:153002646 G/A) frequency 4/177731 inviduals.
+153002646 c.1429G>T p.Glu477* exon 5  Pathogenic, identified in 4 ALD patients (8, 15, 33). Deleterious mutation.
+153002647 c.1430del p.Glu477Glyfs*81  exon 5  Pathogenic, identified in 3 ALD patients (91, 100). Deleterious mutation.
+153002653 c.1436del p.Ile479Thrfs*79  exon 5  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153002658 c.1441A>T p.Ile481Phe exon 5  Pathogenic, identified in ALD patient (100).
+153002658 c.1441A>G p.Ile481Val exon 5  VUS (X:153002658 A/G) frequency 1/177634 inviduals.
+153002660 c.1443C>T p.Ile481Ile exon 5  Synonymous (X:153002660 C/T).
+153002661 c.1444G>A p.Val482Ile exon 5  VUS (X:153002661 G/A) frequency 8/199256 inviduals.
+153002662 c.1445T>A p.Val482Asp exon 5  Pathogenic, identified in ALD patient (142).
+153002668 c.1451C>G p.Pro484Arg exon 5  Pathogenic, identified in 5 ALD patients (3).
+153002669 c.1452C>G p.Pro484Pro exon 5  Synonymous (X:153002669 C/G).
+153002671 c.1454C>A p.Ser485* exon 5  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153002672 c.1455A>C p.Ser485Ser exon 5  Synonymous (X:153002672 A/C).
+153002672 c.1455_59delinsGGGA p.Glu487Argfs*71  exon 5  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153002673 c.1456G>A p.Gly486Arg exon 5  VUS (X:153002673 G/A) frequency 5/176936 inviduals.
+153002679 c.1462_63insTGG p.Val488_Val489insVal exon 5  Pathogenic, identified in ALD patient (58). No detectable ALDP in patient cells (58).
+153002684 c.1467G>A p.Val489Val exon 5  Synonymous (X:153002684 G/A).
+153002686 c.1469_71del  p.Val490del exon 5  Pathogenic, identified in ALD patient (33).
+153002687 c.1470_71insGTG p.Val490_Ala491insVal exon 5  Pathogenic, identified in ALD patient (7). No detectable ALDP in patient cells (7).
+153002687 c.1470_72dup  p.Ala491dup exon 5  Pathogenic, identified in ALD patient (33).
+153002694 c.1477_1488+11del p.Leu493_Arg496del  exon 5  Pathogenic, identified in ALD patient (108).
+153002695 c.1478T>C p.Leu493Pro exon 5  Pathogenic, identified in 2 ALD patients (33, 88).
+153002698 c.1481del p.Asn494Thrfs*64  exon 5  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153002704 c.1487G>C p.Arg496Thr exon 5  VUS (X:153002704 G/C) frequency 1/174592 inviduals.
+153002706 c.1488+1G>A p.Val497fs*?  IVS 5 Pathogenic, identified in 2 ALD patients (33, 40). Deleterious mutation.
+153002708 c.1488+3A>G p.Val497fs*?  IVS 5 Pathogenic, identified in 4 ALD patients (32). Deleterious mutation.
+153005536 c.1489-10delC   IVS 5 Benign, based on its frequency of 1374/197671 inviduals (X:153005536 GC/G). East-Asian specific polymorphism (1286/13873 inviduals) confirmed by pedigree analysis (68).
+153005537 c.1489-9C>T   IVS 5 VUS (X:153005537 C/T) frequency 1/175888 individuals.
+153005540 c.1489-6delC    IVS 5 Benign, based on its frequency of 1374/197671 inviduals (X:153005536 GC/G). East-Asian specific polymorphism (1286/13873 inviduals) confirmed by pedigree analysis (68).
+153005544 c.1489-2A>G p.Val497fs*?  IVS 5 Pathogenic, identified in ALD patient (198). Deleterious mutation.
+153005545 c.1489-1_1489delinsTT p.Val497fs*?  IVS 5 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153005546 c.1489G>A p.Val497Met exon 6  VUS (X:153005546 G/A) frequency 1/176603 inviduals
+153005554 c.1497_1505del  p.Glu499_His502delinsAsp  exon 6  Pathogenic, identified in ALD patient (105).
+153005556 c.1499G>T p.Gly500Val exon 6  Pathogenic, identified in ALD patient (33).
+153005558 c.1501A>C p.Met501Leu exon 6  Pathogenic, identified in ALD patient (60). Normal ALDP level in patient cells (60), but non-functional
+153005559 c.1502del p.Met501Serfs*57  exon 6  Pathogenic, identified in ALD patient (197). Deleterious mutation.
+153005562 c.1505_06insC p.Leu503Serfs*53  exon 6  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153005565 c.1505_10del  p.Leu503_Leu504del  exon 6  Pathogenic, identified in ALD patient (58).
+153005562 c.1508T>C p.Leu503Pro exon 6  Pathogenic, identified in 2 ALD patients (63, 146).
+153005565 c.1508_09insC p.Leu504Alafs*52  exon 6  Pathogenic, identified in ALD patient (27). Deleterious mutation.
+153005572 c.1514T>C p.Ile505Thr exon 6  Pathogenic, identified in ALD patient (33).
+153005571 c.1515C>G p.Ile505Met exon 6  Pathogenic, identified in ALD patient (32, 58). Affects ALDP stability in patient cells (32, 58).
+153005572 c.1515_19delinsGCA  p.Ile505Metfs*50  exon 6  Pathogenic, identified in ALD patient (60). Deleterious mutation.
+153005576 c.1519G>A p.Gly507Ser exon 6  Pathogenic, identified in 3 ALD patients (32).
+153005577 c.1520G>A p.Gly507Asp exon 6  Pathogenic, identified in 2 ALD patients (68, 88).
+153005577 c.1520G>T p.Gly507Val exon 6  Pathogenic, identified in ALD patient (24).
+153005578 c.1521C>T p.Gly507Gly exon 6  Synonymous (X:153005578 C/T).
+153005580 c.1523C>T p.Pro508Leu exon 6  Pathogenic, identified in ALD patient (93).
+153005583 c.1526A>G p.Asn509Ser exon 6  VUS (X:153005583 A/G) frequency 1/177654 inviduals.
+153005583 c.1526A>T p.Asn509Ile exon 6  Pathogenic, identified in 4 ALD patients (33, 64, 132, 137).
+153005585 c.1528G>A p.Gly510Ser exon 6  Pathogenic, identified in 2 ALD patients (33, 100).
+153005586 c.1529G>A p.Gly510Asp exon 6  Pathogenic, identified in 5ALD patients (33, 59, 64, 132, 137).
+153005588 c.1531T>C p.Cys511Arg exon 6  Pathogenic, identified in ALD patient (33).
+153005589 c.1532G>A p.Cys511Tyr exon 6  Pathogenic, identified in 2 ALD patients (33, 137).
+153005590 c.1533C>T p.Cys511Cys exon 6  Synonymous (X:153005590 C/T).
+153005590 c.1533C>A p.Cys511* exon 6  Pathogenic, identified in 2 ALD patients (33, 49). Deleterious mutation.
+153005590 c.1533C>G p.Cys511Trp exon 6  Pathogenic, identified in ALD patient (137).
+153005591 c.1534G>T p.Gly512Cys exon 6  Pathogenic, identified in ALD patient (47).
+153005591 c.1534G>A p.Gly512Ser exon 6  Pathogenic, identified in 32 ALD patients (7, 13, 23, 27, 33, 53, 57, 58, 76, 88, 93, 100, 108, 121, 124, 153, 154, 158, 178, 181, 185, 191). No detectable ALDP in patient cells (7, 23, 53, 58). Mutation results in reduced ATPase activity (194).
+153005593 c.1536C>G p.Gly512Gly exon 6  Synonymous (X:153005593 C/G).
+153005594 c.1537A>C p.Lys513Gln exon 6  Pathogenic, identified in 2 ALD patients (33, 69).
+153005595 c.1538A>G p.Lys513Arg exon 6  Pathogenic, identified in 2 ALD patients (58, 125). No detectable ALDP in patient cells (58).
+153005597 c.1540A>C p.Ser514Arg exon 6  Pathogenic, identified in 5 ALD patienst (63, 145).
+153005597 c.1540A>G p.Ser514Gly exon 6  Pathogenic, identified in 2 ALD patienst (32).
+153005598 c.1541G>T p.Ser514Ile exon 6  Pathogenic, identified in 2 ALD patients (88).
+153005598 c.1541G>A p.Ser514Asn exon 6  Pathogenic, identified in 2 ALD patients (58, 145). Affects ALDP stability in patient cells (58).
+153005601 c.1544C>A p.Ser515Tyr exon 6  Pathogenic, identified in ALD patient (125).
+153005601 c.1544C>T p.Ser515Phe exon 6  Pathogenic, identified in 11 ALD patients (8, 51, 112, 179).
+153005604 c.1547T>C p.Leu516Pro exon 6  Pathogenic, identified in 5 ALD patients (33, 58, 71, 150). No detectable ALDP in patient cells (58).
+153005605 c.1548G>A p.Leu516Leu exon 6  Synonymous (X:153005605 G/A) frequency 18810/199236 individuals.
+153005608 c.1551C>T p.Phe517Phe exon 6  Synonymous (X:153005608 C/T).
+153005608 c.1551del p.Arg518Glyfs*40  exon 6  Pathogenic, identified in 2 ALD patients (6, 33). Deleterious mutation.
+153005609 c.1552C>G p.Arg518Gly exon 6  Pathogenic, identified in 4 ALD patients (59, 64, 132, 137).
+153005609 c.1552C>T p.Arg518Trp exon 6  Pathogenic, identified in 19 ALD patients (6, 7, 32, 33, 53, 58, 88, 90, 125, 133, 137). No detectable ALDP in patient cells (7, 58).
+153005610 c.1553G>A p.Arg518Gln exon 6  Pathogenic, identified in 47 ALD patients (9, 24, 32, 33, 48, 49, 53, 58, 59, 60, 64, 88, 90, 96, 100, 105, 108, 120, 132, 137, 154, 181, 191). No detectable ALDP in patient cells (9, 32, 49, 53, 58, 60).
+153005616 c.1559T>A p.Leu520Gln exon 6  Pathogenic, identified in 5 ALD patients (54, 59, 64, 132, 137).
+153005621 c.1564G>A p.Gly522Arg exon 6  Pathogenic, identified in 2 ALD patients (7, 58). No detectable ALDP in patient cells (7, 58).
+153005624 c.1567C>T p.Leu523Phe exon 6  Pathogenic, identified in ALD patient (96).
+153005625 c.1568T>C p.Leu523Pro exon 6  Pathogenic, identified in ALD patient (33).
+153005627 c.1570T>C p.Trp524Arg exon 6  Pathogenic, identified in ALD patient (33).
+153005628 c.1571G>A p.Trp524* exon 6  Pathogenic, identified in ALD patient (60). Deleterious mutation. No detectable ALDP in patient cells (60).
+153005630 c.1573C>G p.Pro525Ala exon 6  Pathogenic, identified in ALD patient (33).
+153005630 c.1573C>T p.Pro525Ser exon 6  Pathogenic, identified in ALD patient (58). No detectable ALDP in patient cells (58).
+153005638 c.1581C>T p.Tyr527Tyr exon 6  Synonymous (X:153005638 C/T).
+153005638 c.1581C>A p.Tyr527* exon 6  Pathogenic, identified in ALD patient (105). Deleterious mutation.
+153005639 c.1582G>A p.Gly528Ser exon 6  Benign, (X:153005639 G/A) frequency 8/199702 inviduals, confirmed by biochemical testing (144).
+153005642 c.1585G>A p.Gly529Ser exon 6  Pathogenic, identified in ALD patient (38).
+153005642 c.1585_87del  p.Gly529del exon 6  Pathogenic, identified in 2 ALD patients (4, 105).
+153005642 c.1585delG  p.Gly529Valfs*29  exon 6  Pathogenic, identified in 2 ALD patients (21, 62). Deleterious mutation.
+153005643 c.1586_90del  p.Gly529Valfs*25  exon 6  Pathogenic, identified in ALD patient (49). Deleterious mutation. No detectable ALDP in patient cells (49).
+153005643 c.1586G>A p.Gly529Asp exon 6  Pathogenic, identified in 2 ALD patients (33).
+153005645 c.1588G>A p.Val530Met exon 6  VUS (X:153005645 G/A) frequency 1/178126 inviduals
+153005649 c.1592_93insT p.Tyr532Leufs*24  exon 6  Pathogenic, identified in ALD patient (38). Deleterious mutation.
+153005654 c.1597A>C p.Lys533Gln exon 6  Status unresolved, identified in newborn screening (181). Functional testing pending.
+153005654 c.1597A>G p.Lys533Glu exon 6  Pathogenic, identified in 2 ALD patients (33, 60). No detectable ALDP in patient cells (60).
+153005655 c.1598A>G p.Lys533Arg exon 6  Pathogenic, identified in ALD patient (183).
+153005655 c.1598_99insA p.Pro534Alafs*22  exon 6  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153005656 c.1599G>T p.Lys533Asn exon 6  Pathogenic, identified in ALD patient (84).
+153005656 c.1599delG  p.Lys533Asnfs*25  exon 6  Pathogenic, identified in ALD patient (49). Deleterious mutation. No detectable ALDP in patient cells (49).
+153005657 c.1600C>T p.Pro534Ser exon 6  Pathogenic, identified in 2 ALD patients (33, 191).
+153005658 c.1601C>T p.Pro534Leu exon 6  Pathogenic, identified in 2 ALD patients (23, 191, 200</a). No detectable ALDP in patient cells (23).
+153005658 c.1601C>G p.Pro534Arg exon 6  Pathogenic, identified in 5 ALD patients (67, 86, 93, 132, 137).
+153005660 c.1603_04del  p.Pro535Thrfs*20  exon 6  Pathogenic, identified in 3 ALD patients (59, 64, 132). Deleterious mutation.
+153005660 c.1603_1991del  p.Pro535Glufs*69  exon 6  Pathogenic, identified in 7 ALD patients (16, 32). Deleterious mutation. No detectable ALDP in patient cells (32).
+153005664 c.1607C>A p.Pro536His exon 6  Pathogenic, identified in ALD patient (84).
+153005666 c.1609C>T p.Gln537* exon 6  Pathogenic, identified in ALD patient (96). Deleterious mutation.
+153005668 c.1611G>C p.Gln537His exon 6  VUS (X:153005668 G/C) frequency 2/178177 inviduals.
+153005669 c.1612C>T p.Arg538Cys exon 6  VUS (X:153005669 C/T) frequency 1/178116 inviduals.
+153005670 c.1613G>A p.Arg538His exon 6  VUS (X:153005670 G/A).
+153005672 c.1615A>C p.Met539Leu exon 6  VUS (X:153005672 A/C) frequency 3/199708 inviduals.
+153005672 c.1615A>T p.Met539Leu exon 6  VUS (X:153005672 A/T) frequency 1/178110 inviduals.
+153005674 c.1617G>A p.Met539Ile exon 6  VUS (X:153005674 G/A) frequency 1/178094 inviduals.
+153005676 c.1619T>C p.Phe540Ser exon 6  Pathogenic, identified in ALD patient (24).
+153005676 c.1619T>G p.Phe540Cys exon 6  Pathogenic, identified in ALD patient (96).
+153005677 c.1620C>G p.Phe540Leu exon 6  Status unknown (VUS), identified in ALD newborn screening (191).
+153005677 c.1620C>T p.Phe540Phe exon 6  Synonymous (X:153005677 C/T).
+153005681 c.1624_26del  p.Ile542del exon 6  Pathogenic, identified in ALD patient (68).
+153005684 c.1627C>T p.Pro543Ser exon 6  Pathogenic, identified in ALD patient (186).
+153005685 c.1628C>T p.Pro543Leu exon 6  Pathogenic, identified in 36 ALD patients (27, 29, 32, 33, 40, 49, 60, 65, 114, 139, 141, 145, 158, 178). No detectable ALDP in patient cells (32, 49, 60, 139, 141).
+153005685 c.1628delC  p.Pro543Argfs*15  exon 6  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153005685 c.1628_34dup  p.Arg545serfs*13  exon 6  Pathogenic, identified in 2 ALD patients (32, 49). Deleterious mutation. No detectable ALDP in patient cells (32).
+153005686 c.1629G>A p.Pro543Pro exon 6  Synonymous (X:153005686 G/A).
+153005687 c.1630C>A p.Gln544Lys exon 6  Pathogenic, identified in ALD patient (58). Affects ALDP stability in patient cells (58).
+153005688 c.1631A>G p.Gln544Arg exon 6  Pathogenic, identified in 6 ALD patients (9, 24, 33, 88, 90). Normal ALDP level in patient cells (9), but non-functional
+153005690 c.1633A>T p.Arg545Trp exon 6  Pathogenic, identified in ALD patient (53).
+153005691 c.1634G>A p.Arg545Lys exon 6  VUS (X:153005691 G/A) frequency 1/177632 inviduals.
+153005692 c.1634+1G>A p.Pro546fs*?  IVS 6 Pathogenic, identified in 4 ALD patients (6, 49, 60, 132). Deleterious mutation.
+153005692 c.1634+1G>C p.Pro546fs*?  IVS 6 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153005695 c.1634+4A>G   IVS 6 VUS (X:153005695 A/G) frequency 1/177483 individuals.
+153005696 c.1634+5G>C   IVS 6 VUS (X:153005696 G/C) frequency 1/177317 individuals.
+153006013 c.1635-16_1645delins CACAGACATGTAGGGC p.Pro546fs*?  IVS 6 Pathogenic, identified in ALD patient (181). Deleterious mutation.
+153006022 c.1635-6C>T   IVS 6 VUS (X:153006022 C/T) frequency 3/199784 inviduals.
+153006025 c.1635-3C>G p.Pro546fs*?  IVS 6 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153006026 c.1635-2A>G p.Pro546fs*?  IVS 6 Pathogenic, identified in 5 ALD patients (11, 33). Deleterious mutation. No detectable ALDP in patient cells (33) due to splicing defect (11).
+153006033 c.1640A>G p.Tyr547Cys exon 7  Pathogenic, identified in 3 ALD patients (33, 104, 124). No detectable ALDP in patient cells (104).
+153006046 c.1653C>T p.Gly551Gly exon 7  Synonymous (X:153006046 C/T). Variant is found in a segmental duplication region (SEGDUP), which may indicate a low-quality site. See (Pseudogenes & Mutation analysis).
+153006046 c.1653insG  p.Ser552fs*3  exon 7  Pathogenic, identified in ALD patient (100). Deleterious mutation.
+153006047 c.1654T>C p.Ser552Pro exon 7  Pathogenic, identified in 2 ALD patients (28, 33).
+153006050 c.1657C>G p.Leu553Val exon 7  Pathogenic, identified in ALD patient (33).
+153006054 c.1661G>A p.Arg554His exon 7  Pathogenic, identified in 47 ALD patients (28, 29, 32, 33, 49, 52, 58, 59, 60, 62, 63, 64, 87, 88, 97, 100, 102, 107, 108, 111, 120, 132, 137, 145, 178, 191). No detectable (1% of controls (97)) ALDP in patient cells (32, 49, 58, 60, 97, 102).
+153006056 c.1663G>A p.Asp555Asn exon 7  Pathogenic, identified in ALD patient (52).
+153006059 c.1666C>T p.Gln556* exon 7  Pathogenic, identified in ALD patient (58). Deleterious mutation. No detectable ALDP in patient cells (58).
+153006060 c.1667A>G p.Gln556Arg exon 7  Pathogenic, identified in 5 ALD patients (40, 59, 64, 132, 137).
+153006063 c.1670T>C p.Val557Ala exon 7  Status unknown (VUS), identified in ALD newborn screening (191).
+153006063 c.1670_71del  p.Val557Aspfs*43  exon 7  Pathogenic, identified in ALD patient (49). Deleterious mutation.
+153006066 c.1673T>C p.Ile558Thr exon 7  Pathogenic, identified in ALD patient (72). Normal ALDP level in patient cells (72).
+153006069 c.1676A>G p.Tyr559Cys exon 7  Pathogenic, identified in 4 ALD patients (32, 33).
+153006070 c.1677C>G p.Tyr559* exon 7  Pathogenic, identified in ALD patient (122). Deleterious mutation.
+153006071 c.1678C>T p.Pro560Ser exon 7  Pathogenic, identified in ALD patient (49).
+153006072 c.1679C>T p.Pro560Leu exon 7  Pathogenic, identified in 39 ALD patients (4, 7, 24, 32, 33, 49, 71, 86, 88, 90, 93, 96, 100, 108, 111, 136, 145, 150, 158, 165). Affects ALDP stability in patient cells (7, 32, 33, 49).
+153006072 c.1679C>G p.Pro560Arg exon 7  Pathogenic, identified in ALD patient (7). No detectable ALDP in patient cells (7).
+153006073 c.1680G>A p.Pro560Pro exon 7  Synonymous (X:153006073 G/A).
+153006075 c.1682A>T p.Asp561Val exon 7  Pathogenic, identified in 3 ALD patients (60). No detectable ALDP in patient cells (60).
+153006087 c.1694A>G p.Asp565Gly exon 7  VUS (X:153006087 A/G) frequency 1/178467 inviduals.
+153006090 c.1697T>A p.Met566Lys exon 7  Pathogenic, identified in 2 ALD patients (13). No detectable ALDP in patient cells (33).
+153006090 c.1697T>C p.Met566Thr exon 7  Pathogenic, identified in ALD patient (58). No detectable ALDP in patient cells (58).
+153006092 c.1699C>T p.Gln567* exon 7  Pathogenic, identified in 2 ALD patients (33, 60). Deleterious mutation.
+153006107 c.1714T>C p.Ser572Pro exon 7  Status unknown (VUS), identified in ALD newborn screening (191).
+153006107 c.1714_25del  p.Ser572_Asp575del  exon 7  Pathogenic, identified in 2 ALD patients (81, 104).
+153006108 c.1715C>T p.Ser572Leu exon 7  VUS (X:153006108 C/T) frequency 1/178412 inviduals.
+153006108 c.1715C>A p.Ser572* exon 7  Pathogenic, identified in ALD patient (60). Deleterious mutation. No detectable ALDP in patient cells (60).
+153006110 c.1717delG  p.Glu573Serfs*63  exon 7  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153006113 c.1720C>T p.Gln574* exon 7  Pathogenic, identified in ALD patient (53, 58). Deleterious mutation. No detectable ALDP in patient cells (53, 58).
+153006119 c.1726dup p.Leu576Profs*25  exon 7  Pathogenic, identified in ALD patient (120). Deleterious mutation.
+153006120 c.1727T>C p.Leu576Pro exon 7  Pathogenic, identified in 4 ALD patients (93, 98, 132, 137).
+153006122 c.1729G>T p.Glu577* exon 7  Pathogenic, identified in ALD patient (100). Deleterious mutation.
+153006124 c.1731del p.Ala578Profs*58  exon 7  Pathogenic, identified in ALD patient (105). Deleterious mutation.
+153006125 c.1732G>A p.Ala578Thr exon 7  VUS (X:153006125 G/A) frequency 6/178388 inviduals.
+153006127 c.1734C>G p.Ala578Ala exon 7  Synonymous (X:153006127 C/G).
+153006136 c.1743C>T p.Asp581Asp exon 7  Synonymous (X:153006136 C/T).
+153006137 c.1744G>T p.Val582Phe exon 7  VUS (X:153006137 G/T).
+153006139 c.1746del p.Val583Cysfs*53  exon 7  Pathogenic, identified in 2 ALD patients (27, 158). Deleterious mutation.
+153006140 c.1747G>A p.Val583Met exon 7  Status unknown (VUS), identified in ALD newborn screening (191).
+153006140 c.1747_1759del  p.Val583Thrfs*49  exon 7  Pathogenic, identified in ALD patient (145). Deleterious mutation.
+153006141 c.1748T>C p.Val583Ala exon 7  Benign, based on its frequency of 26/169917 inviduals (X:153006141 T/C).
+153006141 c.1748T>G p.Val583Gly exon 7  Pathogenic, identified in ALD patient (33).
+153006143 c.1750C>T p.His584Tyr exon 7  VUS (X:153006143 C/T) frequency 1/178270 inviduals
+153006147 c.1754T>C p.Leu585Pro exon 7  Pathogenic, identified in ALD patient (68).
+153006148 c.1755del p.His586Thrfs*50  exon 7  Pathogenic, identified in ALD patient (62). Deleterious mutation.
+153006152 c.1759_61dup  p.His587dup exon 7  Pathogenic, identified in ALD patient (125).
+153006152 c.1759_70del12  p.His587_Gln590del  exon 7  Pathogenic, identified in ALD patient (24).
+153006158 c.1765del p.Leu589Cysfs*47  exon 7  Pathogenic, identified in ALD patient (49). Deleterious mutation.
+153006161 c.1768C>T p.Gln590* exon 7  Pathogenic, identified in 8 ALD patients (20, 88, 176). Deleterious mutation.
+153006162 c.1769A>T p.Gln590Leu exon 7  VUS (X:153006162 A/T) frequency 2/178017 inviduals.
+153006164 c.1771del p.Arg591Glyfs*45  exon 7  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153006164 c.1771C>T p.Arg591Trp exon 7  Pathogenic, identified in 8 ALD patients (24, 32, 33, 53, 72, 161). Normal ALDP level in patient cells (53), but non-functional.
+153006165 c.1772G>T p.Arg591Leu exon 7  Pathogenic, identified in 3 ALD patients (88, 145).
+153006165 c.1772G>C p.Arg591Pro exon 7  Pathogenic, identified in 3 ALD patients (44, 49, 105). No detectable ALDP expression in patient cells (49).
+153006165 c.1772G>A p.Arg591Gln exon 7  Pathogenic, identified in 21 ALD patients (22, 32, 33, 78, 98, 108, 145, 175, 191). Normal ALDP level in patient cells (22, 33), but non-functional (33).
+153006173 c.1780G>C p.Gly594Arg exon 7  Pathogenic, identified in 2 ALD patients (33, 83).
+153006174 c.1780+1G>A p.Trp595fs*?  IVS 7 Pathogenic, identified in 2 ALD patients (7, 53). Deleterious mutation.
+153006175 c.1780+2T>G p.Trp595fs*?  IVS 7 Pathogenic, identified in 8 ALD patients (33, 38, 58, 71, 118, 150, 158). No detectable ALDP in patient cells (58) due to splicing defect (118).
+153006177 c.1780+4G>A   IVS 7 Benign, based on its frequency of 41/199340 inviduals (X:153006177 G/A).
+153008436 c.1781-5C>G   IVS 7 Benign, based on its frequency of 12/165244 inviduals (X:153008436 C/G).
+153008439 c.1781-2A>G p.Trp595fs*?  IVS 7 Pathogenic, identified in 3 ALD patients (32, 33). Deleterious mutation. No detectable ALDP in patient cells (32).
+153008440 c.1781-1G>A p.Trp595fs*?  IVS 7 Pathogenic, identified in ALD patient (96). Deleterious mutation.
+153008440 c.1781-1G>T p.Trp595fs*?  IVS 7 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153008443 c.1783T>C p.Trp595Arg exon 8  Pathogenic, identified in ALD patient (88).
+153008444 c.1784G>A p.Trp595* exon 8  Pathogenic, identified in 2 ALD patients (33, 90). Deleterious mutation.
+153008445 c.1785G>A p.Trp595* exon 8  Pathogenic, identified in 4 ALD patients (24, 59, 64, 132). Deleterious mutation.
+153008450 c.1790C>G p.Ala597Gly exon 8  Reported in ExAC (X:153008450 C/G) as a VUS. Pathogenic, identified in ALD patient (58). No detectable ALDP in patient cells (58).
+153008451 c.1791_92del  p.Met598Valfs*2 exon 8  Pathogenic, identified in ALD patient (6). Deleterious mutation. No detectable ALDP in patient cells (58).
+153008452 c.1792A>G p.Met598Val exon 8  VUS (X:153008452 A/G) frequency 7/174488 inviduals.
+153008454 c.1794G>T p.Met598Ile exon 8  VUS (X:153008454 G/T).
+153008462 c.1802G>A p.Trp601* exon 8  Pathogenic, identified in 9 ALD patients (27, 33, 53, 79, 100, 154). Deleterious mutation. No detectable ALDP in patient cells (53).
+153008463 c.1803del p.Trp601* exon 8  Pathogenic, identified in ALD newborn screening (191). Deleterious mutation.
+153008463 c.1803G>A p.Trp601* exon 8  Pathogenic, identified in 3 ALD patients (33, 77, 88). Deleterious mutation.
+153008464 c.1804A>T p.Lys602* exon 8  Pathogenic, identified in ALD patient (93). Deleterious mutation.
+153008470 c.1810G>A p.Val604Ile exon 8  Benign, based on its frequency of 111/179305 inviduals (X:153008470 G/A).
+153008474 c.1814T>A p.Leu605Gln exon 8  Pathogenic, identified in 4 ALD patients (59, 64, 132, 137).
+153008474 c.1814T>C p.Leu605Pro exon 8  Pathogenic, identified in ALD patient (33).
+153008475 c.1815G>C p.Leu605Leu exon 8  Synonymous (X:153008475 G/C).
+153008476 c.1816T>C p.Ser606Pro exon 8  Pathogenic, identified in 7 ALD patients (7, 33, 71, 72, 96, 100, 150). No detectable ALDP in patient cells (72).
+153008476 c.1816T>G p.Ser606Ala exon 8  Pathogenic, identified in ALD patient (32).
+153008477 c.1817C>T p.Ser606Leu exon 8  Pathogenic, identified in 28 ALD patients (6, 13, 22, 24, 33, 46, 49, 52, 57, 58, 59, 60, 64, 97, 100, 132, 137, 178, 180). Reduced (25% of control cells) ALDP in patient cells (97) using a quantitative immunoblot technique, detectable ALDP by immunofluorescence (22, 33, 49, 60). Mutation affects ATP-binding capacity of ALDP (194).
+153008478 c.1818G>A p.Ser606Ser exon 8  Synonymous (X:153008478 G/A).
+153008478 c.1818G>C p.Ser606Ser exon 8  Synonymous (X:153008478 G/C).
+153008480 c.1820del p.Gly607Valfs*29  exon 8  Pathogenic, identified in ALD patient (6). Deleterious mutation. No detectable ALDP in patient cells (6).
+153008480 c.1820_23del  p.Gly607Alafs*28  exon 8  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153008480 c.1820G>A p.Gly607Asp exon 8  Pathogenic, identified in ALD patient (52, 58). Normal ALDP level in patient cells (58), but non-functional.
+153008482 c.1822G>A p.Gly608Ser exon 8  Pathogenic, identified in 3 ALD patients (58, 62, 105).
+153008483 c.1823G>A p.Gly608Asp exon 8  Reported in ALD male (48), but considering its frequency of 306/36626 inviduals (X:153008483 G/A) this is not a pathogenic variant.
+153008485 c.1825G>A p.Glu609Lys exon 8  Pathogenic, identified in 29 ALD patients (15, 16, 32, 33, 49, 60, 62, 72, 88, 90, 97, 141, 146). Reduced (2% of control cells) ALDP in patient cells (97) using a quantitative immunoblot technique, no detectable ALDP by immunofluorescence (32, 49, 60, 72, 141, 146).
+153008486 c.1826A>G p.Glu609Gly exon 8  Pathogenic, identified in 3 ALD patients (16, 97, 141). Reduced (2% of control cells) ALDP in patient cells (97) using a quantitative immunoblot technique, no detectable ALDP by immunofluorescence (32, 49, 60, 72, 141, 146).
+153008492 c.1832A>G p.Gln611Arg exon 8  Pathogenic, identified in ALD patient (33).
+153008493 c.1833G>C p.Gln611His exon 8  Pathogenic, identified in ALD patient (33).
+153008498 c.1838T>A p.Ile613Asn exon 8  Pathogenic, identified in ALD patient (33).
+153008499 c.1839C>T p.Ile613Ile exon 8  Synonymous (X:153008499 C/T).
+153008500 c.1840G>A p.Gly614Ser exon 8  VUS (X:153008500 G/A) frequency 3/21806 inviduals.
+153008500 c.1840G>C p.Gly614Arg exon 8  Pathogenic, identified in ALD patient (88).
+153008506 c.1846G>A p.Ala616Thr exon 8  Pathogenic, identified in 8 ALD patients (32, 97, 141). Reduced (4% of control cells) ALDP in patient cells (97) using a quantitative immunoblot technique, no detectable ALDP by immunofluorescence (32, 141).
+153008507 c.1847C>A p.Ala616Asp exon 8  Pathogenic, identified in ALD patient (90).
+153008507 c.1847C>T p.Ala616Val exon 8  Pathogenic, identified in ALD patient (29).
+153008509 c.1849C>A p.Arg617Ser exon 8  Pathogenic, identified in ALD patient (92).
+153008509 c.1849C>G p.Arg617Gly exon 8  Pathogenic, identified in 10 ALD patients (15, 33, 59, 64, 67, 86, 93, 132, 137).
+153008509 c.1849C>T p.Arg617Cys exon 8  Pathogenic, identified in 30 ALD patients (6, 15, 16, 32, 33, 49, 58, 59, 60, 64, 86, 88, 93, 132, 137, 145, 178). No detectable ALDP in patient cells (32, 49, 58).
+153008509 c.1849del p.Arg617Alafs*19  exon 8  Pathogenic, identified in ALD patient (60). Deleterious mutation. No detectable ALDP in patient cells (60).
+153008510 c.1850del p.Arg617Profs*19  exon 8  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153008510 c.1850G>A p.Arg617His exon 8  Pathogenic, identified in 46 ALD patients (6, 13, 17, 22, 32, 33, 49, 57, 58, 60, 62, 74, 87, 88, 96, 100, 125, 145, 147, 154, 178). No detectable ALDP in patient cells (22, 33, 49, 58, 60, 147).
+153008518 c.1858T>C p.Tyr620His exon 8  Pathogenic, identified in 2 ALD patients (88, 99).
+153008519 c.1859del p.Tyr620Serfs*16  exon 8  Pathogenic, identified in 2 ALD patients (80). Deleterious mutation.
+153008519 c.1859A>G p.Tyr620Cys exon 8  Pathogenic, identified in ALD patient (58). No detectable ALDP in patient cells (58).
+153008520 c.1860C>G p.Tyr620* exon 8  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+153008522 c.1862A>T p.His621Leu exon 8  Status unknown (VUS), identified in ALD newborn screening (191).
+153008522 c.1862dup p.His621Glnfs*10  exon 8  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+153008526 c.1865+1G>A p.Pro623fs*?  IVS 8 Pathogenic, identified in 2 ALD patients (33, 152). Reduced (<1% of control cells) ALDP in patient cells due to splicing defect (152).
+153008660 c.1866-15G>A  p.Pro623fs*?  IVS 8 Pathogenic, identified in 3 ALD patients (32).
+153008665 c.1866-10G>A  p.Pro623fs*?  IVS 8 Pathogenic, identified in 26 ALD patients (11, 30, 32, 33, 58, 72, 100, 125, 145, 156, 178, 191). No detectable ALDP in patient cells (32, 58, 72) due to splicing defect (11, 30).
+153008670 c.1866-5C>T   IVS 8 VUS (X:153008670 C/T).
+153008673 c.1866-2A>T p.Pro623fs*?  IVS 8 Pathogenic, identified in 4 ALD patients (32). No detectable ALDP in patient cells (32) due to splicing defect.
+153008677 c.1868C>T p.Pro623Leu exon 9  Pathogenic, identified in ALD patient (100).
+153008679 c.1870A>G p.Lys624Glu exon 9  VUS (X:153008679 A/G) frequency 1/169754 inviduals.
+153008685 c.1876G>A p.Ala626Thr exon 9  Pathogenic, identified in 13 ALD patients (22, 33, 49, 145, 196). No detectable ALDP in patient cells (22, 33, 49).
+153008685 c.[1876G>A; 2087A>T]  p.[Ala626Thr; Lys696Met]  exon 9 + exon 10  Pathogenic, identified in ALD patient (32). p.Ala626Thr is pathogenic; p.Lys696Met is a VUS (X:153009038 A/T).
+153008685 c.1876G>T p.Ala626Ser exon 9  Status unknown (VUS), identified in ALD newborn screening (191).
+153008686 c.1877C>A p.Ala626Asp exon 9  Pathogenic, identified in ALD patient (49).
+153008689 c.1880T>A p.Leu627His exon 9  Pathogenic, identified in ALD patient (32).
+153008689 c.1880dup p.Leu628Profs*3 exon 9  Pathogenic, identified in ALD patient (58). Deleterious mutation.
+153008690 c.1881C>T p.Leu627Leu exon 9  Synonymous (X:153008690 C/T).
+153008692 c.1883T>A p.Leu628Gln exon 9  Pathogenic, identified in ALD patient (100).
+153008692 c.1883T>C p.Leu628Pro exon 9  Pathogenic, identified in 3 ALD patients (33, 60). No detectable ALDP in patient cells (60).
+153008694 c.1885G>A p.Asp629Asn exon 9  Pathogenic, identified in 2 ALD patients (145, 165).
+153008694 c.1885G>C p.Asp629His exon 9  Pathogenic, identified in ALD patient (22). Normal ALDP level in patient cells (22), but non-functional.
+153008697 c.1888G>A p.Glu630Lys exon 9  Pathogenic, identified in 2 ALD patients (33, 145).
+153008698 c.1889A>G p.Glu630Gly exon 9  Pathogenic, identified in ALD patient (49).
+153008700 c.1891T>C p.Cys631Arg exon 9  Pathogenic, identified in 4 ALD patients (32, 33, 60). No detectable ALDP in patient cells (60).
+153008701 c.1892G>A p.Cys631Tyr exon 9  Pathogenic, identified in 5 ALD patients (33, 49, 76, 93).
+153008702 c.1893C>G p.Cys631Trp exon 9  Pathogenic, identified in ALD patient (33).
+153008703 c.1894A>C p.Thr632Pro exon 9  Pathogenic, identified in 5 ALD patients (33, 96, 100, 120).
+153008704 c.1895C>T p.Thr632Ile exon 9  Pathogenic, identified in 11 ALD patients (33, 49, 147), confirmed by extensive pedigree analysis (147).
+153008707 c.1898G>T p.Ser633Ile exon 9  Pathogenic, identified in ALD patient (48).
+153008708 c.1899C>T p.Ser633Ser exon 9  Synonymous (X:153008708 C/T).
+153008708 c.1899delC  p.Ser633Argfs*3 exon 9  Pathogenic, identified in 4 ALD patients (32, 141). Deleterious mutation. No detectable ALDP in patient cells (141).
+153008708 c.1899C>A p.Ser633Arg exon 9  Pathogenic, identified in 2 ALD patients (29, 96).
+153008709 c.1900G>T p.Ala634Ser exon 9  VUS (X:153008709 G/T).
+153008709 c.1900G>A p.Ala634Thr exon 9  Pathogenic, identified in ALD patient (32).
+153008711 c.1902C>T p.Ala634Ala exon 9  Synonymous (X:153008711 C/T).
+153008712 c.1903G>A p.Val635Met exon 9  Pathogenic, identified in 3 ALD patients (32, 49, 58). Affects ALDP stability in patient cells (32, 58).
+153008712 c.1903_04insCCA p.Val635delinsAlaMet  exon 9  Pathogenic, identified in 2 ALD patients (72, 145). Affects ALDP stability in patient cells (72).
+153008715 c.1906delA  p.Ser636Alafs*55  exon 9  Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153008716 c.1907_25del  p.Ser636Argfs*49  exon 9  Pathogenic, identified in 3 ALD patients (32). Deleterious mutation.
+153008716 c.1907G>T p.Ser636Ile exon 9  Pathogenic, identified in 2 ALD patients (27, 42). No detectable ALDP in patient cells (42).
+153008718 c.1909A>G p.Ile637Val exon 9  VUS (X:153008718 A/G).
+153008720 c.1911C>T p.Ile637Ile exon 9  Synonymous (X:153008720 C/T).
+153008721 c.1912G>T p.Asp638Tyr exon 9  Pathogenic, identified in 3 ALD patients (38).
+153008723 c.1914C>T p.Asp638Asp exon 9  Synonymous (X:153008723 C/T).
+153008724 c.1915G>A p.Val639Met exon 9  VUS (X:153008724 G/A).
+153008727 c.1918G>A p.Glu640Lys exon 9  Pathogenic, identified in 4 ALD patients (33, 96).
+153008735 c.1926_27insCAAG  p.Ile643Glnfs*92  exon 9  Pathogenic, identified in ALD patient (32). Deleterious mutation.
+153008742 c.1933C>T p.Gln645* exon 9  Pathogenic, identified in 3 ALD patients (22, 33). Deleterious mutation. No detectable ALDP in patient cells (22, 33).
+153008742 c.1933del p.Gln645Argfs*46  exon 9  Pathogenic, identified in 2 ALD patients (189). Deleterious mutation.
+153008745 c.1936G>C p.Ala646Pro exon 9  Pathogenic, identified in 2 ALD patients (29, 33).
+153008748 c.1939_40insGG  p.Ala647Glyfs*45  exon 9  Pathogenic, identified in 4 ALD patients (71, 72). Deleterious mutation. No detectable ALDP in patient cells (72).
+153008751 c.1942A>T p.Lys648* exon 9  Pathogenic, identified in ALD patient (84). Deleterious mutation.
+153008757 c.1948_49del  p.Ala650Glyfs*83  exon 9  Pathogenic, identified in ALD patient (7). Deleterious mutation. No detectable ALDP in patient cells (7).
+153008759 c.1950G>A p.Ala650Ala exon 9  Synonymous (X:153008759 G/A).
+153008770 c.1961T>G p.Leu654Arg exon 9  Pathogenic, identified in ALD patient (33).
+153008770 c.1961T>C p.Leu654Pro exon 9  Pathogenic, identified in 19 ALD patients (32, 49, 62, 97, 139, 141). Reduced (2% of control cells) ALDP in patient cells (97) using a quantitative immunoblot technique, no detectable ALDP by immunofluorescence (32, 49, 139, 141).
+153008773 c.1964T>C p.Leu655Pro exon 9  Pathogenic, identified in ALD patient (53). Affects ALDP stability in patient cells (53).
+153008776 c.1967C>T p.Ser656Phe exon 9  Pathogenic, identified in ALD patient (33).
+153008779 c.1970_72del  p.Ile657del exon 9  Pathogenic, identified in 12 ALD patients (16, 32, 33, 111, 141, 185). No detectable ALDP in patient cells (32, 141).
+153008782 c.1973C>T p.Thr658Ile exon 9  Pathogenic, identified in 2 ALD patients (33, 58). No detectable ALDP in patient cells (58).
+153008787 c.1978C>T p.Arg660Trp exon 9  Pathogenic, identified in 43 ALD patients (7, 13, 16, 22, 23, 24, 32, 33, 49, 53, 57, 58, 60, 88, 90, 97, 135, 141, 145, 146, 190, 191). Reduced (2% of control cells) ALDP in patient cells (97) using a quantitative immunoblot technique, no detectable ALDP by immunofluorescence (7, 22, 23, 32, 33, 49, 53, 58, 141, 146).
+153008788 c.1979G>A p.Arg660Gln exon 9  Pathogenic, identified in 5 ALD patients (71, 72, 150). No detectable ALDP in patient cells (72).
+153008788 c.1979G>T p.Arg660Leu exon 9  Status unknown (VUS), identified in ALD newborn screening (191).
+153008788 c.1979G>C p.Arg660Pro exon 9  Pathogenic, identified in ALD patient (48).
+153008791 c.1982_83del  p.Pro661Leufs*72  exon 9  Pathogenic, identified in 2 ALD patients (32). Deleterious mutation.
+153008797 c.1988T>A p.Leu663Gln exon 9  Pathogenic, identified in 2 ALD patients (32, 58). Affects ALDP stability in patient cells (32, 58).
+153008797 c.1988_89insT p.Trp664Valfs*70  exon 9  Pathogenic, identified in 2 ALD patients (33, 49). Deleterious mutation. No detectable ALDP in patient cells (33).
+153008801 c.1991+1G>A p.Lys665fs*?  IVS 9 Pathogenic, identified in ALD patient (49). Deleterious mutation.
+153008802 c.1991+2T>C p.Lys665fs*?  IVS 9 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153008805 c.1991+5G>T   IVS 9 VUS (X:153008805 G/T).
+153008807 c.1991+7G>A   IVS 9 VUS (X:153008807 G/A) frequency 5/130456 inviduals.
+153008941 c.1992-2A>G p.Lys665fs*?  IVS 9 Pathogenic, identified in 5 ALD patients (32, 199). Deleterious mutation.
+153008942 c.1992-1G>A p.Lys665fs*?  IVS 9 Pathogenic, identified in ALD patient (49). Deleterious mutation.
+153008943 c.1992G>A p.Trp664* exon 10 Pathogenic, identified in ALD patient (98). Deleterious mutation.
+153008944 c.1993_95delinsGAG  p.Lys665delinsGlu exon 10 Pathogenic, identified in ALD patient (72). Affects ALDP stability in patient cells (72).
+153008945 c.1994A>C p.Lys665Thr exon 10 VUS (X:153008945 A/C) frequency 1/165162 inviduals.
+153008948 c.[1997A>C;2007C>G] p.[Tyr666Ser;His669Gln] exon 10 Pathogenic, identified in ALD patient (62). Unclear which of the two variants is pathogenic.
+153008949 c.1998C>G p.Tyr666* exon 10 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153008950 c.1999C>G p.His667Asp exon 10 Pathogenic, identified in 4 ALD patients (49, 62, 90, 97). Reduced (3% of control cells) ALDP in patient cells (97) using a quantitative immunoblot technique, no detectable ALDP by immunofluorescence (49).
+153008950 c.1999_2000delCA  p.His669Leufs*64  exon 10 Pathogenic, identified in ALD patient (29). Deleterious mutation.
+153008951 c.2000A>G p.His667Arg exon 10 Pathogenic, identified in ALD patient (33).
+153008951 c.2000A>T p.His667Leu exon 10 Pathogenic, identified in ALD patient (53). Affects ALDP stability in patient cells (53).
+153008953 c.2002A>C p.Thr668Pro exon 10 Pathogenic, identified in ALD patient (33).
+153008954 c.2003C>T p.Thr668Ile exon 10 Pathogenic, identified in 2 ALD patients (33, 49). No detectable ALDP in patient cells (49).
+153008957 c.2006_07del  p.His669Leufs*64  exon 10 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153008957 c.2006_2007dup  p.Leu670Thrfs*22  exon 10 Pathogenic, identified in ALD newborn screening (191). Deleterious mutation.
+153008957 c.2006A>G p.His669Arg exon 10 Pathogenic, identified in 7 ALD patients (33, 58, 104, 135, 145). No detectable ALDP in patient cells (58).
+153008958 c.[2007C>G;1997A>C] p.[His669Gln;Tyr666Ser] exon 10 Pathogenic, identified in ALD patient (62). Unclear which of the two variants is pathogenic.
+153008961 c.2010_11insT p.Leu671Serfs*63  exon 10 Pathogenic, identified in ALD patient (33). Deleterious mutation.
+153008961 c.2010_2014delinsTAT  p.Leu670Phefs*63  exon 10 Pathogenic, identified in 3 ALD patients (87). Deleterious mutation.
+153008961 c.2010dupG  p.Leu671Alafs*63  exon 10 Pathogenic, identified in ALD patient (181). Deleterious mutation.
+153008965 c.2014C>T p.Gln672* exon 10 Pathogenic, identified in 6 ALD patients (25, 27, 28, 33, 87, 88). Deleterious mutation. No detectable ALDP in patient cells (25).
+153008970 c.2019C>T p.Phe673Phe exon 10 Synonymous (X:153008970 C/T).
+153008970 c.2019C>G p.Phe673Leu exon 10 VUS (X:153008970 C/G) frequency 2/164208 inviduals.
+153008971 c.2020G>A p.Asp674Asn exon 10 VUS (X:153008971 G/A) frequency 1/21495 inviduals.
+153008974 c.2023G>T p.Gly675Trp exon 10 Status unknown (VUS), identified in ALD newborn screening (191).
+153008977 c.2026G>T p.Glu676* exon 10 Pathogenic, identified in 2 ALD patients (33). Deleterious mutation.
+153008981 c.2030G>A p.Gly677Asp exon 10 Pathogenic, identified in ALD patient (96).
+153008982 c.2031C>T p.Gly677Gly exon 10 Synonymous (X:153008982 C/T).
+153008983 c.2032G>A p.Gly678Ser exon 10 VUS (X:153008983 G/A) frequency 1/21526 inviduals.
+153008984 c.2033G>A p.Gly678Asp exon 10 VUS (X:153008984 G/A).
+153008986 c.2035T>C p.Trp679Arg exon 10 Pathogenic, identified in 3 ALD patients (14, 88).
+153008987 c.2036G>A p.Trp679* exon 10 Pathogenic, identified in ALD patient (84). Deleterious mutation.
+153008988 c.2037G>A p.Trp679* exon 10 Pathogenic, identified in 6 ALD patients (32, 33, 100, 154). Deleterious mutation.
+153008994 c.2043C>T p.Phe681Phe exon 10 Synonymous (X:153008994 C/T).
+153008994 c.2043C>G p.Phe681Leu exon 10 Benign, based on its frequency of 26/181918 inviduals (X:153008994 C/G).
+153008995 c.2044G>C p.Glu682Gln exon 10 Benign, based on its frequency of 13/181548 inviduals (X:153008995 G/C).
+153009002 c.2051T>C p.Leu684Pro exon 10 Pathogenic, identified in ALD patient (33).
+153009012 c.2061_2200del  p.Leu690Profs*65  exon 10 Pathogenic, identified in ALD patient (32). Deleterious mutation.
+153009016 c.2065C>T p.Arg689Cys exon 10 Benign, based on its frequency of 12/176163 inviduals (X:153009016 C/T).
+153009024 c.2073C>G p.Ser691Arg exon 10 VUS (X:153009024 C/G).
+153009029 c.2078C>T p.Thr693Met exon 10 Pathogenic, identified in ALD patient (49). Normal ALDP level in patient cells (49), but non-functional.
+153009038 c.2087A>T p.Lys696Met exon 10 VUS (X:153009038 A/T) frequency 8/151181 inviduals.
+153009041 c.2090A>G p.Gln697Arg exon 10 VUS (X:153009041 A/G) frequency 3/147671 inviduals.
+153009062 c.2111C>T p.Ala704Val exon 10 VUS (X:153009062 C/T).
+153009063 c.2112G>A p.Ala704Ala exon 10 Synonymous (X:153009063 G/A).
+153009074 c.2123A>G p.Lys708Arg exon 10 VUS (X:153009074 A/G) frequency 1/21422 inviduals.
+153009078 c.2127G>A p.Met709Ile exon 10 VUS (X:153009078 G/A) frequency 2/136452 inviduals.
+153009082 c.2131C>T p.Arg711Trp exon 10 VUS (X:153009082 C/T).
+153009083 c.2132G>A p.Arg711Gln exon 10 VUS (X:153009083 G/A) frequency 3/132083 inviduals.
+153009086 c.2135G>C p.Arg712Pro exon 10 Status unknown (VUS), identified in ALD newborn screening (191).
+153009089 c.2138T>C p.Leu713Pro exon 10 VUS (X:153009089 T/C) frequency 1/130825 inviduals.
+153009094 c.2143G>A p.Glu715Lys exon 10 VUS (X:153009094 G/A) frequency 1/21236 inviduals.
+153009109 c.2158C>G p.Leu720Val exon 10 VUS (X:153009109 C/G).
+153009124 c.2173G>A p.Ala725Thr exon 10 VUS (X:153009124 G/A) frequency 4/114962 inviduals.
+153009136 c.2185G>A p.Val729Met exon 10 VUS (X:153009136 G/A) frequency 1/111788 inviduals.
+153009140 c.2189C>T p.Pro730Leu exon 10 VUS (X:153009140 C/T) frequency 4/130292 inviduals.
+153009141 c.2190G>A p.Pro730Pro exon 10 Synonymous (X:153009141 G/A).
+153009152 c.2201C>G p.Pro734Arg exon 10 VUS (X:153009152 C/G) frequency 3/127737 inviduals.
+153009152 c.2201C>T p.Pro734Leu exon 10 VUS (X:153009152 C/T) frequency 9/127737 inviduals.
+153009153 c.2202G>A p.Pro734Pro exon 10 Synonymous (X:153009153 G/A).
+153009160 c.2209C>T p.Pro737Ser exon 10 VUS (X:153009160 C/T) frequency 1/20978 inviduals.
+153009173 c.2222A>G p.Gln741Arg exon 10 VUS (X:153009173 A/G).
+153009176 c.2225G>T p.Gly742Val exon 10 VUS (X:153009176 G/T).
+153009184 c.2233A>C p.Thr745Pro exon 10 VUS (X:153009184 A/C).
+153009190 c.2238*1C>T   3′ UTR  VUS (X:153009190 C/T).
+153009196 c.2238*7C>T   3′ UTR  VUS (X:153009196 C/T).
+153009197 c.2238*8G>C   3′ UTR  Benign, based on its frequency of 81685/120445 inviduals (X:153009197 G/C).
