@@ -11,6 +11,7 @@ def get_intervar_input(wildcards):
 rule target:
   input:
     "output/{proj_name}.hg19_multianno.txt.intervar".format(proj_name = config["proj_name"])
+    , "output/{proj_name}.gnomad.csv".format(proj_name = config["proj_name"])
 
 rule convert_nenbss_to_annovar:
   input:
@@ -35,3 +36,13 @@ rule run_intervar:
     "-t /usr/local/bin/Intervar/intervardb --table_annovar=/usr/local/bin/annovar/table_annovar.pl "
     "--convert2annovar=/usr/local/bin/annovar/convert2annovar.pl --annotate_variation=/usr/local/bin/annovar/annotate_variation.pl "
     "-d /usr/local/bin/annovar/humandb "
+
+rule get_gnomad_annotation:
+  input:
+    get_intervar_input
+    , "/usr/local/bin/AVA/server/utils/db/gnomad/gnomad_2018_08_01.csv"
+  output:
+    "output/{proj_name}.gnomad.csv"
+  shell:
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/gnomad.py "
+    "{input} 1>{output}"
