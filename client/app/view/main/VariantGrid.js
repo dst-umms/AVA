@@ -8,53 +8,53 @@ Ext.define('AVA.view.main.VariantGrid', {
   selModel: 'rowmodel',
   region: 'center',
   columns: [{
-      text: 'Chrom',
+      text: 'Chr',
       dataIndex: 'Chrom',
-      width: 200
+      width: 50
     }, { 
     text: 'Start',  
     dataIndex: 'Start', 
-    width: 200 
+    width: 100 
   },{
     text: 'Ref',
     dataIndex: 'Ref',
-    width: 200
+    width: 50
   },{
     text: 'Alt',
     dataIndex: 'Alt',
-    width: 200
+    width: 50
   },{
     text: 'p.gnomad',
     dataIndex: 'p.gnomad',
-    width: 200
+    width: 150
   },{
     text: 'c.gnomad',
     dataIndex: 'c.gnomad',
-    width: 200
+    width: 150
   },{
     text: 'func.gnomad',
     dataIndex: 'func.gnomad',
-    width: 200
+    width: 150
   },{
     text: 'AF.gnomad',
     dataIndex: 'AF.gnomad',
-    width: 200
+    width: 100
   }, {
     text: 'c.ALD',
     dataIndex: 'c.ALD',
-    width: 200
+    width: 150
   }, {
     text: 'p.ALD',
     dataIndex: 'p.ALD',
-    width: 200
+    width: 150
   }, {
     text: 'Exon.ALD',
     dataIndex: 'Exon.ALD',
-    width: 200
+    width: 100
   }, {
     text: 'Remark.ALD',
     dataIndex: 'Remark.ALD',
-    width: 200
+    width: 150
   }, {
     text: 'Comments',
     dataIndex: 'Comments',
