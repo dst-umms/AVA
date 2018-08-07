@@ -40,6 +40,22 @@ Ext.define('AVA.view.main.VariantGrid', {
     dataIndex: 'AF.gnomad',
     width: 200
   }, {
+    text: 'c.ALD',
+    dataIndex: 'c.ALD',
+    width: 200
+  }, {
+    text: 'p.ALD',
+    dataIndex: 'p.ALD',
+    width: 200
+  }, {
+    text: 'Exon.ALD',
+    dataIndex: 'Exon.ALD',
+    width: 200
+  }, {
+    text: 'Remark.ALD',
+    dataIndex: 'Remark.ALD',
+    width: 200
+  }, {
     text: 'Comments',
     dataIndex: 'Comments',
     hidden: true
