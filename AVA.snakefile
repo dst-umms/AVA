@@ -12,6 +12,8 @@ rule target:
   input:
     #"output/{proj_name}.hg19_multianno.txt.intervar".format(proj_name = config["proj_name"])
     "output/{proj_name}.gnomad.tsv".format(proj_name = config["proj_name"])
+    , "output/{proj_name}.ald.tsv".format(proj_name = config["proj_name"])
+    , "output/{proj_name}.final.tsv".format(proj_name = config["proj_name"])
 
 rule convert_nenbss_to_annovar:
   input:
@@ -45,4 +47,23 @@ rule get_gnomad_annotation:
     "output/{proj_name}.gnomad.tsv"
   shell:
     "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/gnomad.py "
+    "{input} 1>{output}"
+
+rule get_ald_annotation:
+  input:
+    get_intervar_input
+    , "/usr/local/bin/AVA/server/utils/db/abcd1_ald/result.db"
+  output:
+    "output/{proj_name}.ald.tsv"
+  shell:
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/ald.py "
+    "{input} 1>{output}"
+
+rule merge_annotation:
+  input:
+    expand("output/{proj_name}.{ext}", proj_name = config["proj_name"], ext = ["gnomad.tsv", "ald.tsv"])
+  output:
+    "output/{proj_name}.final.tsv"
+  shell:
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/merge_annot.py "
     "{input} 1>{output}"
