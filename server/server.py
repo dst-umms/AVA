@@ -85,18 +85,16 @@ def get_json():
   )
   final_array = []
   with open(out_file, 'r') as fh:
-    keys = fh.readline()
-    keys = keys.strip()
-    keys = keys.split("\t")
+    content = fh.read()
+    content = content.split("\n")
+    keys = content[0].split("\t")
     keys.append("id")
-    index = 1
-    for values in fh:
-      values = values.strip()
-      values = values.split("\t")
-      values.append(index)
-      index += 1
-      values[0], values[1] = str(values[0]), int(values[1])
-      final_array.append(dict(zip(keys, values)))
+    for index in range(1, len(content)):
+      if content[index]:
+        values = content[index].split("\t")
+        values.append(index)
+        values[0], values[1] = str(values[0]), int(values[1])
+        final_array.append(dict(zip(keys, values)))
   return json.dumps(final_array), 200
       
 
