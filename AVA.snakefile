@@ -10,8 +10,8 @@ def get_intervar_input(wildcards):
 
 rule target:
   input:
-    "output/{proj_name}.hg19_multianno.txt.intervar".format(proj_name = config["proj_name"])
-    , "output/{proj_name}.gnomad.csv".format(proj_name = config["proj_name"])
+    #"output/{proj_name}.hg19_multianno.txt.intervar".format(proj_name = config["proj_name"])
+    "output/{proj_name}.gnomad.csv".format(proj_name = config["proj_name"])
 
 rule convert_nenbss_to_annovar:
   input:

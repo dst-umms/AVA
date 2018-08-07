@@ -9,16 +9,12 @@ Ext.define('AVA.view.main.VariantForm', {
     labelWidth: 200
   }, 
   items: [{
-    name: '#Chr',
-    fieldLabel: '#Chr',
+    name: 'Chrom',
+    fieldLabel: 'Chrom',
     allowBlank: false
   },{
     name: 'Start',
     fieldLabel: 'Start',
-    allowBlank: false
-  }, {
-    name: 'End',
-    fieldLabel: 'End',
     allowBlank: false
   }, {
     name: 'Ref',
@@ -29,92 +25,29 @@ Ext.define('AVA.view.main.VariantForm', {
     fieldLabel: 'Alt',
     allowBlank: false
   }, {
-    name: 'Ref.Gene',
-    fieldLabel: 'Ref.Gene'
+    name: 'p.gnomad',
+    fieldLabel: 'p.gnomad',
+    allowBlank: false
   }, {
-    name: 'Func.refGene',
-    fieldLabel: 'Func.refGene'
+    name: 'c.gnomad',
+    fieldLabel: 'c.gnomad',
+    allowBlank: false
   }, {
-    name: 'ExonicFunc.refGene',
-    fieldLabel: 'ExonicFunc.refGene'
+    name: 'func.gnomad',
+    fieldLabel: 'func.gnomad',
+    allowBlank: false
   }, {
-    name: 'Gene.ensGene',
-    fieldLabel: 'Gene.ensGene'
+    name: 'AF.gnomad',
+    fieldLabel: 'AF.gnomad',
+    allowBlank: false
   }, {
-    name: 'avsnp147',
-    fieldLabel: 'avsnp147'
+    name: 'rs.gnomad',
+    fieldLabel: 'rs.gnomad',
+    allowBlank: false
   }, {
-    name: 'AAChange.ensGene',
-    fieldLabel: 'AAChange.ensGene'
-  }, {
-    name: 'AAChange.refGene',
-    fieldLabel: 'AAChange.refGene'
-  }, {
-    name: 'clinvar: Clinvar ',
-    fieldLabel: 'clinvar: Clinvar'
-  }, {
-    name: ' InterVar: InterVar and Evidence ',
-    fieldLabel: 'InterVar: InterVar and Evidence'
-  }, {
-    name: 'Freq_ExAC_ALL',
-    fieldLabel: 'Freq_ExAC_ALL'
-  }, {
-    name: 'Freq_esp6500siv2_all',
-    fieldLabel: 'Freq_esp6500siv2_all'
-  }, {
-    name: 'Freq_1000g2015aug_all',
-    fieldLabel: 'Freq_1000g2015aug_all'
-  }, {
-    name: 'CADD_raw',
-    fieldLabel: 'CADD_raw'
-  }, {
-    name: 'CADD_phred',
-    fieldLabel: 'CADD_phred'
-  }, {
-    name: 'SIFT_score',
-    fieldLabel: 'SIFT_score'
-  }, {
-    name: 'GERP++_RS',
-    fieldLabel: 'GERP++_RS'
-  }, {
-    name: 'phyloP46way_placental',
-    fieldLabel: 'phyloP46way_placental'
-  }, {
-    name: 'dbscSNV_ADA_SCORE',
-    fieldLabel: 'dbscSNV_ADA_SCORE'
-  }, {
-    name: 'dbscSNV_RF_SCORE',
-    fieldLabel: 'dbscSNV_RF_SCORE'
-  }, {
-    name: 'Interpro_domain',
-    fieldLabel: 'Interpro_domain'
-  }, {
-    name: 'AAChange.knownGene',
-    fieldLabel: 'AAChange.knownGene'
-  }, {
-    name: 'rmsk',
-    fieldLabel: 'rmsk'
-  }, {
-    name: 'MetaSVM_score',
-    fieldLabel: 'MetaSVM_score'
-  }, {
-    name: 'Freq_ExAC_POPs',
-    fieldLabel: 'Freq_ExAC_POPs'
-  }, {
-    name: 'OMIM',
-    fieldLabel: 'OMIM'
-  }, {
-    name: 'Phenotype_MIM',
-    fieldLabel: 'Phenotype_MIM'
-  }, {
-    name: 'OrphaNumber',
-    fieldLabel: 'OrphaNumber'
-  }, {
-    name: 'Orpha',
-    fieldLabel: 'Orpha'
-  }, {
-    name: 'Otherinfo',
-    fieldLabel: 'Otherinfo'
+    name: 'Comments',
+    fieldLabel: 'Comments',
+    allowBlank: false
   }, {
     name: 'id',
     hidden: true
