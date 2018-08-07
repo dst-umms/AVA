@@ -80,7 +80,7 @@ def get_json():
   if request.method == 'POST':
     return json.dumps({"success": "true"}), 200
   proj_name = request.args["proj_name"]
-  out_file = "/usr/local/bin/analysis/{proj_name}/output/{proj_name}.gnomad.csv".format(
+  out_file = "/usr/local/bin/analysis/{proj_name}/output/{proj_name}.gnomad.tsv".format(
     proj_name = proj_name
   )
   final_array = []
