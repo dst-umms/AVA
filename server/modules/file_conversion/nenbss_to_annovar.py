@@ -14,7 +14,7 @@ class NenbssToAnnovar():
   
   gaa_file = "/usr/local/bin/AVA/server/utils/seqs/GAA.fa"
   idua_file = "/usr/local/bin/AVA/server/utils/seqs/IDUA.fa"
-  abcd1_file = "/usr/local/bin/AVA/server/utils/seqs/ABCD1.fa"
+  abcd1_file = "/usr/local/bin/AVA/server/utils/seqs/ABCD1_adj.fa"
 
   iupac = {
     'R': ['A', 'G'],
