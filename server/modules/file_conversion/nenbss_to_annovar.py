@@ -14,7 +14,7 @@ class NenbssToAnnovar():
   
   gaa_file = "/usr/local/bin/AVA/server/utils/seqs/GAA.fa"
   idua_file = "/usr/local/bin/AVA/server/utils/seqs/IDUA.fa"
-  abcd1_file = "/usr/local/bin/AVA/server/utils/seqs/ABCD1_adj.fa"
+  abcd1_file = "/usr/local/bin/AVA/server/utils/seqs/ABCD1.fa"
 
   iupac = {
     'R': ['A', 'G'],
@@ -88,6 +88,13 @@ class NenbssToAnnovar():
       else:
         raise "Only POMPE (GAA), ALD (ABCD1) and MPS1 (IDUA) are supported. " + gene_name + " is not valid."
       (var_info, base_info) = df[["Variant ID", "Base Position"]][df.index == index].values[0]
+      if chrom == 'X' and base_info >= 13713: #see below comments about where this number comes from
+        # A single base deletion happened at “13714” position (1-based counting).
+        # We need to account for this by subtracting one more from this point on.
+        if base_info == 13713: #this is exact position of base deletion, raise an error since we don't know how to deal with this
+          raise "FATAL: The nucleotide at 13713 position is a deletion in ChrX."
+        else:
+          base_info = base_info - 1
       (ref, alt) = self.__get_ref_and_alt_bases(var_info)
       base_pos = int(start) + int(base_info) - 1 # 1 because the string is 0 based
       annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, 'comments: ' + 
