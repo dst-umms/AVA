@@ -13,6 +13,7 @@ rule target:
     #"output/{proj_name}.hg19_multianno.txt.intervar".format(proj_name = config["proj_name"])
     "output/{proj_name}.gnomad.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.ald.tsv".format(proj_name = config["proj_name"])
+    , "output/{proj_name}.clinvar.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.tsv".format(proj_name = config["proj_name"])
 
 rule convert_nenbss_to_annovar:
@@ -59,9 +60,19 @@ rule get_ald_annotation:
     "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/ald.py "
     "{input} 1>{output}"
 
+rule get_clinvar_annotation:
+  input:
+    get_intervar_input
+    , "/usr/local/bin/AVA/server/utils/db/clinvar/clinvar_20180701.vcf"
+  output:
+    "output/{proj_name}.clinvar.tsv"
+  shell:
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/clinvar.py "
+    "{input} 1>{output}"
+
 rule merge_annotation:
   input:
-    expand("output/{proj_name}.{ext}", proj_name = config["proj_name"], ext = ["gnomad.tsv", "ald.tsv"])
+    expand("output/{proj_name}.{ext}", proj_name = config["proj_name"], ext = ["gnomad.tsv", "ald.tsv", "clinvar.tsv"])
   output:
     "output/{proj_name}.final.tsv"
   shell:
