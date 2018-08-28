@@ -15,6 +15,6 @@ if __name__ == "__main__":
   ald = pd.read_csv(sys.argv[2], header = 0, sep = "\t")
   clinvar = pd.read_csv(sys.argv[3], header = 0, sep = "\t")
   results = pd.merge(gnomad, ald, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
-  results = pd.merge(results, clinvar, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
+  results = pd.merge(results, clinvar, on = ["Chrom", "Start", "Ref", "Alt"], how = "left").drop_duplicates()
   results = results.fillna("-")
   print(results.to_csv(index = False, sep = "\t"))
