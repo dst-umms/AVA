@@ -77,6 +77,14 @@ Ext.define('AVA.view.main.VariantForm', {
     fieldLabel: 'clinvar.RS',
     allowBlank: false
   }, {
+    name: 'dbsnp.RS',
+    fieldLabel: 'dbsnp.RS',
+    allowBlank: false
+  }, {
+    name: 'dbsnp.AF',
+    fieldLabel: 'dbsnp.AF',
+    allowBlank: false
+  }, {
     name: 'Comments',
     fieldLabel: 'Comments',
     allowBlank: false

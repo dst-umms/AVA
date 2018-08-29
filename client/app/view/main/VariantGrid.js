@@ -72,6 +72,14 @@ Ext.define('AVA.view.main.VariantGrid', {
     dataIndex: 'clinvar.RS',
     width: 150
   }, {
+    text: 'dbsnp.RS',
+    dataIndex: 'dbsnp.RS',
+    width: 150
+  }, {
+    text: 'dbsnp.AF',
+    dataIndex: 'dbsnp.AF',
+    width: 150
+  }, {
     text: 'Comments',
     dataIndex: 'Comments',
     hidden: true
