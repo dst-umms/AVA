@@ -4,7 +4,7 @@ Ext.define('AVA.model.LoadVariants', {
     name: 'Start',
     type: 'int'
   }, 'Ref', 'Alt', "p.gnomad", "c.gnomad", "func.gnomad", "AF.gnomad", "rs.gnomad", 
-  "c.ALD", "p.ALD", "Exon.ALD", "Remark.ALD"
+  "c.ALD", "p.ALD", "Exon.ALD", "Remark.ALD", "clinvar.HGVS", "clinvar.SIG", "clinvar.MC", "clinvar.RS"
   , "Comments", { 
     name: 'id',
     type: 'int'

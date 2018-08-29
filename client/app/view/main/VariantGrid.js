@@ -56,6 +56,22 @@ Ext.define('AVA.view.main.VariantGrid', {
     dataIndex: 'Remark.ALD',
     width: 150
   }, {
+    text: 'clinvar.HGVS',
+    dataIndex: 'clinvar.HGVS',
+    width: 150
+  }, {
+    text: 'clinvar.SIG',
+    dataIndex: 'clinvar.SIG',
+    width: 150
+  }, {
+    text: 'clinvar.MC',
+    dataIndex: 'clinvar.MC',
+    width: 150
+  }, {
+    text: 'clinvar.RS',
+    dataIndex: 'clinvar.RS',
+    width: 150
+  }, {
     text: 'Comments',
     dataIndex: 'Comments',
     hidden: true

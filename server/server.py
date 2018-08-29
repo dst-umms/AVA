@@ -15,8 +15,6 @@ import os
 import time
 import subprocess
 import re
-import pandas as pd
-from datetime import datetime
 
 #------  GLOBALS  --------#
 

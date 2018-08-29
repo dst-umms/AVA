@@ -61,6 +61,22 @@ Ext.define('AVA.view.main.VariantForm', {
     fieldLabel: 'Remark.ALD',
     allowBlank: false
   }, {
+    name: 'clinvar.HGVS',
+    fieldLabel: 'clinvar.HGVS',
+    allowBlank: false
+  }, {
+    name: 'clinvar.SIG',
+    fieldLabel: 'clinvar.SIG',
+    allowBlank: false
+  }, {
+    name: 'clinvar.MC',
+    fieldLabel: 'clinvar.MC',
+    allowBlank: false
+  }, {
+    name: 'clinvar.RS',
+    fieldLabel: 'clinvar.RS',
+    allowBlank: false
+  }, {
     name: 'Comments',
     fieldLabel: 'Comments',
     allowBlank: false
