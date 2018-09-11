@@ -40,6 +40,22 @@ Ext.define('AVA.view.main.VariantGrid', {
     dataIndex: 'AF.gnomad',
     width: 100
   }, {
+    text: 'p.ExAC',
+    dataIndex: 'p.ExAC',
+    width: 150
+  },{
+    text: 'c.ExAC',
+    dataIndex: 'c.ExAC',
+    width: 150
+  },{
+    text: 'func.ExAC',
+    dataIndex: 'func.ExAC',
+    width: 150
+  },{
+    text: 'AF.ExAC',
+    dataIndex: 'AF.ExAC',
+    width: 100
+  }, {
     text: 'c.ALD',
     dataIndex: 'c.ALD',
     width: 150

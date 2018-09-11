@@ -45,6 +45,26 @@ Ext.define('AVA.view.main.VariantForm', {
     fieldLabel: 'rs.gnomad',
     allowBlank: false
   }, {
+    name: 'p.ExAC',
+    fieldLabel: 'p.ExAC',
+    allowBlank: false
+  }, {
+    name: 'c.ExAC',
+    fieldLabel: 'c.ExAC',
+    allowBlank: false
+  }, {
+    name: 'func.ExAC',
+    fieldLabel: 'func.ExAC',
+    allowBlank: false
+  }, {
+    name: 'AF.ExAC',
+    fieldLabel: 'AF.ExAC',
+    allowBlank: false
+  }, {
+    name: 'rs.ExAC',
+    fieldLabel: 'rs.ExAC',
+    allowBlank: false
+  }, {
     name: 'c.ALD',
     fieldLabel: 'c.ALD',
     allowBlank: false
