@@ -16,7 +16,7 @@ import os
 import time
 import subprocess
 import re
-
+from modules.pipeline import status
 #------  GLOBALS  --------#
 
 
@@ -103,18 +103,15 @@ def get_status():
   proj_name = request.form["proj_name"]
   log_file = "/usr/local/bin/analysis/{proj_name}/{proj_name}.log".format(proj_name = proj_name)
   if os.path.isfile(log_file):
-    errors = re.findall('error', open(log_file, 'r').read(), re.IGNORECASE)
-    err_msg = "Variant Pipeline resulted in error for project: " + proj_name if errors else None
-    pipe_status = re.findall(r'\((\d+)%\)', open(log_file, 'r').read()) or 1 if not errors else 0
-    pipe_status = pipe_status[-1] if isinstance(pipe_status, list) else pipe_status
+    pipe_status = status.pipeline_status(log_file) 
     return json.dumps({
-      "status": pipe_status,
+      "data": pipe_status,
       "proj_name": proj_name,
-      "error": err_msg
+      "error": None
     }), 200
   else:
     return json.dumps({
-      "status": 0,
+      "data": None,
       "error": "Variant Pipeline doesn't exist for project: " + proj_name,
       "proj_name": proj_name
     }), 200
