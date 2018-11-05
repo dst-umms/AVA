@@ -33,10 +33,9 @@ def hello():
 
 @app.route("/server/UploadVariantFile", methods = ['PUT', 'POST'])
 def upload_file():
-  data_file = request.files["VariantFile"]
+  data_file = request.files["variant-file"]
+  proj_name = request.form['proj-name']
   file_format = request.form['file-format']
-  proj_name = data_file.filename.replace(' ', '_')
-  proj_name = proj_name.replace('.' + file_format, '')
   file_name = secure_filename(proj_name + '.' + file_format)
   dir_path = "/usr/local/bin/analysis/" + proj_name
   os.makedirs(dir_path + "/input", exist_ok = True)
@@ -79,7 +78,7 @@ def upload_file():
 def get_json():
   if request.method == 'POST':
     return json.dumps({"success": "true"}), 200
-  proj_name = request.args["proj_name"]
+  proj_name = request.args["proj-name"]
   out_file = "/usr/local/bin/analysis/{proj_name}/output/{proj_name}.final.tsv".format(
     proj_name = proj_name
   )
@@ -100,7 +99,7 @@ def get_json():
 
 @app.route('/server/PipelineStatus', methods = ['POST'])
 def get_status():
-  proj_name = request.form["proj_name"]
+  proj_name = request.form["proj-name"]
   log_file = "/usr/local/bin/analysis/{proj_name}/{proj_name}.log".format(proj_name = proj_name)
   if os.path.isfile(log_file):
     pipe_status = status.pipeline_status(log_file) 
