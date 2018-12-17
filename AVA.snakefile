@@ -17,6 +17,7 @@ rule target:
     , "output/{proj_name}.dbsnp.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.exac.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.tsv".format(proj_name = config["proj_name"])
+    , "output/{proj_name}.final.json".format(proj_name = config["proj_name"])
 
 rule convert_nenbss_to_annovar:
   input:
@@ -101,4 +102,13 @@ rule merge_annotation:
     "output/{proj_name}.final.tsv"
   shell:
     "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/merge_annot.py "
+    "{input} 1>{output}"
+
+rule output_json:
+  input:
+    "output/{proj_name}.final.tsv"
+  output:
+    "output/{proj_name}.final.json"
+  shell:
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/gen_json.py "
     "{input} 1>{output}"

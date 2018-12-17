@@ -79,22 +79,10 @@ def get_json():
   if request.method == 'POST':
     return json.dumps({"success": "true"}), 200
   proj_name = request.args["proj-name"]
-  out_file = "/usr/local/bin/analysis/{proj_name}/output/{proj_name}.final.tsv".format(
+  out_file = "/usr/local/bin/analysis/{proj_name}/output/{proj_name}.final.json".format(
     proj_name = proj_name
   )
-  final_array = []
-  with open(out_file, 'r') as fh:
-    content = fh.read()
-    content = content.split("\n")
-    keys = content[0].split("\t")
-    keys.append("id")
-    for index in range(1, len(content)):
-      if content[index]:
-        values = content[index].split("\t")
-        values.append(index)
-        values[0], values[1] = str(values[0]), int(values[1])
-        final_array.append(dict(zip(keys, values)))
-  return json.dumps(final_array), 200
+  return open(out_file, 'r').read(), 200
       
 
 @app.route('/server/PipelineStatus', methods = ['POST'])
