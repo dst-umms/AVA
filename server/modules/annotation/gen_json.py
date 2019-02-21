@@ -67,7 +67,7 @@ def format_variant(info):
 
 def main(in_file):
   content = pd.read_csv(in_file, sep = "\t", header = 0)
-  content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "FUNC.gnomad", "AF.gnomad", "RS.gnomad", "Comments", \
+  content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "FUNC.gnomad", "AF.gnomad", "RS.gnomad", "Gene", "Comments", \
                     "C.ald", "P.ald", "EXON.ald", "REMARK.ald", "HGVS.clinvar", "SIG.clinvar", "MC.clinvar", "RS.clinvar", "RS.dbsnp", \
                     "AF.dbsnp", "P.exac", "C.exac", "FUNC.exac", "AF.exac", "RS.exac"]
   variants = list(content.apply(lambda row: format_variant(row), axis = 1))
