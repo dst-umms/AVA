@@ -39,6 +39,12 @@ def format_variant(info):
     , "Chromosome": {
       "ChromosomeLabel": info["Chrom"]
     }
+    , "Gene": {
+      "GeneName": info["Gene"]
+      , "Chromosome": {
+        "ChromosomeLabel": info["Chrom"]
+      }
+    }
     , "Interpretations": [{
       "Classification": {
         "ClassificationLabel": "TBD"

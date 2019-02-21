@@ -79,12 +79,15 @@ class NenbssToAnnovar():
       if gene_name.upper() == 'MPS1':
         gene_info = self.idua_gene_info
         (chrom, start, end) = self.idua_chr_info.split(':')
+        gene_name = "IDUA"
       elif gene_name.upper() == 'ALD18':
         gene_info = self.abcd1_gene_info
         (chrom, start, end) = self.abcd1_chr_info.split(':')
+        gene_name = "ABCD1"
       elif gene_name.upper() == 'POMPE18':
         gene_info = self.gaa_gene_info
         (chrom, start, end) = self.gaa_chr_info.split(':')
+        gene_name = "GAA"
       else:
         raise "Only POMPE (GAA), ALD (ABCD1) and MPS1 (IDUA) are supported. " + gene_name + " is not valid."
       (var_info, base_info) = df[["Variant ID", "Base Position"]][df.index == index].values[0]
@@ -97,7 +100,7 @@ class NenbssToAnnovar():
           base_info = base_info - 1
       (ref, alt) = self.__get_ref_and_alt_bases(var_info)
       base_pos = int(start) + int(base_info) - 1 # 1 because the string is 0 based
-      annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, 'comments: ' + 
+      annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, gene_name, 'comments: ' + 
         ';'.join([str(val) for val in df[df.index == index].values[0]])])
     return annovar_info
 

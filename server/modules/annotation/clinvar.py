@@ -47,7 +47,7 @@ def add_clinvar_info(clinvar_info, variants):
 if __name__ == "__main__":
   variants = pd.read_csv(sys.argv[1], header = None, sep = "\t")
   clinvar_info = get_clinvar_info(sys.argv[2])
-  variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Comments"]
+  variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "Comments"]
   results = add_clinvar_info(clinvar_info, variants)
   results = results.fillna("-")
   print(results.to_csv(index = False, sep = "\t"))
