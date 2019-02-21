@@ -13,7 +13,9 @@ import json
 
 def get_facts(info):
   facts = []
-  sources = ['p.gnomad', 'c.gnomad', 'func.gnomad', 'AF.gnomad', 'rs.gnomad']
+  sources = ['P.gnomad', 'C.gnomad', 'FUNC.gnomad', 'AF.gnomad', 'RS.gnomad', 'C.ald', 'P.ald', 'EXON.ald', \
+            'REMARK.ald', 'HGVS.clinvar', 'SIG.clinvar', 'MC.clinvar', 'RS.clinvar', 'RS.dbsnp', 'AF.dbsnp', 'P.exac', \
+            'C.exac', 'FUNC.exac', 'AF.exac', 'RS.exac']
   for source in sources:
     if not info[source] == '-':
       facts.append({
@@ -55,7 +57,7 @@ def format_variant(info):
       }
       , "Evidence": {
         "Facts": [{
-          "FactLabel": "func.gnomad"
+          "FactLabel": "FUNC.gnomad"
         }]
       }
     }]
@@ -65,6 +67,9 @@ def format_variant(info):
 
 def main(in_file):
   content = pd.read_csv(in_file, sep = "\t", header = 0)
+  content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "FUNC.gnomad", "AF.gnomad", "RS.gnomad", "Comments", \
+                    "C.ald", "P.ald", "EXON.ald", "REMARK.ald", "HGVS.clinvar", "SIG.clinvar", "MC.clinvar", "RS.clinvar", "RS.dbsnp", \
+                    "AF.dbsnp", "P.exac", "C.exac", "FUNC.exac", "AF.exac", "RS.exac"]
   variants = list(content.apply(lambda row: format_variant(row), axis = 1))
   print(json.dumps({ 
     "Variants": variants
