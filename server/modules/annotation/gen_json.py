@@ -70,6 +70,7 @@ def main(in_file):
   content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "FUNC.gnomad", "AF.gnomad", "RS.gnomad", "Gene", "Comments", \
                     "C.ald", "P.ald", "EXON.ald", "REMARK.ald", "HGVS.clinvar", "SIG.clinvar", "MC.clinvar", "RS.clinvar", "RS.dbsnp", \
                     "AF.dbsnp", "P.exac", "C.exac", "FUNC.exac", "AF.exac", "RS.exac"]
+  content["Chrom"] = content["Chrom"].astype(str)
   variants = list(content.apply(lambda row: format_variant(row), axis = 1))
   print(json.dumps({ 
     "Variants": variants

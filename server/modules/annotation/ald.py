@@ -18,8 +18,9 @@ def get_ald_info(ald_annot_file):
 
 if __name__ == "__main__":
   variants = pd.read_csv(sys.argv[1], header = None, sep = "\t")
-  ald_info = get_ald_info(sys.argv[2])
   variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "Comments"]
+  variants["Chrom"] = variants["Chrom"].astype(str)
+  ald_info = get_ald_info(sys.argv[2])
   variants_with_annot = pd.merge(ald_info, variants, on = ["Chrom", "Position"], how = "inner")
   results = variants_with_annot[["Chrom", "Position", "Reference", "Alternate", 
     "Variant", "Consequence", "Exon", "Remark"]]

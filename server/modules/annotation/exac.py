@@ -16,8 +16,9 @@ def get_exac_info(exac_annot_file):
 
 if __name__ == "__main__":
   variants = pd.read_csv(sys.argv[1], header = None, sep = "\t")
-  exac_info = get_exac_info(sys.argv[2])
   variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "Comments"]
+  variants["Chrom"] = variants["Chrom"].astype(str)
+  exac_info = get_exac_info(sys.argv[2])
   variants.loc[variants.Reference == '-', "Reference"] = '.'
   variants.loc[variants.Alternate == '-', "Alternate"] = '.'
   results = pd.merge(exac_info, variants, on = ["Chrom", "Position", "Reference", "Alternate"], how = "right") 

@@ -17,7 +17,7 @@ if __name__ == "__main__":
   dbsnp = pd.read_csv(sys.argv[4], header = 0, sep = "\t")
   exac = pd.read_csv(sys.argv[5], header = 0, sep = "\t")
   results = pd.merge(gnomad, ald, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
-  results = pd.merge(results, clinvar, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
+  results = pd.merge(results, clinvar, on = ["Chrom", "Start", "Ref", "Alt"], how = "left") 
   results = pd.merge(results, dbsnp, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
   results = pd.merge(results, exac, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
   results = results.drop_duplicates().fillna("-")
