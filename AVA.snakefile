@@ -19,13 +19,13 @@ rule target:
     , "output/{proj_name}.final.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.json".format(proj_name = config["proj_name"])
 
-rule convert_nenbss_to_annovar:
+rule convert_json_to_annovar:
   input:
-    expand("input/{proj_name}.csv", proj_name = config["proj_name"])    
+    expand("input/{proj_name}.json", proj_name = config["proj_name"])    
   output:
     "input/{proj_name}.txt"
   shell:
-    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/file_conversion/nenbss_to_annovar.py "
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/file_conversion/json_to_annovar.py "
     "{input} 1>{output}"
 
 rule run_intervar:

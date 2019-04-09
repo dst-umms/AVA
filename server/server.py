@@ -15,6 +15,7 @@ import json
 import os
 import time
 import subprocess
+import tempfile
 import re
 from modules.pipeline import status
 #------  GLOBALS  --------#
@@ -31,15 +32,29 @@ CORS(app)
 def hello():
   return "Hello World!"
 
-@app.route("/server/UploadVariantFile", methods = ['PUT', 'POST'])
-def upload_file():
+@app.route("/server/VariantFileToJson", methods = ['POST'])
+def variant_file_to_json():
   data_file = request.files["variant-file"]
-  proj_name = request.form['proj-name']
-  file_format = request.form['file-format']
+  _, file_name = tempfile.mkstemp()
+  data_file.save(file_name) 
+  cmd = """
+    /usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/file_conversion/nenbss_to_annovar.py \
+    {in_file} 
+  """.format(in_file = file_name)
+  proc = subprocess.Popen([cmd], shell = True, executable = "/bin/bash", stdout = subprocess.PIPE)
+  return proc.stdout.read(), 200 
+
+@app.route("/server/RunPipeline", methods = ['POST'])
+def run_pipeline():
+  data = request.get_json(force = True)
+  variant_json = data["variant-json"]
+  proj_name = data['proj-name']
+  file_format = data['file-format'].lower()
   file_name = secure_filename(proj_name + '.' + file_format)
   dir_path = "/usr/local/bin/analysis/" + proj_name
   os.makedirs(dir_path + "/input", exist_ok = True)
-  data_file.save(dir_path + '/input/' + file_name)
+  with open(dir_path + '/input/' + file_name, "w") as ofh:
+    ofh.write(json.dumps(variant_json))
   log_file = dir_path + "/" + proj_name + ".log"
   cmd = """snakemake -p --latency-wait 60 -s /usr/local/bin/AVA/AVA.snakefile \
             --config proj_name={proj_name} file_format={file_format} --directory {work_dir} \
@@ -74,11 +89,10 @@ def upload_file():
       "file": proj_name
     }), 200
     
-@app.route("/server/GetVariantInfo", methods = ['GET', 'POST'])
+@app.route("/server/GetVariantInfo", methods = ['POST'])
 def get_json():
-  if request.method == 'POST':
-    return json.dumps({"success": "true"}), 200
-  proj_name = request.args["proj-name"]
+  data = request.get_json(force = True)
+  proj_name = data["proj-name"]
   out_file = "/usr/local/bin/analysis/{proj_name}/output/{proj_name}.final.json".format(
     proj_name = proj_name
   )
@@ -87,7 +101,8 @@ def get_json():
 
 @app.route('/server/PipelineStatus', methods = ['POST'])
 def get_status():
-  proj_name = request.form["proj-name"]
+  data = request.get_json(force = True)
+  proj_name = data["proj-name"]
   log_file = "/usr/local/bin/analysis/{proj_name}/{proj_name}.log".format(proj_name = proj_name)
   if os.path.isfile(log_file):
     pipe_status = status.pipeline_status(log_file) 

@@ -107,4 +107,4 @@ class NenbssToAnnovar():
 
 if __name__ == "__main__":
   n = NenbssToAnnovar()
-  print(pd.DataFrame(n.nenbss_to_annovar(sys.argv[1])).to_csv(sep = "\t", index = None, header = None)) 
+  print(pd.DataFrame(n.nenbss_to_annovar(sys.argv[1])).to_json(orient = 'records')) 
