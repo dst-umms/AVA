@@ -32,6 +32,30 @@ CORS(app)
 def hello():
   return "Hello World!"
 
+@app.route("/server/VariantSourceInfo", methods = ['POST'])
+def variant_source_info():
+  return json.dumps([{
+    "SourceName": "gnomad",
+    "VersionName": "v1",
+    "VersionId": "2018_08_01"  
+  }, {
+    "SourceName": "ald",
+    "VersionName": "v1",
+    "VersionId": "2018_07_26"
+  }, {
+    "SourceName": "clinvar",
+    "VersionName": "v1",
+    "VersionId": "2018_07_01"
+  }, {
+    "SourceName": "dbsnp",
+    "VersionName": "v1",
+    "VersionId": "2018_04_23"
+  }, {
+    "SourceName": "exac",
+    "VersionName": "v1",
+    "VersionId": "2018_09_11"
+  }]), 200  
+
 @app.route("/server/VariantFileToJson", methods = ['POST'])
 def variant_file_to_json():
   data_file = request.files["variant-file"]

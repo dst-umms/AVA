@@ -63,9 +63,9 @@ class NenbssToAnnovar():
     ins_info = var_info.split("INS")
     del_info = var_info.split("DEL")
     if len(ins_info) > 1: # then it's insertion
-      return ('-', ins_info[1])
+      return ('.', ins_info[1])
     elif len(del_info) > 1: # then it's deletion
-      return (del_info[1], '-')
+      return (del_info[1], '.')
     else:
       (ref, alt) = var_info[-3:].split('>')
       alt = alt if alt in ['A', 'G', 'C', 'T'] else self.__get_iupac_base(alt, ref)

@@ -11,6 +11,25 @@ import pandas as pd
 import sys
 import json
 
+VERSION_INFO = {
+  "gnomad": {
+    "VersionName": "v1",
+    "VersionId": "2018_08_01"
+  }, "ald": {
+    "VersionName": "v1",
+    "VersionId": "2018_07_26"
+  } , "clinvar": {
+    "VersionName": "v1",
+    "VersionId": "2018_07_01"
+  }, "dbsnp": {
+    "VersionName": "v1",
+    "VersionId": "2018_04_23"
+  }, "exac": {
+    "VersionName": "v1",
+    "VersionId": "2018_09_11"
+  }
+}
+
 def get_facts(info):
   facts = []
   sources = ['P.gnomad', 'C.gnomad', 'FUNC.gnomad', 'AF.gnomad', 'RS.gnomad', 'C.ald', 'P.ald', 'EXON.ald', \
@@ -24,6 +43,8 @@ def get_facts(info):
         , "FactValue": info[source]
         , "FactSource": {
           "Name": source.split(".")[1]
+          , "VersionId": VERSION_INFO[source.split(".")[1]]["VersionId"]
+          , "VersionName": VERSION_INFO[source.split(".")[1]]["VersionName"]
         }
       })
   return facts
