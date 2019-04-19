@@ -13,8 +13,8 @@ import json
 
 VERSION_INFO = {
   "gnomad": {
-    "VersionName": "v1",
-    "VersionId": "2018_08_01"
+    "VersionName": "v2",
+    "VersionId": "2019_04_19"
   }, "ald": {
     "VersionName": "v1",
     "VersionId": "2018_07_26"

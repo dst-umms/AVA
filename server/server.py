@@ -36,8 +36,8 @@ def hello():
 def variant_source_info():
   return json.dumps([{
     "SourceName": "gnomad",
-    "VersionName": "v1",
-    "VersionId": "2018_08_01"  
+    "VersionName": "v2",
+    "VersionId": "2019_04_19"  
   }, {
     "SourceName": "ald",
     "VersionName": "v1",

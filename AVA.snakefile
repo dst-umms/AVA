@@ -46,7 +46,7 @@ rule run_intervar:
 rule get_gnomad_annotation:
   input:
     get_intervar_input
-    , "/usr/local/bin/AVA/server/utils/db/gnomad/gnomad_2018_08_01.csv"
+    , "/usr/local/bin/AVA/server/utils/db/gnomad/gnomad_2019_04_19.csv"
   output:
     "output/{proj_name}.gnomad.tsv"
   shell:
