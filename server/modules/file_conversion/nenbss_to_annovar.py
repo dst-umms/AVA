@@ -58,39 +58,40 @@ class NenbssToAnnovar():
       raise iupac_base + ' not found in iupac table: ' + ','.join(iupac.keys())
 
   def __get_ref_and_alt_bases(self, var_info):
-    var_info = var_info.upper()
-    var_info = var_info.split(";")[0]
     ins_info = var_info.split("INS")
     del_info = var_info.split("DEL")
     if len(ins_info) > 1: # then it's insertion
-      return ('.', ins_info[1])
+      return ('.', ins_info[1], var_info)
     elif len(del_info) > 1: # then it's deletion
-      return (del_info[1], '.')
+      return (del_info[1], '.', var_info)
     else:
       (ref, alt) = var_info[-3:].split('>')
       alt = alt if alt in ['A', 'G', 'C', 'T'] else self.__get_iupac_base(alt, ref)
-      return (ref, alt)
+      return (ref, alt, var_info[:-1] + alt)
 
   def nenbss_to_annovar(self, nenbss_file):
     df = pd.read_csv(nenbss_file, header = 0, sep = ",")
+    header = list(df.columns)
+    header[3] = "Specimen ID"
+    df.columns = header
     annovar_info = []
     for index in df.index:
       gene_name = self.re_obj.search(df["Project Name"][index]).group(1) 
-      if gene_name.upper() == 'MPS1':
-        gene_info = self.idua_gene_info
+      run_name = df["Project Name"][index]
+      spec_name = df["Specimen ID"][index]
+      c_dot = 'c' + re.split('\s+|:|\(', df["Variant ID"][index])[0].upper()[1:]
+      if gene_name.upper() in ['MPS1', 'IDUA']:
         (chrom, start, end) = self.idua_chr_info.split(':')
         gene_name = "IDUA"
-      elif gene_name.upper() == 'ALD18':
-        gene_info = self.abcd1_gene_info
+      elif gene_name.upper() in ['ALD18', 'ABCD1']:
         (chrom, start, end) = self.abcd1_chr_info.split(':')
         gene_name = "ABCD1"
-      elif gene_name.upper() == 'POMPE18':
-        gene_info = self.gaa_gene_info
+      elif gene_name.upper() in ['POMPE18', 'GAA']:
         (chrom, start, end) = self.gaa_chr_info.split(':')
         gene_name = "GAA"
       else:
         raise "Only POMPE (GAA), ALD (ABCD1) and MPS1 (IDUA) are supported. " + gene_name + " is not valid."
-      (var_info, base_info) = df[["Variant ID", "Base Position"]][df.index == index].values[0]
+      base_info = df["Base Position"][index]
       if chrom == 'X' and base_info >= 13713: #see below comments about where this number comes from
         # A single base deletion happened at “13714” position (1-based counting).
         # We need to account for this by subtracting one more from this point on.
@@ -98,9 +99,9 @@ class NenbssToAnnovar():
           raise "FATAL: The nucleotide at 13713 position is a deletion in ChrX."
         else:
           base_info = base_info - 1
-      (ref, alt) = self.__get_ref_and_alt_bases(var_info)
+      (ref, alt, c_dot) = self.__get_ref_and_alt_bases(c_dot)
       base_pos = int(start) + int(base_info) - 1 # 1 because the string is 0 based
-      annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, gene_name, 'comments: ' + 
+      annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, 'comments: ' + 
         ';'.join([str(val) for val in df[df.index == index].values[0]])])
     return annovar_info
 

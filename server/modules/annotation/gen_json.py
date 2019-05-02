@@ -55,6 +55,9 @@ def format_variant(info):
     pass
   variant = {
     "VariantLabel": info["Chrom"] + "_" + str(info["Start"]) + "_" + info["Ref"] + ">" + info["Alt"]
+    , "C.": info["C."]
+    , "RunID": info["RunID"]
+    , "SpecID": info["SpecID"]
     , "Name": info["Ref"] + ">" + info["Alt"]
     , "Position": {
       "StartPosition": info["Start"]
@@ -88,7 +91,8 @@ def format_variant(info):
 
 def main(in_file):
   content = pd.read_csv(in_file, sep = "\t", header = 0)
-  content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "FUNC.gnomad", "AF.gnomad", "RS.gnomad", "Gene", "Comments", \
+  content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "FUNC.gnomad", "AF.gnomad", "RS.gnomad", "Gene", 
+                    "RunID", "SpecID", "C.", "Comments", \
                     "C.ald", "P.ald", "EXON.ald", "REMARK.ald", "HGVS.clinvar", "SIG.clinvar", "MC.clinvar", "RS.clinvar", "RS.dbsnp", \
                     "AF.dbsnp", "P.exac", "C.exac", "FUNC.exac", "AF.exac", "RS.exac"]
   content["Chrom"] = content["Chrom"].astype(str)

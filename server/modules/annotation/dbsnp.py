@@ -44,7 +44,7 @@ def add_dbsnp_info(dbsnp_info, variants):
 
 if __name__ == "__main__":
   variants = pd.read_csv(sys.argv[1], header = None, sep = "\t")
-  variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "Comments"]
+  variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "RunID", "SpecID", "C.", "Comments"]
   dbsnp_info = get_dbsnp_info(sys.argv[2], variants)
   results = add_dbsnp_info(dbsnp_info, variants)
   results = results.fillna("-")
