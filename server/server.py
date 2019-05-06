@@ -54,6 +54,10 @@ def variant_source_info():
     "SourceName": "exac",
     "VersionName": "v1",
     "VersionId": "2018_09_11"
+  }, {
+    "SourceName": "emv",
+    "VersionName": "v1",
+    "VersionId": "2019_05_06"
   }]), 200  
 
 @app.route("/server/VariantFileToJson", methods = ['POST'])

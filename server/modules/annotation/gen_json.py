@@ -27,6 +27,9 @@ VERSION_INFO = {
   }, "exac": {
     "VersionName": "v1",
     "VersionId": "2018_09_11"
+  }, "emv": {
+    "VersionName": "v1",
+    "VersionId": "2019_05_06"
   }
 }
 
@@ -34,7 +37,7 @@ def get_facts(info):
   facts = []
   sources = ['P.gnomad', 'C.gnomad', 'FUNC.gnomad', 'AF.gnomad', 'RS.gnomad', 'C.ald', 'P.ald', 'EXON.ald', \
             'REMARK.ald', 'HGVS.clinvar', 'SIG.clinvar', 'MC.clinvar', 'RS.clinvar', 'RS.dbsnp', 'AF.dbsnp', 'P.exac', \
-            'C.exac', 'FUNC.exac', 'AF.exac', 'RS.exac']
+            'C.exac', 'FUNC.exac', 'AF.exac', 'RS.exac', 'C.emv', 'P.emv', 'SIG.emv', 'REVIEW_DATE.emv']
   for source in sources:
     if not info[source] == '-':
       facts.append({
@@ -94,7 +97,8 @@ def main(in_file):
   content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "FUNC.gnomad", "AF.gnomad", "RS.gnomad", "Gene", 
                     "RunID", "SpecID", "C.", "Comments", \
                     "C.ald", "P.ald", "EXON.ald", "REMARK.ald", "HGVS.clinvar", "SIG.clinvar", "MC.clinvar", "RS.clinvar", "RS.dbsnp", \
-                    "AF.dbsnp", "P.exac", "C.exac", "FUNC.exac", "AF.exac", "RS.exac"]
+                    "AF.dbsnp", "P.exac", "C.exac", "FUNC.exac", "AF.exac", "RS.exac", "C.emv", "P.emv" \
+  , "SIG.emv", "REVIEW_DATE.emv"]
   content["Chrom"] = content["Chrom"].astype(str)
   variants = list(content.apply(lambda row: format_variant(row), axis = 1))
   print(json.dumps({ 

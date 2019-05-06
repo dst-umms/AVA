@@ -16,6 +16,7 @@ rule target:
     , "output/{proj_name}.clinvar.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.dbsnp.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.exac.tsv".format(proj_name = config["proj_name"])
+    , "output/{proj_name}.emv.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.json".format(proj_name = config["proj_name"])
 
@@ -94,10 +95,20 @@ rule get_dbsnp_annotation:
     "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/dbsnp.py "
     "{input} 1>{output}"
 
+rule get_emv_annotation:
+  input:
+    get_intervar_input
+    , "/usr/local/bin/AVA/server/utils/db/emv/EmVClass.2018-Q2.csv"
+  output:
+    "output/{proj_name}.emv.tsv"
+  shell:
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/emv.py "
+    "{input} 1>{output}"
+
 rule merge_annotation:
   input:
     expand("output/{proj_name}.{ext}", proj_name = config["proj_name"], 
-      ext = ["gnomad.tsv", "ald.tsv", "clinvar.tsv", "dbsnp.tsv", "exac.tsv"])
+      ext = ["gnomad.tsv", "ald.tsv", "clinvar.tsv", "dbsnp.tsv", "exac.tsv", "emv.tsv"])
   output:
     "output/{proj_name}.final.tsv"
   shell:
