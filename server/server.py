@@ -58,6 +58,10 @@ def variant_source_info():
     "SourceName": "emv",
     "VersionName": "v1",
     "VersionId": "2019_05_06"
+  }, {
+    "SourceName": "polyphen",
+    "VersionName": "v1",
+    "VersionId": "2019_05_07"
   }]), 200  
 
 @app.route("/server/VariantFileToJson", methods = ['POST'])
