@@ -21,17 +21,18 @@ def get_poly_info(poly_annot_file):
 def check_annotation(row, df, results):
   info = df.loc[(df.Chrom == 'chr' + row.Chrom) & (df.Position == row.Position) &
     (df.Reference == row.Reference) & (df.Alternate == row.Alternate)]
-  if info:
-    info.append([row.Chrom, row.Position, row.Reference, row.Alternate, 
-      "c." + df.CPosition + df.Reference + ">" + df.Alternate, 
-      "p." + df.PPosition + df.PReference + ">" + df.PAlternate, df.Prediction,
-      df.DScore, df.HDivPrediction, df.HDivProb, df.HVarPrediction, df.HVarProb ])
-
+  if not info.empty:
+    info = list(info.values[0])
+    results.append([info[0], info[1], info[4], 
+      info[5], "c." + str(info[3]) + info[4]
+      + ">" + info[5], "p." + str(info[6]) + 
+      info[7] + ">" + info[8], 
+      info[9], info[10], info[11], 
+      info[12], info[13], info[14]])
 
 def get_annotation(poly_info, variants):
   results = []
-  for index in variants.index:
-    df.apply(lambda row: check_annotation(row, poly_info, results), axis = 1)  
+  variants.apply(lambda row: check_annotation(row, poly_info, results), axis = 1)  
   results = pd.DataFrame(results, columns = [
     "Chrom", "Start", "Ref", "Alt", "c.Polyphen", "p.Polyphen",
     "func.Polyphen", "dscore.Polyphen", "func_hdiv.Polyphen", "prob_hdiv.Polyphen",

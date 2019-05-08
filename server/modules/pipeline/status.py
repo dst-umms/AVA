@@ -13,7 +13,9 @@ def pipeline_status(log_file):
     "clinvar": None,
     "gnomad": None,
     "exac": None,
-    "ald": None
+    "ald": None,
+    "emv": None,
+    "polyphen": None
   }
   cur_step = None
   with open(log_file, "r") as fh:
