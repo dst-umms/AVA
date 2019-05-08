@@ -23,7 +23,7 @@ def check_annotation(row, df, results):
     (df.Reference == row.Reference) & (df.Alternate == row.Alternate)]
   if not info.empty:
     info = list(info.values[0])
-    results.append([info[0], info[1], info[4], 
+    results.append([row.Chrom, info[1], info[4], 
       info[5], "c." + str(info[3]) + info[4]
       + ">" + info[5], "p." + str(info[6]) + 
       info[7] + ">" + info[8], 
