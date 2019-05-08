@@ -14,7 +14,7 @@ def get_emv_info(emv_annot_file):
   df = pd.read_csv(emv_annot_file, header = 0, sep = ",")
   df.columns = ["Order", "Gene", "_", "Exon", "Nuc", "Prot", "Class", "Review", "Alias"]
   df = df.where((pd.notnull(df)), None)
-  df.loc[df["Review"] == "**"]["Review"] = "06/15/2012"
+  df.loc[df["Review"] == "**", "Review"] = "06/15/2012"
   df["C."] = df.apply(lambda x: x["Nuc"].split(":")[1], 1)
   df["P."] = df.apply(lambda x: x["Prot"].split("|")[0].strip() if x["Prot"] else "None", 1)
   df = df[["Gene", "C.", "P.", "Class", "Review"]] 
