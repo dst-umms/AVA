@@ -79,7 +79,7 @@ class NenbssToAnnovar():
       gene_name = self.re_obj.search(df["Project Name"][index]).group(1) 
       run_name = df["Project Name"][index]
       spec_name = df["Specimen ID"][index]
-      c_dot = 'c' + re.split('\s+|:|\(', df["Variant ID"][index])[0].upper()[1:]
+      c_dot = 'c' + re.split('\s+|:|;|,|\(', df["Variant ID"][index])[0].upper()[1:]
       if gene_name.upper() in ['MPS1', 'IDUA']:
         (chrom, start, end) = self.idua_chr_info.split(':')
         gene_name = "IDUA"

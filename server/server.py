@@ -52,8 +52,8 @@ def variant_source_info():
     "VersionId": "2018_04_23"
   }, {
     "SourceName": "exac",
-    "VersionName": "v1",
-    "VersionId": "2018_09_11"
+    "VersionName": "v2",
+    "VersionId": "2019_05_23"
   }, {
     "SourceName": "emv",
     "VersionName": "v1",

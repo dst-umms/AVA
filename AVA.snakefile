@@ -58,7 +58,7 @@ rule get_gnomad_annotation:
 rule get_exac_annotation:
   input:
     get_intervar_input
-    , "/usr/local/bin/AVA/server/utils/db/exac/exac_2018_09_11.csv"
+    , "/usr/local/bin/AVA/server/utils/db/exac/exac_2019_05_23.csv"
   output:
     "output/{proj_name}.exac.tsv"
   shell:
