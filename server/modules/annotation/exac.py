@@ -18,6 +18,7 @@ if __name__ == "__main__":
   variants = pd.read_csv(sys.argv[1], header = None, sep = "\t")
   variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "RunID", "SpecID", "C.", "Comments"]
   variants["Chrom"] = variants["Chrom"].astype(str)
+  variants["Position"] = variants["Position"].astype(str)
   exac_info = get_exac_info(sys.argv[2])
   variants.loc[variants.Reference == '-', "Reference"] = '.'
   variants.loc[variants.Alternate == '-', "Alternate"] = '.'
