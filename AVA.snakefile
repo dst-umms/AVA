@@ -18,6 +18,7 @@ rule target:
     , "output/{proj_name}.exac.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.emv.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.polyphen.tsv".format(proj_name = config["proj_name"])
+    , "output/{proj_name}.pompe.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.json".format(proj_name = config["proj_name"])
 
@@ -116,10 +117,20 @@ rule get_polyphen_annotation:
     "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/polyphen.py "
     "{input} 1>{output}"
 
+rule get_pompe_annotation:
+  input:
+    get_intervar_input
+    , "/usr/local/bin/AVA/server/utils/db/gaa_pompe/gaa_pompe_2019_05_28.csv"
+  output:
+    "output/{proj_name}.pompe.tsv"
+  shell:
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/pompe.py "
+    "{input} 1>{output}"
+
 rule merge_annotation:
   input:
     expand("output/{proj_name}.{ext}", proj_name = config["proj_name"], 
-      ext = ["gnomad.tsv", "ald.tsv", "clinvar.tsv", "dbsnp.tsv", "exac.tsv", "emv.tsv", "polyphen.tsv"])
+      ext = ["gnomad.tsv", "ald.tsv", "clinvar.tsv", "dbsnp.tsv", "exac.tsv", "emv.tsv", "polyphen.tsv", "pompe.tsv"])
   output:
     "output/{proj_name}.final.tsv"
   shell:

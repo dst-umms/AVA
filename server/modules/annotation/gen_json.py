@@ -33,6 +33,9 @@ VERSION_INFO = {
   }, "polyphen": {
     "VersionName": "v1",
     "VersionId": "2019_05_07"
+  }, "pompe": {
+    "VersionName": "v1",
+    "VersionId": "2019_05_28"
   }
 }
 
@@ -43,7 +46,7 @@ def get_facts(info):
             'C.exac', 'FUNC.exac', 'AF.exac', 'RS.exac', 'C.emv', 'P.emv', 'SIG.emv', 'REVIEW_DATE.emv',
             "C.polyphen", "P.polyphen",
             "FUNC.polyphen", "DSCORE.polyphen", "FUNC_HDIV.polyphen", "PROB_HDIV.polyphen",
-            "FUNC_HVAR.polyphen", "PROB_HVAR.polyphen"            
+            "FUNC_HVAR.polyphen", "PROB_HVAR.polyphen", "C.pompe", "P.pompe", "FUNC.pompe", "YEAR.pompe", "SOURCE.pompe"            
           ]
   for source in sources:
     if not info[source] == '-':
@@ -107,7 +110,7 @@ def main(in_file):
                     "AF.dbsnp", "P.exac", "C.exac", "FUNC.exac", "AF.exac", "RS.exac", "C.emv", "P.emv" \
   , "SIG.emv", "REVIEW_DATE.emv", "C.polyphen", "P.polyphen",
     "FUNC.polyphen", "DSCORE.polyphen", "FUNC_HDIV.polyphen", "PROB_HDIV.polyphen",
-    "FUNC_HVAR.polyphen", "PROB_HVAR.polyphen"]
+    "FUNC_HVAR.polyphen", "PROB_HVAR.polyphen", "C.pompe", "P.pompe", "FUNC.pompe", "YEAR.pompe", "SOURCE.pompe"]
   content["Chrom"] = content["Chrom"].astype(str)
   variants = list(content.apply(lambda row: format_variant(row), axis = 1))
   print(json.dumps({ 

@@ -62,6 +62,10 @@ def variant_source_info():
     "SourceName": "polyphen",
     "VersionName": "v1",
     "VersionId": "2019_05_07"
+  }, {
+    "SourceName": "pompe",
+    "VersionName": "v1",
+    "VersionId": "2019_05_28"
   }]), 200  
 
 @app.route("/server/VariantFileToJson", methods = ['POST'])
