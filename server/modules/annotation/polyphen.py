@@ -42,7 +42,7 @@ def get_annotation(poly_info, variants):
 
 if __name__ == "__main__":
   variants = pd.read_csv(sys.argv[1], header = None, sep = "\t")
-  variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "RunID", "SpecID", "C.", "Comments"]
+  variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "RunID", "SpecID", "C.", "P._In", "Comments"]
   variants["Chrom"] = variants["Chrom"].astype(str)
   poly_info = get_poly_info(sys.argv[2])
   results = get_annotation(poly_info, variants) 

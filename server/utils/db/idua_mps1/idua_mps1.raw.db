@@ -1,0 +1,59 @@
+id  locus mtype gtype ptype race  author  paper note  from  to  rid rmsd  main  side  aamain  aside dmain dside lmain lside allw  mpointw actw  dimw  ligw  allm  mpointm actm  dimm  ligm  structure str with wild
+1 Exon 1  missense mutation G51D  Severe    Bunge S Hum Mol Genet 3: 861-866 (1994)   G D 51  0.114 256 293 5 9 0 2 21518.67  21486.11  0 0 28.74 28.52 596.89  596.97          
+2 Exon 2  missense mutation A75T  Severe    Clarke LA Hum Mutat 3: 275-282 (1994)   A T 75  0.037 35  36  0 0 0 0 21518.67  21514.57  1.85  4.28  28.74 28.7  596.89  596.83          
+3 Exon 3  missense mutation T103P Severe    Bertola F Hum Mutat 32: E2189-210 (2011)    T P 103 0.017 6 8 0 0 0 0 21518.67  21509.78  57  50.48 28.74 28.77 596.89  596.7         
+4 Exon 4  missense mutation A160D Severe    Venturi N Hum Mutat 20: 231 (2002)    A D 160 0.069 65  79  0 0 0 0 21518.67  21502.78  1.57  0.94  28.74 28.53 596.89  596.14          
+5 Exon 5  missense mutation F177S Severe    Chkioua L Diagn Pathol 6: 47 (2011)   F S 177 0.017 4 8 0 0 0 0 21518.67  21573.94  4.77  5.77  28.74 28.75 596.89  596.86          
+6 Exon 5  missense mutation E178K Severe    Venturi N Hum Mutat 20: 231 (2002)    E K 178 0.124 244 338 6 10  2 5 21518.67  21563.99  0.29  0.31  28.74 28  596.89  604.3         
+7 Exon 5  missense mutation T179R Severe    Wang X  Clin Genet 81: 443-52. (2012)   T R 179 0.137 316 356 4 4 4 4 21518.67  21579.71  0.42  0.43  28.74 24  596.89  596.81          
+8 Exon 5  missense mutation E182K Severe    Brooks DA Glycobiology 11: 741-750 (2001)   E K 182 0.261 809 991 4 5 10  14  21518.67  21653.7 27.41 27.27 28.74 28.33 596.89  596.96          
+9 Exon 5  missense mutation E182D Severe    Wang X  Clin Genet 81: 443-52. (2012)   E D 182 0.017 0 4 0 0 0 0 21518.67  21527.56  27.41 19.72 28.74 21.92 596.89  597.22          
+10  Exon 5  missense mutation P183R Severe    Venturi N Hum Mutat 20: 231 (2002)    P R 183 0.184 380 410 4 5 4 4 21518.67  21571.36  0.05  3.58  28.74 28.59 596.89  597.1         
+11  Exon 6  missense mutation G208V Severe    Beesley CE  Hum Genet 109: 503-511 (2001)   G V 208 0.094 129 143 0 0 0 0 21518.67  21529.59  0 0 28.74 28.67 596.89  597.27          
+12  Exon 6  missense mutation G208D Severe    Li P  Genet Med 4: 420-426 (2002)   G D 208 0.068 66  89  0 0 0 0 21518.67  21505.37  0 0 28.74 28.41 596.89  596.76          
+13  Exon 6  missense mutation L218P Severe    Bunge S Hum Mol Genet 3: 861-866 (1994)   L P 218 0.040 28  38  0 0 0 0 21518.67  21520.66  0.52  1.15  28.74 28.68 596.89  596.91          
+14  Exon 6  missense mutation L237R Severe    Wang X  Clin Genet 81: 443-52. (2012)   L R 237 0.096 148 180 4 3 0 0 21518.67  21536.62  0.06  1.35  28.74 28.37 596.89  596.86          
+15  Exon 6  missense mutation L238R Severe    Wang X  Clin Genet 81: 443-52. (2012)   L R 238 0.068 109 105 0 0 0 0 21518.67  21541.68  0.52  0 28.74 28.78 596.89  595.76          
+16  Exon 7  missense mutation I270S Severe    Laradi S  J Inherit Metab 28: 1019-1026 (2005)    I S 270 0.009 0 5 0 0 0 1 21518.67  21536.8 44.72 26.73 28.74 28.77 596.89  603.23          
+17  Exon 7  missense mutation D315Y Severe    Scott HS  Hum Mutat 6: 288-302. (1995)    D Y 315 0.075 120 147 0 0 0 0 21518.67  21518.08  8.62  30.49 28.74 29.23 596.89  596.37          
+18  Exon 8  missense mutation A327P Severe    Bunge S Hum Mutat 6: 91-94 (1995)   A P 327 0.031 15  12  0 0 0 0 21518.67  21516.92  0 0.27  28.74 28.77 596.89  596.66          
+19  Exon 8  missense mutation D349N Severe    Scott HS  Hum Mutat 6: 288-302. (1995)    D N 349 0.038 32  57  0 4 0 0 21518.67  21538.3 7.43  4.32  28.74 30.57 596.89  596.29          
+20  Exon 8  missense mutation R363C Severe    Yogalingam G  Hum Mutat 24: 199-207 (2004)    R C 363 0.074 118 144 4 5 0 0 21518.67  21484.05  14.5  1.97  28.74 28.56 596.89  596.33          
+21  Exon 8  missense mutation T366P Severe    Bach G  Am J Hum Genet 53: 330-338 (1993)   T P 366 0.034 22  29  0 0 0 0 21518.67  21519.41  0.25  0.34  28.74 28.78 596.89  596.75          
+22  Exon 8  missense mutation P385R Severe    Bertola F Hum Mutat 32: E2189-210 (2011)    P R 385 0.125 246 239 0 0 2 4 21518.67  21574.83  0.96  1.83  28.74 27.21 596.89  595.36          
+23  Exon 8  missense mutation T388R Severe    Bartholomew D Hum Mutat 12:291 (1998)   T R 388 0.155 343 406 0 2 0 1 21518.67  21550.3 2.85  1.03  28.74 29.33 596.89  597.79          
+24  Exon 10 missense mutation R489P Severe    Bunge S Hum Mol Genet 3: 861-866 (1994)   R P 489 0.047 28  37  0 0 0 1 21518.67  21451.14  164.54  102.79  28.74 28.67 596.89  596.21          
+25  Exon 11 missense mutation P533L Severe    Voskoboeva EY Mol Genet Metab 65: 174-180 (1998)    P L 533 0.177 341 341 0 0 6 8 21518.67  21558.82  1.29  0.04  28.74 25.86 596.89  612.34          
+26  Exon 14 missense mutation V620F Severe    Vazna A Am J Med Genet A 149A: 965-974 (2009)   V F 620 0.078 150 153 0 0 0 0 21518.67  21540.35  0.73  1.65  28.74 28.75 596.89  596.83          
+27  Exon 14 missense mutation R628P Severe    Matte U Mol Genet Metab 78: 37-43 (2003)    R P 628 0.107 119 134 0 0 0 0 21518.67  21545.97  57.99 56.31 28.74 28.57 596.89  596.46          
+28  Exon 11 missense mutation P533R Severe-Intermediate   Scott HS  Hum Mutat 1: 333-339 (1992)   P R 533 0.140 300 279 0 0 6 9 21518.67  21564.25  1.29  3.94  28.74 28.48 596.89  595.68          
+29  Exon 1  missense mutation H33P  Intermediate    Wang X  Clin Genet 81: 443-52. (2012)   H P 33  0.059 83  96  0 0 0 0 21518.67  21477.69  73.88 39.65 28.74 28.64 596.89  595.97          
+30  Exon 2  missense mutation A75P  Intermediate    Voskoboeva EY Mol Genet Metab 65: 174-180 (1998)    A P 75  0.039 32  28  0 0 0 0 21518.67  21515.26  1.85  1.38  28.74 28.77 596.89  596.87          
+31  Exon 2  missense mutation H82P  Intermediate    Clarke LA Hum Mol Genet 2: 1311-1312 (1993)   H P 82  0.051 50  70  0 0 0 0 21518.67  21508.82  70.66 65.76 28.74 28.61 596.89  596.59          
+32  Exon 6  missense mutation L238Q Intermediate    Yogalingam G  Hum Mutat 24: 199-207 (2004)    L Q 238 0.015 0 10  0 0 0 0 21518.67  21522.58  0.52  1.01  28.74 28.51 596.89  596.86          
+33  Exon 7  missense mutation G265R Intermediate    Yogalingam G  Hum Mutat 24: 199-207 (2004)    G R 265 0.144 238 271 4 5 8 11  21518.67  21544.97  1.65  82.31 28.74 29.61 596.89  597.2         
+34  Exon 8  missense mutation L346R Intermediate    Teng YN Clin Genet 57: 131-136 (2000)   L R 346 0.066 101 147 1 4 2 1 21518.67  21527.64  2.88  1.79  28.74 29.46 596.89  597.86          
+35  Exon 8  missense mutation R363H Intermediate    Sun L Genet Mol Biol 34: 195-200 (2011)   R H 363 0.029 20  48  1 3 0 0 21518.67  21518.7 14.5  2.09  28.74 30.6  596.89  596.96          
+36  Exon 8  missense mutation T364M Intermediate    Lee-Chen GJ J Med Genet 34: 939-941 (1997)    T M 364 0.069 76  91  0 0 0 0 21518.67  21525.14  0 0.34  28.74 28.66 596.89  596.27          
+37  Exon 9  missense mutation A436P Intermediate    Bertola F Hum Mutat 32: E2189-210 (2011)    A P 436 0.052 63  39  0 0 0 0 21518.67  21533.62  3.16  3.49  28.74 28.74 596.89  597.01          
+38  Exon 10 missense mutation P496L Intermediate    Tieu PT Hum Mutat 6: 55-59 (1995)   P L 496 0.055 52  53  0 0 2 1 21518.67  21531.67  0.13  1.4 28.74 28.76 596.89  596.74          
+39  Exon 11 missense mutation L535F Intermediate    Bertola F Hum Mutat 32: E2189-210 (2011)    L F 535 0.055 48  69  0 0 0 0 21518.67  21504.85  0 0 28.74 28.6  596.89  595.1         
+40  Exon 13 missense mutation F602I Intermediate    Yogalingam G  Hum Mutat 24: 199-207 (2004)    F I 602 0.006 0 1 0 0 0 0 21518.67  21521.73  2.6 2.97  28.74 28.78 596.89  596.92          
+41  Exon 14 missense mutation R619G Intermediate    Lee-Chen GJ Clin Genet 56: 66-70 (1999)   R G 619 0.010 3 8 0 0 0 0 21518.67  21552.58  60.45 8.99  28.74 28.73 596.89  596.73          
+42  Exon 10 missense mutation L490P Attenuated-Intermediate   Tieu PT Hum Mutat 6: 55-59 (1995)   L P 490 0.082 40  67  0 0 0 0 21518.67  21549.06  24.11 26.45 28.74 28.54 596.89  596.8         
+43  Exon 2  missense mutation Y76C  Attenuated    Bertola F Hum Mutat 32: E2189-210 (2011)    Y C 76  0.018 14  12  0 0 0 0 21518.67  21545.92  0 4.68  28.74 28.79 596.89  596.84          
+44  Exon 2  missense mutation R89Q  Attenuated    Scott HS  Hum Mutat 6: 288-302 (1995)   R Q 89  0.048 79  124 1 7 0 0 21518.67  21511.18  0 2.14  28.74 28.34 596.89  596.76          
+45  Exon 6  missense mutation D203N Attenuated    Dou W Zhonghua Yi Xue Yi Chuan Xue Za Zhi 24: 136-139 (2007)    D N 203 0.024 14  16  0 0 0 0 21518.67  21529.41  0 0.07  28.74 28.95 596.89  596.54          
+46  Exon 6  missense mutation C205Y Attenuated    Beesley CE  Hum Genet 109: 503-511 (2001)   C Y 205 0.000 1 0 0 0 0 0 21518.67  21512.88  0.81  0 28.74 28.74 596.89  596.89          
+47  Exon 6  missense mutation H240R Attenuated    Beesley CE  Hum Genet 109: 503-511 (2001)   H R 240 0.051 59  73  0 0 0 0 21518.67  21528.35  10.5  29.58 28.74 28.68 596.89  596.68          
+48  Exon 7  missense mutation E276K Attenuated    Prommajan K Mol Vis 17: 456-60 (2011)   E K 276 0.143 449 558 4 7 4 7 21518.67  21578 3.51  4.76  28.74 29.2  596.89  596.1         
+49  Exon 7  missense mutation A319V Attenuated    Beesley CE  Hum Genet 109: 503-511 (2001)   A V 319 0.082 129 109 0 0 0 0 21518.67  21533.13  0 1.1 28.74 28.82 596.89  596.99          
+50  Exon 8  missense mutation N348K Attenuated    Bertola F Hum Mutat 32: E2189-210 (2011)    N K 348 0.095 175 213 1 3 0 0 21518.67  21530.32  11.57 11.39 28.74 24.09 596.89  597.69          
+51  Exon 8  missense mutation N350I Attenuated    Matte U Mol Genet Metab 78: 37-43 (2003)    N I 350 0.038 40  34  0 0 0 0 21518.67  21537.82  3.75  5.29  28.74 28.46 596.89  596.98          
+52  Exon 8  missense mutation T374N Attenuated    Furukawa Y  J Neurol Sci 302: 121-125 (2011)    T N 374 0.023 17  18  0 0 1 0 21518.67  21516.13  42.96 52.19 28.74 28.77 596.89  595.6         
+53  Exon 8  missense mutation Q380R Attenuated    Scott HS  Hum Mutat 6: 288-302 (1995)   Q R 380 0.114 179 199 0 0 3 4 21518.67  21554.95  0 1.88  28.74 28.95 596.89  590.24          
+54  Exon 8  missense mutation R383H Attenuated    Bunge S Hum Mutat 6: 91-94 (1995)   R H 383 0.042 34  61  0 0 0 0 21518.67  21530.82  0.12  1.94  28.74 28.8  596.89  596.87          
+55  Exon 10 missense mutation R492P Attenuated    Tieu PT Hum Mutat 6: 55-59 (1995)   R P 492 0.051 13  34  0 0 0 0 21518.67  21424.54  153.41  76.91 28.74 28.7  596.89  596.38          
+56  Exon 13 missense mutation L578Q Attenuated    Chkioua L Diagn Pathol 6: 39 (2011)   L Q 578 0.007 1 4 0 0 0 0 21518.67  21521.1 0.71  0.64  28.74 28.78 596.89  596.85          
+57  Exon 14 missense mutation S633L Attenuated    Beesley CE  Hum Genet 109: 503-511 (2001)   S L 633 0.050 51  69  0 0 0 0 21518.67  21513.62  7.86  2.95  28.74 28.74 596.89  596.84          
+

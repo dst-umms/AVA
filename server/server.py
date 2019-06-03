@@ -36,36 +36,40 @@ def hello():
 def variant_source_info():
   return json.dumps([{
     "SourceName": "gnomad",
-    "VersionName": "v2",
+    "VersionName": "gnomad.v2",
     "VersionId": "2019_04_19"  
   }, {
     "SourceName": "ald",
-    "VersionName": "v1",
+    "VersionName": "ald.v1",
     "VersionId": "2018_07_26"
   }, {
     "SourceName": "clinvar",
-    "VersionName": "v1",
+    "VersionName": "clinvar.v1",
     "VersionId": "2018_07_01"
   }, {
     "SourceName": "dbsnp",
-    "VersionName": "v1",
+    "VersionName": "dbsnp.v1",
     "VersionId": "2018_04_23"
   }, {
     "SourceName": "exac",
-    "VersionName": "v2",
+    "VersionName": "exac.v2",
     "VersionId": "2019_05_23"
   }, {
     "SourceName": "emv",
-    "VersionName": "v1",
+    "VersionName": "emv.v1",
     "VersionId": "2019_05_06"
   }, {
     "SourceName": "polyphen",
-    "VersionName": "v1",
+    "VersionName": "polyphen.v1",
     "VersionId": "2019_05_07"
   }, {
     "SourceName": "pompe",
-    "VersionName": "v1",
+    "VersionName": "pompe.v1",
     "VersionId": "2019_05_28"
+  }, {
+    "SourceName": "mps1",
+    "VersionName": "mps1.v1",
+    "VersionId": "2019_06_03"      
   }]), 200  
 
 @app.route("/server/VariantFileToJson", methods = ['POST'])

@@ -29,6 +29,11 @@ class NenbssToAnnovar():
     #, 'V': ['A', 'C', 'G']
   }
 
+  aa = {'CYS': 'C', 'ASP': 'D', 'SER': 'S', 'GLN': 'Q', 'LYS': 'K',
+     'ILE': 'I', 'PRO': 'P', 'THR': 'T', 'PHE': 'F', 'ASN': 'N', 
+     'GLY': 'G', 'HIS': 'H', 'LEU': 'L', 'ARG': 'R', 'TRP': 'W', 
+     'ALA': 'A', 'VAL':'V', 'GLU': 'E', 'TYR': 'Y', 'MET': 'M'}
+
   def __init__(self):
     (self.gaa_chr_info, self.gaa_gene_info) = self.__get_fasta_seq(NenbssToAnnovar.gaa_file)
     (self.idua_chr_info, self.idua_gene_info) = self.__get_fasta_seq(NenbssToAnnovar.idua_file)
@@ -44,6 +49,21 @@ class NenbssToAnnovar():
     if not (chr_info or gene_info):
       raise "Error in getting chromosome and/or fasta sequence"
     return (chr_info, gene_info.upper())
+
+  def __format_pdot(self, p_dot):
+    match_obj = re.search("p\.(\D+)(\d+)\[(\w+),(\w+)\]", p_dot)
+    if not match_obj:
+      match_obj = re.search("p\.(\D+)(\d+)(\D+)", p_dot)
+      if not match_obj:
+        raise "Error in parsing p dot from " + p_dot
+      (ref, pos, alt) = match_obj.groups()
+      ref = self.aa[ref.upper()] if len(ref) == 3 else ref.upper()
+      alt = self.aa[alt.upper()] if len(alt) == 3 else alt.upper()
+      return 'p.' + ref + pos + alt
+    (ref, pos, r, a) = match_obj.groups()
+    (ref, pos, r, a) = (ref.upper(), pos, r.upper(), a.upper())
+    alt = a if ref == r else r
+    return 'p.' + self.aa[ref] + pos + self.aa[alt]
 
   def __get_iupac_base(self, iupac_base, ref):
     iupac = NenbssToAnnovar.iupac
@@ -80,6 +100,8 @@ class NenbssToAnnovar():
       run_name = df["Project Name"][index]
       spec_name = df["Specimen ID"][index]
       c_dot = 'c' + re.split('\s+|:|;|,|\(', df["Variant ID"][index])[0].upper()[1:]
+      p_dot = re.search("(p\.\S+)", df["Variant ID"][index])
+      p_dot = self.__format_pdot(p_dot.group(1)) if p_dot else '.' 
       if gene_name.upper() in ['MPS1', 'IDUA']:
         (chrom, start, end) = self.idua_chr_info.split(':')
         gene_name = "IDUA"
@@ -101,7 +123,7 @@ class NenbssToAnnovar():
           base_info = base_info - 1
       (ref, alt, c_dot) = self.__get_ref_and_alt_bases(c_dot)
       base_pos = int(start) + int(base_info) - 1 # 1 because the string is 0 based
-      annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, 'comments: ' + 
+      annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, p_dot, 'comments: ' + 
         ';'.join([str(val) for val in df[df.index == index].values[0]])])
     return annovar_info
 

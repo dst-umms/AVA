@@ -9,6 +9,8 @@
 
 import pandas as pd
 import sys
+#import warnings
+#warnings.simplefilter(action='ignore', category=FutureWarning)
 
 def get_gnomad_info(gnomad_annot_file):
   df = pd.read_csv(gnomad_annot_file, header = 0, sep = ",")
@@ -16,7 +18,7 @@ def get_gnomad_info(gnomad_annot_file):
 
 if __name__ == "__main__":
   variants = pd.read_csv(sys.argv[1], header = None, sep = "\t")
-  variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "RunID", "SpecID", "C.", "Comments"]
+  variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "RunID", "SpecID", "C.", "P._In", "Comments"]
   variants["Chrom"] = variants["Chrom"].astype(str)
   gnomad_info = get_gnomad_info(sys.argv[2])
   variants.loc[variants.Reference == '-', "Reference"] = '.'
