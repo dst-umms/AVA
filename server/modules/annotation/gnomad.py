@@ -9,8 +9,6 @@
 
 import pandas as pd
 import sys
-#import warnings
-#warnings.simplefilter(action='ignore', category=FutureWarning)
 
 def get_gnomad_info(gnomad_annot_file):
   df = pd.read_csv(gnomad_annot_file, header = 0, sep = ",")
