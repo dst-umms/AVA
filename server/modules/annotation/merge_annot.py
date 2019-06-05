@@ -36,6 +36,6 @@ if __name__ == "__main__":
   results = pd.merge(results, emv, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
   results = pd.merge(results, polyphen, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
   results = pd.merge(results, pompe, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
-  results = pd.merge(results, mps, on = ["Chrom", "Start", "Ref", "Alt"], how = left)
+  results = pd.merge(results, mps, on = ["Chrom", "Start", "Ref", "Alt"], how = "left")
   results = results.drop_duplicates().fillna("-")
   print(results.to_csv(index = False, sep = "\t"))
