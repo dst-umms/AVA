@@ -70,6 +70,10 @@ def variant_source_info():
     "SourceName": "mps1",
     "VersionName": "mps1.v1",
     "VersionId": "2019_06_03"      
+  }, {
+    "SourceName": "sift",
+    "VersionName": "sift.v1",
+    "VersionId": "2019_06_17"
   }]), 200  
 
 @app.route("/server/VariantFileToJson", methods = ['POST'])

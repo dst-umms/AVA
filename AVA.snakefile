@@ -20,6 +20,7 @@ rule target:
     , "output/{proj_name}.polyphen.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.pompe.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.mps.tsv".format(proj_name = config["proj_name"])
+    , "output/{proj_name}.sift.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.tsv".format(proj_name = config["proj_name"])
     , "output/{proj_name}.final.json".format(proj_name = config["proj_name"])
 
@@ -138,11 +139,20 @@ rule get_mps1_annotation:
     "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/mps.py "
     "{input} 1>{output}"
 
+rule get_sift_annotation:
+  input:
+    get_intervar_input
+    , "/usr/local/bin/AVA/server/utils/db/sift/sift_2019_06_17.csv"
+  output:
+    "output/{proj_name}.sift.tsv"
+  shell:
+    "/usr/local/bin/miniconda3/bin/python /usr/local/bin/AVA/server/modules/annotation/sift.py "
+    "{input} 1>{output}"
 
 rule merge_annotation:
   input:
-    expand("output/{proj_name}.{ext}", proj_name = config["proj_name"], 
-      ext = ["gnomad.tsv", "ald.tsv", "clinvar.tsv", "dbsnp.tsv", "exac.tsv", "emv.tsv", "polyphen.tsv", "pompe.tsv", "mps.tsv"])
+    expand("output/{proj_name}.{ext}.tsv", proj_name = config["proj_name"], 
+      ext = ["gnomad", "ald", "clinvar", "dbsnp", "exac", "emv", "polyphen", "pompe", "mps", "tsv"])
   output:
     "output/{proj_name}.final.tsv"
   shell:

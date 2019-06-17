@@ -39,6 +39,9 @@ VERSION_INFO = {
   }, "mps1": {
     "VersionName": "msp1.v1",
     "VersionId": "2019_06_03"
+  }, "sift": {
+    "VersionName": "sift.v1",
+    "VersionId": "2019_06_17"
   }
 }
 
@@ -50,7 +53,7 @@ def get_facts(info):
             "C.polyphen", "P.polyphen",
             "FUNC.polyphen", "DSCORE.polyphen", "FUNC_HDIV.polyphen", "PROB_HDIV.polyphen",
             "FUNC_HVAR.polyphen", "PROB_HVAR.polyphen", "C.pompe", "P.pompe", "FUNC.pompe", "YEAR.pompe", "SOURCE.pompe",
-            "P.mps1", "MTYPE.mps1", "FUNC.mps1", "AUTHOR.mps1", "PAPER.mps1"                       
+            "P.mps1", "MTYPE.mps1", "FUNC.mps1", "AUTHOR.mps1", "PAPER.mps1", "P.sift", "FUNC.sift", "RS.sift", "SCORE.sift"                       
           ]
   for source in sources:
     if not info[source] == '-':
@@ -115,7 +118,7 @@ def main(in_file):
   , "SIG.emv", "REVIEW_DATE.emv", "C.polyphen", "P.polyphen",
     "FUNC.polyphen", "DSCORE.polyphen", "FUNC_HDIV.polyphen", "PROB_HDIV.polyphen",
     "FUNC_HVAR.polyphen", "PROB_HVAR.polyphen", "C.pompe", "P.pompe", "FUNC.pompe", "YEAR.pompe", "SOURCE.pompe",
-    "P.mps1", "MTYPE.mps1", "FUNC.mps1", "AUTHOR.mps1", "PAPER.mps1"]
+    "P.mps1", "MTYPE.mps1", "FUNC.mps1", "AUTHOR.mps1", "PAPER.mps1", "P.sift", "FUNC.sift", "RS.sift", "SCORE.sift"]
   content["Chrom"] = content["Chrom"].astype(str)
   variants = list(content.apply(lambda row: format_variant(row), axis = 1))
   print(json.dumps({ 

@@ -17,7 +17,8 @@ def pipeline_status(log_file):
     "emv": None,
     "polyphen": None,
     "pompe": None,
-    "mps1": None
+    "mps1": None,
+    "sift": None
   }
   cur_step = None
   with open(log_file, "r") as fh:
