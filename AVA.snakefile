@@ -152,7 +152,7 @@ rule get_sift_annotation:
 rule merge_annotation:
   input:
     expand("output/{proj_name}.{ext}.tsv", proj_name = config["proj_name"], 
-      ext = ["gnomad", "ald", "clinvar", "dbsnp", "exac", "emv", "polyphen", "pompe", "mps", "tsv"])
+      ext = ["gnomad", "ald", "clinvar", "dbsnp", "exac", "emv", "polyphen", "pompe", "mps", "sift"])
   output:
     "output/{proj_name}.final.tsv"
   shell:
