@@ -9,7 +9,7 @@ import re
 import yaml
 
 def pipeline_status(log_file):
-  sources = yaml.safe_load(open("../../utils/version/sources.yaml"))
+  sources = yaml.safe_load(open("/usr/local/bin/AVA/server/utils/version/sources.yaml"))
   status = dict()
   for source_obj in sources["sources"]:
     status[source_obj["SourceName"].lower()] = None

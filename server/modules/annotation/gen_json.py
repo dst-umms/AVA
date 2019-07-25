@@ -12,7 +12,7 @@ import sys
 import json
 import yaml
 
-sources = yaml.safe_load(open("../../utils/version/sources.yaml"))
+sources = yaml.safe_load(open("/usr/local/bin/AVA/server/utils/version/sources.yaml"))
 VERSION_INFO = dict()
 for source_obj in sources["sources"]:
   VERSION_INFO[source_obj["SourceName"].lower()] = {

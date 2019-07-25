@@ -80,14 +80,16 @@ class NenbssToAnnovar():
   def __get_ref_and_alt_bases(self, var_info):
     ins_info = var_info.split("INS")
     del_info = var_info.split("DEL")
+    zygosity = '.'
     if len(ins_info) > 1: # then it's insertion
-      return ('.', ins_info[1], var_info)
+      return ('.', ins_info[1], var_info, zygosity)
     elif len(del_info) > 1: # then it's deletion
-      return (del_info[1], '.', var_info)
+      return (del_info[1], '.', var_info, zygosity)
     else:
       (ref, alt) = var_info[-3:].split('>')
-      alt = alt if alt in ['A', 'G', 'C', 'T'] else self.__get_iupac_base(alt, ref)
-      return (ref, alt, var_info[:-1] + alt)
+      
+      (alt, zygosity) = (alt, "Homozygous") if alt in ['A', 'G', 'C', 'T'] else (self.__get_iupac_base(alt, ref), "Heterozygous")
+      return (ref, alt, var_info[:-1] + alt, zygosity)
 
   def nenbss_to_annovar(self, nenbss_file):
     df = pd.read_csv(nenbss_file, header = 0, sep = ",")
@@ -121,12 +123,12 @@ class NenbssToAnnovar():
           raise "FATAL: The nucleotide at 13713 position is a deletion in ChrX."
         else:
           base_info = base_info - 1
-      (ref, alt, c_dot) = self.__get_ref_and_alt_bases(c_dot)
+      (ref, alt, c_dot, zygosity) = self.__get_ref_and_alt_bases(c_dot)
       base_pos = int(start) + int(base_info) - 1 # 1 because the string is 0 based
-      annovar_info.append([str(chrom), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, p_dot, 'comments: ' + 
+      annovar_info.append([str(chrom), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, p_dot, zygosity, 'comments: ' + 
         ';'.join([str(val) for val in df[df.index == index].values[0]])])
     result_df = pd.DataFrame(annovar_info, columns = [
-      "Chromosome", "Position", "Referece", "Alternate", "Gene", "Run_ID", "Specimen_ID", "C", "P", "Comments"
+      "Chromosome", "Position", "Reference", "Alternate", "Gene", "Run_ID", "Specimen_ID", "C", "P", "Zygosity", "Comments"
     ])
     return result_df
 
