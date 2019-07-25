@@ -1,0 +1,38 @@
+facts:
+  - 
+    FactName: P
+  -
+    FactName: C
+  -
+    FactName: AF
+  -
+    FactName: MC
+  - 
+    FactName: FUNC
+  -
+    FactName: HGVS
+  -
+    FactName: REVIEW_DATE
+  -
+    FactName: RS
+  -
+    FactName: LOCATION
+  -
+    FactName: TYPE
+  -
+    FactName: SCORE
+  -
+    FactName: DSCORE
+  -
+    FactName: FUNC_HDIV
+  -
+    FactName: FUNC_HVAR
+  -
+    FactName: PROB_HDIV
+  -
+    FactName: PROB_HVAR
+  -
+    FactName: SOURCE
+  -
+    FactName: YEAR
+    
