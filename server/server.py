@@ -12,6 +12,7 @@ from flask_cors import CORS
 from werkzeug import secure_filename
 import requests
 import json
+import yaml
 import os
 import time
 import subprocess
@@ -34,47 +35,12 @@ def hello():
 
 @app.route("/server/VariantSourceInfo", methods = ['POST'])
 def variant_source_info():
-  return json.dumps([{
-    "SourceName": "gnomad",
-    "VersionName": "gnomad.v2",
-    "VersionId": "2019_04_19"  
-  }, {
-    "SourceName": "ald",
-    "VersionName": "ald.v1",
-    "VersionId": "2018_07_26"
-  }, {
-    "SourceName": "clinvar",
-    "VersionName": "clinvar.v1",
-    "VersionId": "2018_07_01"
-  }, {
-    "SourceName": "dbsnp",
-    "VersionName": "dbsnp.v1",
-    "VersionId": "2018_04_23"
-  }, {
-    "SourceName": "exac",
-    "VersionName": "exac.v2",
-    "VersionId": "2019_05_23"
-  }, {
-    "SourceName": "emv",
-    "VersionName": "emv.v1",
-    "VersionId": "2019_05_06"
-  }, {
-    "SourceName": "polyphen",
-    "VersionName": "polyphen.v1",
-    "VersionId": "2019_05_07"
-  }, {
-    "SourceName": "pompe",
-    "VersionName": "pompe.v1",
-    "VersionId": "2019_05_28"
-  }, {
-    "SourceName": "mps1",
-    "VersionName": "mps1.v1",
-    "VersionId": "2019_06_03"      
-  }, {
-    "SourceName": "sift",
-    "VersionName": "sift.v1",
-    "VersionId": "2019_06_17"
-  }]), 200  
+  sources = yaml.safe_load(open("utils/version/sources.yaml"))
+  facts = yaml.safe_load(open("utils/version/facts.yaml"))
+  return json.dumps({
+    **sources,
+    **facts
+  }), 200
 
 @app.route("/server/VariantFileToJson", methods = ['POST'])
 def variant_file_to_json():

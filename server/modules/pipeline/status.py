@@ -6,20 +6,13 @@
 #-----------------
 
 import re
+import yaml
 
 def pipeline_status(log_file):
-  status = {
-    "dbsnp": None,
-    "clinvar": None,
-    "gnomad": None,
-    "exac": None,
-    "ald": None,
-    "emv": None,
-    "polyphen": None,
-    "pompe": None,
-    "mps1": None,
-    "sift": None
-  }
+  sources = yaml.safe_load(open("../../utils/version/sources.yaml"))
+  status = dict()
+  for source_obj in sources["sources"]:
+    status[source_obj["SourceName"].lower()] = None
   cur_step = None
   with open(log_file, "r") as fh:
     for line in fh:

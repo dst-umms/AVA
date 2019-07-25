@@ -123,9 +123,12 @@ class NenbssToAnnovar():
           base_info = base_info - 1
       (ref, alt, c_dot) = self.__get_ref_and_alt_bases(c_dot)
       base_pos = int(start) + int(base_info) - 1 # 1 because the string is 0 based
-      annovar_info.append([str(chrom), str(base_pos), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, p_dot, 'comments: ' + 
+      annovar_info.append([str(chrom), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, p_dot, 'comments: ' + 
         ';'.join([str(val) for val in df[df.index == index].values[0]])])
-    return annovar_info
+    result_df = pd.DataFrame(annovar_info, columns = [
+      "Chromosome", "Position", "Referece", "Alternate", "Gene", "Run_ID", "Specimen_ID", "C", "P", "Comments"
+    ])
+    return result_df
 
 
 if __name__ == "__main__":

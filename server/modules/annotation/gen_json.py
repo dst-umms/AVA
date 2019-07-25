@@ -10,40 +10,15 @@
 import pandas as pd
 import sys
 import json
+import yaml
 
-VERSION_INFO = {
-  "gnomad": {
-    "VersionName": "gnomad.v2",
-    "VersionId": "2019_04_19"
-  }, "ald": {
-    "VersionName": "ald.v1",
-    "VersionId": "2018_07_26"
-  } , "clinvar": {
-    "VersionName": "clinvar.v1",
-    "VersionId": "2018_07_01"
-  }, "dbsnp": {
-    "VersionName": "dbsnp.v1",
-    "VersionId": "2018_04_23"
-  }, "exac": {
-    "VersionName": "exac.v2",
-    "VersionId": "2019_05_23"
-  }, "emv": {
-    "VersionName": "emv.v1",
-    "VersionId": "2019_05_06"
-  }, "polyphen": {
-    "VersionName": "polyphen.v1",
-    "VersionId": "2019_05_07"
-  }, "pompe": {
-    "VersionName": "pompe.v1",
-    "VersionId": "2019_05_28"
-  }, "mps1": {
-    "VersionName": "msp1.v1",
-    "VersionId": "2019_06_03"
-  }, "sift": {
-    "VersionName": "sift.v1",
-    "VersionId": "2019_06_17"
+sources = yaml.safe_load(open("../../utils/version/sources.yaml"))
+VERSION_INFO = dict()
+for source_obj in sources["sources"]:
+  VERSION_INFO[source_obj["SourceName"].lower()] = {
+    "VersionName": source_obj["VersionName"],
+    "VersionId": source_obj["VersionId"]
   }
-}
 
 def get_facts(info):
   facts = []
