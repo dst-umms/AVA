@@ -1,38 +1,56 @@
 facts:
   - 
     FactName: P
+    FactType: String
   -
     FactName: C
+    FactType: String
   -
     FactName: AF
+    FactType: Number
   -
     FactName: MC
+    FactType: String
   - 
     FactName: FUNC
+    FactType: String
   -
     FactName: HGVS
+    FactType: String
   -
     FactName: REVIEW_DATE
+    FactType: Date
   -
     FactName: RS
+    FactType: String
   -
     FactName: LOCATION
+    FactType: String
   -
     FactName: TYPE
+    FactType: String
   -
     FactName: SCORE
+    FactType: Number
   -
     FactName: DSCORE
+    FactType: Number
   -
     FactName: FUNC_HDIV
+    FactType: Number
   -
     FactName: FUNC_HVAR
+    FactType: String
   -
     FactName: PROB_HDIV
+    FactType: Number
   -
     FactName: PROB_HVAR
+    FactType: Number
   -
     FactName: SOURCE
+    FactType: String
   -
     FactName: YEAR
+    FactType: Number
     
