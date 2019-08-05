@@ -13,11 +13,14 @@ import os
 sys.path.append(os.path.abspath("/usr/local/bin/AVA"))
 from server.utils.scripts.AAs import aa_1_to_3 as aa
 
+def format_aa(x):
+  return aa[x.upper()] if x in aa.keys() else x
+
 def get_sift_info(sift_annot_file):
   df = pd.read_csv(sift_annot_file, header = 0, sep = ",")
   df.columns = ["Chrom", "Position", "Reference", "Alternate", "AAPos", "AA1", "AA2", "Region", "Func", "RSID", "Score"]
   df.Chrom = df.Chrom.str[3:] # remove chr letters
-  df["P."] = "p." + df["AAPos"].astype("str") + aa[df["AA1"].upper()] + ">" + aa[df["AA2"].upper()] 
+  df["P."] = "p." + df["AAPos"].astype("str") + df["AA1"].apply(format_aa) + ">" + df["AA2"].apply(format_aa)
   return df
 
 if __name__ == "__main__":
