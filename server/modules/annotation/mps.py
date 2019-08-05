@@ -9,11 +9,22 @@
 
 import pandas as pd
 import sys
+from server.utils.scripts.AAs import aa_1_to_3 as aa
+import re
+
+reobj = re.compile("(\w)(\d+)(\w)")
+
+def format_pdot(pdot):
+  matchobj = reobj.search(pdot)
+  pdot_formatted = matchobj[2] + aa[matchobj[1].upper()] + ">" + aa[matchobj[3].upper()]
+  return pdot_formatted
+  
 
 def get_mps_info(mps_annot_file):
   df = pd.read_csv(mps_annot_file, header = None, sep = ",")
   df.columns = ["Exon", "MType", "p.", "Func", "Author", "Paper"]
-  df["P."] = "p." + df["p."]
+  
+  df["P."] = "p." + df["p."].apply(format_pdot)
   df["Gene"] = "IDUA" 
   return df
 

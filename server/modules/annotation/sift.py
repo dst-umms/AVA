@@ -9,12 +9,13 @@
 
 import pandas as pd
 import sys
+from server.utils.scripts.AAs import aa_1_to_3 as aa
 
 def get_sift_info(sift_annot_file):
   df = pd.read_csv(sift_annot_file, header = 0, sep = ",")
   df.columns = ["Chrom", "Position", "Reference", "Alternate", "AAPos", "AA1", "AA2", "Region", "Func", "RSID", "Score"]
   df.Chrom = df.Chrom.str[3:] # remove chr letters
-  df["P."] = "p." + df["AAPos"].astype("str") + df["AA1"] + ">" + df["AA2"] 
+  df["P."] = "p." + df["AAPos"].astype("str") + aa[df["AA1"].upper()] + ">" + aa[df["AA2"].upper()] 
   return df
 
 if __name__ == "__main__":

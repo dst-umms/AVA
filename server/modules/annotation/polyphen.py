@@ -9,6 +9,7 @@
 
 import pandas as pd
 import sys
+from server.utils.scripts.AAs import aa_1_to_3 as aa
 
 def get_poly_info(poly_annot_file):
   df = pd.read_csv(poly_annot_file, header = 0, sep = ",")
@@ -26,7 +27,7 @@ def check_annotation(row, df, results):
     results.append([row.Chrom, info[1], info[4], 
       info[5], "c." + str(info[3]) + info[4]
       + ">" + info[5], "p." + str(info[6]) + 
-      info[7] + ">" + info[8], 
+      aa[info[7].upper()] + ">" + aa[info[8].upper()], 
       info[9], info[10], info[11], 
       info[12], info[13], info[14]])
 
