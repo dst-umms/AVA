@@ -9,6 +9,8 @@
 
 import pandas as pd
 import sys
+import os
+sys.path.append(os.path.abspath("/usr/local/bin/AVA"))
 from server.utils.scripts.AAs import aa_1_to_3 as aa
 
 def get_sift_info(sift_annot_file):
