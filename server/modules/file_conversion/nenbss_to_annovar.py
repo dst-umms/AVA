@@ -36,7 +36,7 @@ class NenbssToAnnovar():
     (self.gaa_chr_info, self.gaa_gene_info) = self.__get_fasta_seq(NenbssToAnnovar.gaa_file)
     (self.idua_chr_info, self.idua_gene_info) = self.__get_fasta_seq(NenbssToAnnovar.idua_file)
     (self.abcd1_chr_info, self.abcd1_gene_info) = self.__get_fasta_seq(NenbssToAnnovar.abcd1_file)
-    self.re_obj = re.compile(r'(\w+)-')
+    self.re_obj = re.compile(r'([a-zA-Z]+)-{0,1}')
 
   def __get_fasta_seq(self, fa_file):
     chr_info, gene_info = None, None
@@ -76,13 +76,21 @@ class NenbssToAnnovar():
       raise iupac_base + ' not found in iupac table: ' + ','.join(iupac.keys())
 
   def __get_ref_and_alt_bases(self, var_info, base_info, gene_seq, zygosity):
-    ins_info = var_info.split("INS")
-    del_info = var_info.split("DEL")
+    ins_info = re.split("INS", var_info)
+    del_info = re.split("DEL", var_info)
     zygosity = "Homozygous" if str(zygosity).upper() == "YES" else "Heterozygous"
     if len(ins_info) > 1: # then it's insertion
       return (gene_seq[base_info - 1].upper(), ins_info[1], var_info, zygosity)
-    elif len(del_info) > 1: # then it's deletion
-      return (del_info[1], gene_seq[base_info - 1].upper(), var_info, zygosity)
+    elif not del_info[1]: # single base deletion in subject
+      return (gene_seq[base_info - 2:base_info].upper(), gene_seq[base_info - 2].upper(), var_info, zygosity)
+    elif len(del_info) > 1: # then it's deletion with bases listed in subject
+      if len(del_info[1]) == 1:
+         return (gene_seq[base_info - 2:base_info].upper(), gene_seq[base_info - 2].upper(), var_info, zygosity)
+      elif len(del_info[1]) > 1: # I have got deletion fragment
+        deleted_fragment = del_info[1]
+        return ((gene_seq[base_info -2].upper() + deleted_fragment), gene_seq[base_info - 2].upper(), var_info, zygosity)
+      else:
+        raise "Unforeseen edge case. Raise error."
     else:
       (ref, alt) = var_info[-3:].split('>')
       (alt, zygosity) = (alt, "Homozygous") if alt in ['A', 'G', 'C', 'T'] else (self.__get_iupac_base(alt, ref), "Heterozygous")
@@ -102,15 +110,15 @@ class NenbssToAnnovar():
       c_dot = 'c' + re.split('\s+|:|;|,|\(', df["Variant ID"][index])[0].upper()[1:]
       p_dot = re.search("(p\.\S+)", df["Variant ID"][index])
       p_dot = self.__format_pdot(p_dot.group(1)) if p_dot else '.' 
-      if gene_name.upper() in ['MPS1', 'IDUA']:
+      if gene_name.upper() in ['MPS', 'IDUA']:
         (chrom, start, end) = self.idua_chr_info.split(':')
         gene_name = "IDUA"
         gene_seq = self.idua_gene_info
-      elif gene_name.upper() in ['ALD18', 'ABCD1']:
+      elif gene_name.upper() in ['ALD', 'ABCD']:
         (chrom, start, end) = self.abcd1_chr_info.split(':')
         gene_name = "ABCD1"
         gene_seq = self.abcd1_gene_info
-      elif gene_name.upper() in ['POMPE18', 'GAA']:
+      elif gene_name.upper() in ['POMPE', 'GAA']:
         (chrom, start, end) = self.gaa_chr_info.split(':')
         gene_name = "GAA"
         gene_seq = self.gaa_gene_info
