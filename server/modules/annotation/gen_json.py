@@ -46,7 +46,7 @@ def format_variant(info):
     #raise "Only support single base substituions at the moment."
     pass
   variant = {
-    "VariantLabel": info["C."]
+    "VariantLabel": info["Gene"].upper() + ':' + info["C."]
     , "C.": info["C."]
     , "RunID": info["RunID"]
     , "SpecID": info["SpecID"]
