@@ -46,7 +46,7 @@ def format_variant(info):
     #raise "Only support single base substituions at the moment."
     pass
   variant = {
-    "VariantLabel": info["Chrom"] + "_" + str(info["Start"]) + "_" + info["Ref"] + ">" + info["Alt"]
+    "VariantLabel": info["C."]
     , "C.": info["C."]
     , "RunID": info["RunID"]
     , "SpecID": info["SpecID"]

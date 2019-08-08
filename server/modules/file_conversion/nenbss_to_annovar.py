@@ -83,7 +83,7 @@ class NenbssToAnnovar():
     if ins_info and len(ins_info) > 1: # then it's insertion
       return (gene_seq[base_info - 1].upper(), ins_info[1], ins_info[0] + 'ins' + ins_info[1].upper(), zygosity)
     elif del_info and len(del_info) > 1 and not del_info[1]: # single base deletion in subject
-      return (gene_seq[base_info - 2].upper() + '[LONG DELETION]', gene_seq[base_info - 2].upper(), var_info, zygosity)
+      return (gene_seq[base_info - 2].upper() + '[LONG DNA FRAGMENT]', gene_seq[base_info - 2].upper(), var_info, zygosity)
     elif del_info and len(del_info) > 1: # then it's deletion with bases listed in subject
       if len(del_info[1]) == 1:
          return (gene_seq[base_info - 2:base_info].upper(), gene_seq[base_info - 2].upper(), del_info[0] + 'del' + del_info[1].upper(), zygosity)
