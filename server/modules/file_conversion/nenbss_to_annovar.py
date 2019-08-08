@@ -55,11 +55,11 @@ class NenbssToAnnovar():
       if not match_obj:
         raise "Error in parsing p dot from " + p_dot
       (ref, pos, alt) = match_obj.groups()
-      ref = ref.upper() if len(ref) == 3 else aa_1_to_3[ref.upper()]
-      alt = alt.upper() if len(alt) == 3 else aa_1_to_3[alt.upper()]
+      ref = ref.capitalize() if len(ref) == 3 else aa_1_to_3[ref.upper()].capitalize()
+      alt = alt.capitalize() if len(alt) == 3 else aa_1_to_3[alt.upper()].capitalize()
       return 'p.' + ref + pos + alt
     (ref, pos, r, a) = match_obj.groups()
-    (ref, pos, r, a) = (ref.upper(), pos, r.upper(), a.upper())
+    (ref, pos, r, a) = (ref.capitalize(), pos, r.capitalize(), a.capitalize())
     alt = a if ref == r else r
     return 'p.' + ref + pos + alt
 
@@ -76,25 +76,28 @@ class NenbssToAnnovar():
       raise iupac_base + ' not found in iupac table: ' + ','.join(iupac.keys())
 
   def __get_ref_and_alt_bases(self, var_info, base_info, gene_seq, zygosity):
-    ins_info = re.split("INS", var_info)
-    del_info = re.split("DEL", var_info)
+    base_info = int(base_info)
+    ins_info = re.split("INS|ins", var_info)
+    del_info = re.split("DEL|del", var_info)
     zygosity = "Homozygous" if str(zygosity).upper() == "YES" else "Heterozygous"
-    if len(ins_info) > 1: # then it's insertion
-      return (gene_seq[base_info - 1].upper(), ins_info[1], var_info, zygosity)
-    elif not del_info[1]: # single base deletion in subject
-      return (gene_seq[base_info - 2:base_info].upper(), gene_seq[base_info - 2].upper(), var_info, zygosity)
-    elif len(del_info) > 1: # then it's deletion with bases listed in subject
+    if ins_info and len(ins_info) > 1: # then it's insertion
+      return (gene_seq[base_info - 1].upper(), ins_info[1], ins_info[0] + 'ins' + ins_info[1].upper(), zygosity)
+    elif del_info and len(del_info) > 1 and not del_info[1]: # single base deletion in subject
+      return (gene_seq[base_info - 2].upper() + '[LONG DELETION]', gene_seq[base_info - 2].upper(), var_info, zygosity)
+    elif del_info and len(del_info) > 1: # then it's deletion with bases listed in subject
       if len(del_info[1]) == 1:
-         return (gene_seq[base_info - 2:base_info].upper(), gene_seq[base_info - 2].upper(), var_info, zygosity)
+         return (gene_seq[base_info - 2:base_info].upper(), gene_seq[base_info - 2].upper(), del_info[0] + 'del' + del_info[1].upper(), zygosity)
       elif len(del_info[1]) > 1: # I have got deletion fragment
-        deleted_fragment = del_info[1]
-        return ((gene_seq[base_info -2].upper() + deleted_fragment), gene_seq[base_info - 2].upper(), var_info, zygosity)
+        deleted_fragment = del_info[1].upper()
+        return ((gene_seq[base_info -2].upper() + deleted_fragment), gene_seq[base_info - 2].upper(), del_info[0] + 'del' + deleted_fragment, zygosity)
       else:
         raise "Unforeseen edge case. Raise error."
     else:
       (ref, alt) = var_info[-3:].split('>')
+      ref = ref.upper()
+      alt = alt.upper()
       (alt, zygosity) = (alt, "Homozygous") if alt in ['A', 'G', 'C', 'T'] else (self.__get_iupac_base(alt, ref), "Heterozygous")
-      return (ref, alt, var_info[:-1] + alt, zygosity)
+      return (ref, alt, var_info[:-3] + ref + '>' + alt, zygosity)
 
   def nenbss_to_annovar(self, nenbss_file):
     df = pd.read_csv(nenbss_file, header = 0, sep = ",")
@@ -107,7 +110,7 @@ class NenbssToAnnovar():
       gene_seq = None
       run_name = df["Project Name"][index]
       spec_name = df["Specimen ID"][index]
-      c_dot = 'c' + re.split('\s+|:|;|,|\(', df["Variant ID"][index])[0].upper()[1:]
+      c_dot = 'c' + re.split('\s+|:|;|,|\(', df["Variant ID"][index])[0][1:]
       p_dot = re.search("(p\.\S+)", df["Variant ID"][index])
       p_dot = self.__format_pdot(p_dot.group(1)) if p_dot else '.' 
       if gene_name.upper() in ['MPS', 'IDUA']:
@@ -134,7 +137,7 @@ class NenbssToAnnovar():
           base_info = base_info - 1
       (ref, alt, c_dot, zygosity) = self.__get_ref_and_alt_bases(c_dot, base_info, gene_seq, df["Homozygous"][index])
       base_pos = int(start) + int(base_info) - 1 # 1 because the string is 0 based
-      annovar_info.append([str(chrom), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, p_dot, zygosity, 'comments: '])
+      annovar_info.append([str(chrom), str(base_pos), ref, alt, gene_name, run_name, spec_name, c_dot, p_dot, zygosity, ""])
       #  ';'.join([str(val) for val in df[df.index == index].values[0]])])
     result_df = pd.DataFrame(annovar_info, columns = [
       "Chromosome", "Position", "Reference", "Alternate", "Gene", "Run_ID", "Specimen_ID", "C", "P", "Zygosity", "Comments"
