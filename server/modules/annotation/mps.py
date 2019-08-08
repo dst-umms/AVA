@@ -18,7 +18,7 @@ reobj = re.compile("(\w)(\d+)(\w)")
 
 def format_pdot(pdot):
   matchobj = reobj.search(pdot)
-  pdot_formatted = matchobj[2] + aa[matchobj[1].upper()] + ">" + aa[matchobj[3].upper()]
+  pdot_formatted = aa[matchobj[1].upper()].capitalize() + matchobj[2] + aa[matchobj[3].upper()].capitalize()
   return pdot_formatted
   
 

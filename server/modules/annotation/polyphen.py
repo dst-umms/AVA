@@ -28,8 +28,7 @@ def check_annotation(row, df, results):
     info = list(info.values[0])
     results.append([row.Chrom, info[1], info[4], 
       info[5], "c." + str(info[3]) + info[4]
-      + ">" + info[5], "p." + str(info[6]) + 
-      aa[info[7].upper()] + ">" + aa[info[8].upper()], 
+      + ">" + info[5], "p." + aa[info[7].upper()].capitalize() + str(info[6]) + aa[info[8].upper()].capitalize(), 
       info[9], info[10], info[11], 
       info[12], info[13], info[14]])
 
