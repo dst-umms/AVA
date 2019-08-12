@@ -47,7 +47,7 @@ def format_variant(info):
     pass
   variant = {
     "VariantLabel": info["Gene"].upper() + ':' + info["C."]
-    , "C.": info["C."]
+    , "C": info["C."]
     , "RunID": info["RunID"]
     , "SpecID": info["SpecID"]
     , "Name": info["Ref"] + ">" + info["Alt"]
