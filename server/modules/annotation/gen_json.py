@@ -83,15 +83,17 @@ def format_variant(info):
 
 def main(in_file):
   content = pd.read_csv(in_file, sep = "\t", header = 0)
-  content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "MC.gnomad", "AF.gnomad", "RS.gnomad", "Gene", 
-                    "RunID", "SpecID", "C.", "Comments", \
-                    "C.ald", "P.ald", "LOCATION.ald", "FUNC.ald", "HGVS.clinvar", "FUNC.clinvar", "MC.clinvar", "RS.clinvar", "RS.dbsnp", \
+  content.columns = ["Chrom", "Start", "Ref", "Alt", "P.gnomad", "C.gnomad", "MC.gnomad", "AF.gnomad", "RS.gnomad", "Gene", \
+                     "RunID", "SpecID", "C.", "Comments", \
+                    "C.ald", "P.ald", "LOCATION.ald", "FUNC.ald", "HGVS.clinvar", "FUNC.clinvar", \
+                    "MC.clinvar", "RS.clinvar", "TYPE.clinvar", "RS.dbsnp", \
                     "AF.dbsnp", "P.exac", "C.exac", "MC.exac", "AF.exac", "RS.exac", "C.emv", "P.emv" \
-                    , "FUNC.emv", "REVIEW_DATE.emv", "C.polyphen", "P.polyphen",
-                    "FUNC.polyphen", "DSCORE.polyphen", "FUNC_HDIV.polyphen", "PROB_HDIV.polyphen",
-                    "FUNC_HVAR.polyphen", "PROB_HVAR.polyphen", "C.pompe", "P.pompe", "FUNC.pompe", "YEAR.pompe", "SOURCE.pompe",
+                    , "FUNC.emv", "REVIEW_DATE.emv", "C.polyphen", "P.polyphen", \
+                    "FUNC.polyphen", "DSCORE.polyphen", "FUNC_HDIV.polyphen", "PROB_HDIV.polyphen", \
+                    "FUNC_HVAR.polyphen", "PROB_HVAR.polyphen", "C.pompe", "P.pompe", "FUNC.pompe", "YEAR.pompe", "SOURCE.pompe", \
                     "P.mps1", "MTYPE.mps1", "FUNC.mps1", "AUTHOR.mps1", "PAPER.mps1", "P.sift", "MC.sift", "RS.sift", "SCORE.sift"]
   content["Chrom"] = content["Chrom"].astype(str)
+  del content["C.polyphen"]
   variants = list(content.apply(lambda row: format_variant(row), axis = 1))
   print(json.dumps({ 
     "Variants": variants
