@@ -49,7 +49,7 @@ class NenbssToAnnovar():
     return (chr_info, gene_info.upper())
 
   def __format_pdot(self, p_dot):
-    match_obj = re.search("p\.(\D+)(\d+)\[(\w+),(\w+)\]", p_dot)
+    match_obj = re.search("p\.(\D+)(\d+)\[(\w+),(\w+|\*)\]", p_dot)
     if not match_obj:
       match_obj = re.search("p\.(\D+)(\d+)(\D+)", p_dot)
       if not match_obj:
