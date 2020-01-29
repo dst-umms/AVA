@@ -34,6 +34,7 @@ if __name__ == "__main__":
   variants = pd.read_csv(sys.argv[1], header = None, sep = "\t")
   variants.columns = ["Chrom", "Position", "Start_Alt", "Reference", "Alternate", "Gene", "RunID", "SpecID", "C.", "P.", "Comments"]
   variants["Chrom"] = variants["Chrom"].astype(str)
+  variants["P."] = variants["P."].astype(str)
   mps_info = get_mps_info(sys.argv[2])
   variants_with_annot = pd.merge(mps_info, variants, on = ["Gene", "P."], how = "inner")
   results = variants_with_annot[["Chrom", "Position", "Reference", "Alternate", "P.", "MType", "Func", "Author", "Paper"]]
